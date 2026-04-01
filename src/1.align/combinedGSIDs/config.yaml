@@ -1,0 +1,7 @@
+data_dir: "/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs/"
+results_dir: "../../results_combinedGSIDs/"
+mixcr_species: "hsa"
+mixcr_preset: "takara-human-rna-tcr-umi-smartseq"
+read_thresholds: [1]
+# New parameter for Java heap memory
+mixcr_memory: "500g"

@@ -1,0 +1,3 @@
+TypeError in file /net/vacuole1/linuxhome/rdb-group/erdem/former-NOBINFBACKUP/human_tissue_tcr/src/combinedGSIDs/Snakefile, line 19:
+unsupported operand type(s) for /: 'NoneType' and 'int'
+  File "/net/vacuole1/linuxhome/rdb-group/erdem/former-NOBINFBACKUP/human_tissue_tcr/src/combinedGSIDs/Snakefile", line 19, in <module>

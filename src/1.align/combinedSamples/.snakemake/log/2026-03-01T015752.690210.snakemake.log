@@ -1,0 +1,4 @@
+SystemExit in file /net/vacuole1/linuxhome/rdb-group/erdem/former-NOBINFBACKUP/human_tissue_tcr/src/combineSamples/Snakefile, line 6:
+None
+  File "/net/vacuole1/linuxhome/rdb-group/erdem/former-NOBINFBACKUP/human_tissue_tcr/src/combineSamples/Snakefile", line 6, in <module>
+  File "<frozen _sitebuiltins>", line 26, in __call__

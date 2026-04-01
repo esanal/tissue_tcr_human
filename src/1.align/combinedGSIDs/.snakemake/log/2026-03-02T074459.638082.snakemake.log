@@ -1,0 +1,2968 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+align                   26
+all                      1
+assemble                47
+export_clones           47
+export_qc_tags          51
+refineTagsAndSort       39
+total                  211
+
+Select jobs to execute...
+
+[Mon Mar  2 07:45:00 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-037_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-037_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-037.vdjca, ../../results_combineSamples/107420-001-037.align.report.txt
+    jobid: 20
+    reason: Missing output files: ../../results_combineSamples/107420-001-037.align.report.txt, ../../results_combineSamples/107420-001-037.vdjca
+    wildcards: sample=107420-001-037
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 07:46:24 2026]
+Finished job 20.
+1 of 211 steps (0.5%) done
+Select jobs to execute...
+
+[Mon Mar  2 07:46:24 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-030.vdjca
+    output: ../../results_combineSamples/107420-001-030.refined.vdjca, ../../results_combineSamples/107420-001-030.refine.report.txt
+    jobid: 99
+    reason: Missing output files: ../../results_combineSamples/107420-001-030.refine.report.txt, ../../results_combineSamples/107420-001-030.refined.vdjca
+    wildcards: sample=107420-001-030
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 07:47:44 2026]
+Finished job 99.
+2 of 211 steps (1%) done
+Select jobs to execute...
+
+[Mon Mar  2 07:47:44 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-036.1.clones.clns
+    output: ../../results_combineSamples/107420-001-036.1.coverage.png
+    jobid: 246
+    reason: Missing output files: ../../results_combineSamples/107420-001-036.1.coverage.png
+    wildcards: sample=107420-001-036, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 07:47:55 2026]
+Finished job 246.
+3 of 211 steps (1%) done
+Select jobs to execute...
+
+[Mon Mar  2 07:47:55 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-051_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-051_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-051.vdjca, ../../results_combineSamples/107420-001-051.align.report.txt
+    jobid: 50
+    reason: Missing output files: ../../results_combineSamples/107420-001-051.align.report.txt, ../../results_combineSamples/107420-001-051.vdjca
+    wildcards: sample=107420-001-051
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 07:48:36 2026]
+Finished job 50.
+4 of 211 steps (2%) done
+Select jobs to execute...
+
+[Mon Mar  2 07:48:36 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-018_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-018_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-018.vdjca, ../../results_combineSamples/107420-001-018.align.report.txt
+    jobid: 10
+    reason: Missing output files: ../../results_combineSamples/107420-001-018.vdjca, ../../results_combineSamples/107420-001-018.align.report.txt
+    wildcards: sample=107420-001-018
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 07:52:03 2026]
+Finished job 10.
+5 of 211 steps (2%) done
+Select jobs to execute...
+
+[Mon Mar  2 07:52:03 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-039_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-039_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-039.vdjca, ../../results_combineSamples/107420-001-039.align.report.txt
+    jobid: 30
+    reason: Missing output files: ../../results_combineSamples/107420-001-039.align.report.txt, ../../results_combineSamples/107420-001-039.vdjca
+    wildcards: sample=107420-001-039
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 07:53:07 2026]
+Finished job 30.
+6 of 211 steps (3%) done
+Select jobs to execute...
+
+[Mon Mar  2 07:53:07 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-038.vdjca
+    output: ../../results_combineSamples/107420-001-038.refined.vdjca, ../../results_combineSamples/107420-001-038.refine.report.txt
+    jobid: 84
+    reason: Missing output files: ../../results_combineSamples/107420-001-038.refine.report.txt, ../../results_combineSamples/107420-001-038.refined.vdjca
+    wildcards: sample=107420-001-038
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:08:41 2026]
+Finished job 84.
+7 of 211 steps (3%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:08:41 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-020_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-020_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-020.vdjca, ../../results_combineSamples/107420-001-020.align.report.txt
+    jobid: 40
+    reason: Missing output files: ../../results_combineSamples/107420-001-020.vdjca, ../../results_combineSamples/107420-001-020.align.report.txt
+    wildcards: sample=107420-001-020
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:13:26 2026]
+Finished job 40.
+8 of 211 steps (4%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:13:26 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-045_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-045_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-045.vdjca, ../../results_combineSamples/107420-001-045.align.report.txt
+    jobid: 25
+    reason: Missing output files: ../../results_combineSamples/107420-001-045.vdjca, ../../results_combineSamples/107420-001-045.align.report.txt
+    wildcards: sample=107420-001-045
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:15:11 2026]
+Finished job 25.
+9 of 211 steps (4%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:15:11 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-023_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-023_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-023.vdjca, ../../results_combineSamples/107420-001-023.align.report.txt
+    jobid: 35
+    reason: Missing output files: ../../results_combineSamples/107420-001-023.vdjca, ../../results_combineSamples/107420-001-023.align.report.txt
+    wildcards: sample=107420-001-023
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:18:02 2026]
+Finished job 35.
+10 of 211 steps (5%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:18:02 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-042.1.clones.clns
+    output: ../../results_combineSamples/107420-001-042.1.coverage.png
+    jobid: 231
+    reason: Missing output files: ../../results_combineSamples/107420-001-042.1.coverage.png
+    wildcards: sample=107420-001-042, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:18:10 2026]
+Finished job 231.
+11 of 211 steps (5%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:18:11 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-029_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-029_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-029.vdjca, ../../results_combineSamples/107420-001-029.align.report.txt
+    jobid: 15
+    reason: Missing output files: ../../results_combineSamples/107420-001-029.align.report.txt, ../../results_combineSamples/107420-001-029.vdjca
+    wildcards: sample=107420-001-029
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:19:03 2026]
+Finished job 15.
+12 of 211 steps (6%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:19:03 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-005_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-005_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-005.vdjca, ../../results_combineSamples/107420-001-005.align.report.txt
+    jobid: 45
+    reason: Missing output files: ../../results_combineSamples/107420-001-005.align.report.txt, ../../results_combineSamples/107420-001-005.vdjca
+    wildcards: sample=107420-001-005
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:23:18 2026]
+Finished job 45.
+13 of 211 steps (6%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:23:18 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-007_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-007_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-007.vdjca, ../../results_combineSamples/107420-001-007.align.report.txt
+    jobid: 5
+    reason: Missing output files: ../../results_combineSamples/107420-001-007.vdjca, ../../results_combineSamples/107420-001-007.align.report.txt
+    wildcards: sample=107420-001-007
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:25:38 2026]
+Finished job 5.
+14 of 211 steps (7%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:25:38 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-003.vdjca
+    output: ../../results_combineSamples/107420-001-003.refined.vdjca, ../../results_combineSamples/107420-001-003.refine.report.txt
+    jobid: 55
+    reason: Missing output files: ../../results_combineSamples/107420-001-003.refine.report.txt, ../../results_combineSamples/107420-001-003.refined.vdjca
+    wildcards: sample=107420-001-003
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:50:13 2026]
+Finished job 55.
+15 of 211 steps (7%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:50:13 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-044.1.clones.clns
+    output: ../../results_combineSamples/107420-001-044.1.coverage.png
+    jobid: 232
+    reason: Missing output files: ../../results_combineSamples/107420-001-044.1.coverage.png
+    wildcards: sample=107420-001-044, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:50:21 2026]
+Finished job 232.
+16 of 211 steps (8%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:50:21 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-047.refined.vdjca
+    output: ../../results_combineSamples/107420-001-047.1.clones.clns, ../../results_combineSamples/107420-001-047.1.assemble.report.txt
+    jobid: 202
+    reason: Missing output files: ../../results_combineSamples/107420-001-047.1.clones.clns, ../../results_combineSamples/107420-001-047.1.assemble.report.txt
+    wildcards: sample=107420-001-047, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:54:52 2026]
+Finished job 202.
+17 of 211 steps (8%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:54:52 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-026.vdjca
+    output: ../../results_combineSamples/107420-001-026.refined.vdjca, ../../results_combineSamples/107420-001-026.refine.report.txt
+    jobid: 65
+    reason: Missing output files: ../../results_combineSamples/107420-001-026.refine.report.txt, ../../results_combineSamples/107420-001-026.refined.vdjca
+    wildcards: sample=107420-001-026
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 08:59:40 2026]
+Finished job 65.
+18 of 211 steps (9%) done
+Select jobs to execute...
+
+[Mon Mar  2 08:59:40 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-049.vdjca
+    output: ../../results_combineSamples/107420-001-049.refined.vdjca, ../../results_combineSamples/107420-001-049.refine.report.txt
+    jobid: 80
+    reason: Missing output files: ../../results_combineSamples/107420-001-049.refined.vdjca, ../../results_combineSamples/107420-001-049.refine.report.txt
+    wildcards: sample=107420-001-049
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 09:02:27 2026]
+Finished job 80.
+19 of 211 steps (9%) done
+Select jobs to execute...
+
+[Mon Mar  2 09:02:27 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-052_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-052_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-052.vdjca, ../../results_combineSamples/107420-001-052.align.report.txt
+    jobid: 51
+    reason: Missing output files: ../../results_combineSamples/107420-001-052.vdjca, ../../results_combineSamples/107420-001-052.align.report.txt
+    wildcards: sample=107420-001-052
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 09:04:22 2026]
+Finished job 51.
+20 of 211 steps (9%) done
+Select jobs to execute...
+
+[Mon Mar  2 09:04:22 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-001_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-001_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-001.vdjca, ../../results_combineSamples/107420-001-001.align.report.txt
+    jobid: 1
+    reason: Missing output files: ../../results_combineSamples/107420-001-001.align.report.txt, ../../results_combineSamples/107420-001-001.vdjca
+    wildcards: sample=107420-001-001
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 09:11:57 2026]
+Finished job 1.
+21 of 211 steps (10%) done
+Select jobs to execute...
+
+[Mon Mar  2 09:11:57 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-030.refined.vdjca
+    output: ../../results_combineSamples/107420-001-030.1.clones.clns, ../../results_combineSamples/107420-001-030.1.assemble.report.txt
+    jobid: 198
+    reason: Missing output files: ../../results_combineSamples/107420-001-030.1.assemble.report.txt, ../../results_combineSamples/107420-001-030.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-030.refined.vdjca
+    wildcards: sample=107420-001-030, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 09:14:37 2026]
+Finished job 198.
+22 of 211 steps (10%) done
+Select jobs to execute...
+
+[Mon Mar  2 09:14:37 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-052.vdjca
+    output: ../../results_combineSamples/107420-001-052.refined.vdjca, ../../results_combineSamples/107420-001-052.refine.report.txt
+    jobid: 103
+    reason: Missing output files: ../../results_combineSamples/107420-001-052.refine.report.txt, ../../results_combineSamples/107420-001-052.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-052.vdjca
+    wildcards: sample=107420-001-052
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 09:22:54 2026]
+Finished job 103.
+23 of 211 steps (11%) done
+Select jobs to execute...
+
+[Mon Mar  2 09:22:54 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-008.refined.vdjca
+    output: ../../results_combineSamples/107420-001-008.1.clones.clns, ../../results_combineSamples/107420-001-008.1.assemble.report.txt
+    jobid: 192
+    reason: Missing output files: ../../results_combineSamples/107420-001-008.1.assemble.report.txt, ../../results_combineSamples/107420-001-008.1.clones.clns
+    wildcards: sample=107420-001-008, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 09:32:07 2026]
+Finished job 192.
+24 of 211 steps (11%) done
+Select jobs to execute...
+
+[Mon Mar  2 09:32:07 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-030.1.clones.clns
+    output: ../../results_combineSamples/107420-001-030.1.coverage.png
+    jobid: 255
+    reason: Missing output files: ../../results_combineSamples/107420-001-030.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-030.1.clones.clns
+    wildcards: sample=107420-001-030, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 09:32:15 2026]
+Finished job 255.
+25 of 211 steps (12%) done
+Select jobs to execute...
+
+[Mon Mar  2 09:32:15 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-007.vdjca
+    output: ../../results_combineSamples/107420-001-007.refined.vdjca, ../../results_combineSamples/107420-001-007.refine.report.txt
+    jobid: 57
+    reason: Missing output files: ../../results_combineSamples/107420-001-007.refined.vdjca, ../../results_combineSamples/107420-001-007.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-007.vdjca
+    wildcards: sample=107420-001-007
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 09:57:40 2026]
+Finished job 57.
+26 of 211 steps (12%) done
+Select jobs to execute...
+
+[Mon Mar  2 09:57:40 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-037.vdjca
+    output: ../../results_combineSamples/107420-001-037.refined.vdjca, ../../results_combineSamples/107420-001-037.refine.report.txt
+    jobid: 72
+    reason: Missing output files: ../../results_combineSamples/107420-001-037.refined.vdjca, ../../results_combineSamples/107420-001-037.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-037.vdjca
+    wildcards: sample=107420-001-037
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 10:00:52 2026]
+Finished job 72.
+27 of 211 steps (13%) done
+Select jobs to execute...
+
+[Mon Mar  2 10:00:52 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-037.refined.vdjca
+    output: ../../results_combineSamples/107420-001-037.1.clones.clns, ../../results_combineSamples/107420-001-037.1.assemble.report.txt
+    jobid: 144
+    reason: Missing output files: ../../results_combineSamples/107420-001-037.1.assemble.report.txt, ../../results_combineSamples/107420-001-037.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-037.refined.vdjca
+    wildcards: sample=107420-001-037, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 10:06:22 2026]
+Finished job 144.
+28 of 211 steps (13%) done
+Select jobs to execute...
+
+[Mon Mar  2 10:06:22 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-023.vdjca
+    output: ../../results_combineSamples/107420-001-023.refined.vdjca, ../../results_combineSamples/107420-001-023.refine.report.txt
+    jobid: 87
+    reason: Missing output files: ../../results_combineSamples/107420-001-023.refined.vdjca, ../../results_combineSamples/107420-001-023.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-023.vdjca
+    wildcards: sample=107420-001-023
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 10:55:52 2026]
+Finished job 87.
+29 of 211 steps (14%) done
+Select jobs to execute...
+
+[Mon Mar  2 10:55:52 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-023.refined.vdjca
+    output: ../../results_combineSamples/107420-001-023.1.clones.clns, ../../results_combineSamples/107420-001-023.1.assemble.report.txt
+    jobid: 174
+    reason: Missing output files: ../../results_combineSamples/107420-001-023.1.assemble.report.txt, ../../results_combineSamples/107420-001-023.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-023.refined.vdjca
+    wildcards: sample=107420-001-023, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 11:21:25 2026]
+Finished job 174.
+30 of 211 steps (14%) done
+Select jobs to execute...
+
+[Mon Mar  2 11:21:25 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-051.vdjca
+    output: ../../results_combineSamples/107420-001-051.refined.vdjca, ../../results_combineSamples/107420-001-051.refine.report.txt
+    jobid: 102
+    reason: Missing output files: ../../results_combineSamples/107420-001-051.refined.vdjca, ../../results_combineSamples/107420-001-051.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-051.vdjca
+    wildcards: sample=107420-001-051
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 11:22:58 2026]
+Finished job 102.
+31 of 211 steps (15%) done
+Select jobs to execute...
+
+[Mon Mar  2 11:22:58 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-032.refined.vdjca
+    output: ../../results_combineSamples/107420-001-032.1.clones.clns, ../../results_combineSamples/107420-001-032.1.assemble.report.txt
+    jobid: 190
+    reason: Missing output files: ../../results_combineSamples/107420-001-032.1.assemble.report.txt, ../../results_combineSamples/107420-001-032.1.clones.clns
+    wildcards: sample=107420-001-032, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:06:24 2026]
+Finished job 190.
+32 of 211 steps (15%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:06:24 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-006_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-006_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-006.vdjca, ../../results_combineSamples/107420-001-006.align.report.txt
+    jobid: 41
+    reason: Missing output files: ../../results_combineSamples/107420-001-006.vdjca, ../../results_combineSamples/107420-001-006.align.report.txt
+    wildcards: sample=107420-001-006
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:08:45 2026]
+Finished job 41.
+33 of 211 steps (16%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:08:45 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-045.vdjca
+    output: ../../results_combineSamples/107420-001-045.refined.vdjca, ../../results_combineSamples/107420-001-045.refine.report.txt
+    jobid: 77
+    reason: Missing output files: ../../results_combineSamples/107420-001-045.refined.vdjca, ../../results_combineSamples/107420-001-045.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-045.vdjca
+    wildcards: sample=107420-001-045
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:18:45 2026]
+Finished job 77.
+34 of 211 steps (16%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:18:45 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-045.refined.vdjca
+    output: ../../results_combineSamples/107420-001-045.1.clones.clns, ../../results_combineSamples/107420-001-045.1.assemble.report.txt
+    jobid: 154
+    reason: Missing output files: ../../results_combineSamples/107420-001-045.1.assemble.report.txt, ../../results_combineSamples/107420-001-045.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-045.refined.vdjca
+    wildcards: sample=107420-001-045, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:26:24 2026]
+Finished job 154.
+35 of 211 steps (17%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:26:24 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-045.1.clones.clns
+    output: ../../results_combineSamples/107420-001-045.1.coverage.png
+    jobid: 233
+    reason: Missing output files: ../../results_combineSamples/107420-001-045.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-045.1.clones.clns
+    wildcards: sample=107420-001-045, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:26:32 2026]
+Finished job 233.
+36 of 211 steps (17%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:26:32 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-040_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-040_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-040.vdjca, ../../results_combineSamples/107420-001-040.align.report.txt
+    jobid: 21
+    reason: Missing output files: ../../results_combineSamples/107420-001-040.align.report.txt, ../../results_combineSamples/107420-001-040.vdjca
+    wildcards: sample=107420-001-040
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:28:10 2026]
+Finished job 21.
+37 of 211 steps (18%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:28:10 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-040.vdjca
+    output: ../../results_combineSamples/107420-001-040.refined.vdjca, ../../results_combineSamples/107420-001-040.refine.report.txt
+    jobid: 73
+    reason: Missing output files: ../../results_combineSamples/107420-001-040.refined.vdjca, ../../results_combineSamples/107420-001-040.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-040.vdjca
+    wildcards: sample=107420-001-040
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:34:40 2026]
+Finished job 73.
+38 of 211 steps (18%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:34:40 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-002_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-002_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-002.vdjca, ../../results_combineSamples/107420-001-002.align.report.txt
+    jobid: 2
+    reason: Missing output files: ../../results_combineSamples/107420-001-002.vdjca, ../../results_combineSamples/107420-001-002.align.report.txt
+    wildcards: sample=107420-001-002
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:36:45 2026]
+Finished job 2.
+39 of 211 steps (18%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:36:45 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-002.vdjca
+    output: ../../results_combineSamples/107420-001-002.refined.vdjca, ../../results_combineSamples/107420-001-002.refine.report.txt
+    jobid: 54
+    reason: Missing output files: ../../results_combineSamples/107420-001-002.refined.vdjca, ../../results_combineSamples/107420-001-002.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-002.vdjca
+    wildcards: sample=107420-001-002
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:54:27 2026]
+Finished job 54.
+40 of 211 steps (19%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:54:27 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-009_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-009_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-009.vdjca, ../../results_combineSamples/107420-001-009.align.report.txt
+    jobid: 31
+    reason: Missing output files: ../../results_combineSamples/107420-001-009.align.report.txt, ../../results_combineSamples/107420-001-009.vdjca
+    wildcards: sample=107420-001-009
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 14:56:09 2026]
+Finished job 31.
+41 of 211 steps (19%) done
+Select jobs to execute...
+
+[Mon Mar  2 14:56:09 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-009.vdjca
+    output: ../../results_combineSamples/107420-001-009.refined.vdjca, ../../results_combineSamples/107420-001-009.refine.report.txt
+    jobid: 83
+    reason: Missing output files: ../../results_combineSamples/107420-001-009.refined.vdjca, ../../results_combineSamples/107420-001-009.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-009.vdjca
+    wildcards: sample=107420-001-009
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 15:10:29 2026]
+Finished job 83.
+42 of 211 steps (20%) done
+Select jobs to execute...
+
+[Mon Mar  2 15:10:29 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-018.vdjca
+    output: ../../results_combineSamples/107420-001-018.refined.vdjca, ../../results_combineSamples/107420-001-018.refine.report.txt
+    jobid: 62
+    reason: Missing output files: ../../results_combineSamples/107420-001-018.refined.vdjca, ../../results_combineSamples/107420-001-018.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-018.vdjca
+    wildcards: sample=107420-001-018
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 15:45:42 2026]
+Finished job 62.
+43 of 211 steps (20%) done
+Select jobs to execute...
+
+[Mon Mar  2 15:45:42 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-015.refined.vdjca
+    output: ../../results_combineSamples/107420-001-015.1.clones.clns, ../../results_combineSamples/107420-001-015.1.assemble.report.txt
+    jobid: 122
+    reason: Missing output files: ../../results_combineSamples/107420-001-015.1.assemble.report.txt, ../../results_combineSamples/107420-001-015.1.clones.clns
+    wildcards: sample=107420-001-015, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 15:52:15 2026]
+Finished job 122.
+44 of 211 steps (21%) done
+Select jobs to execute...
+
+[Mon Mar  2 15:52:15 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-015.1.clones.clns
+    output: ../../results_combineSamples/107420-001-015.1.coverage.png
+    jobid: 217
+    reason: Missing output files: ../../results_combineSamples/107420-001-015.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-015.1.clones.clns
+    wildcards: sample=107420-001-015, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 15:52:23 2026]
+Finished job 217.
+45 of 211 steps (21%) done
+Select jobs to execute...
+
+[Mon Mar  2 15:52:23 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-006.vdjca
+    output: ../../results_combineSamples/107420-001-006.refined.vdjca, ../../results_combineSamples/107420-001-006.refine.report.txt
+    jobid: 93
+    reason: Missing output files: ../../results_combineSamples/107420-001-006.refined.vdjca, ../../results_combineSamples/107420-001-006.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-006.vdjca
+    wildcards: sample=107420-001-006
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:06:38 2026]
+Finished job 93.
+46 of 211 steps (22%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:06:38 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-028.refined.vdjca
+    output: ../../results_combineSamples/107420-001-028.1.clones.clns, ../../results_combineSamples/107420-001-028.1.assemble.report.txt
+    jobid: 182
+    reason: Missing output files: ../../results_combineSamples/107420-001-028.1.clones.clns, ../../results_combineSamples/107420-001-028.1.assemble.report.txt
+    wildcards: sample=107420-001-028, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:10:07 2026]
+Finished job 182.
+47 of 211 steps (22%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:10:08 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-032.1.clones.clns
+    output: ../../results_combineSamples/107420-001-032.1.coverage.png
+    jobid: 251
+    reason: Missing output files: ../../results_combineSamples/107420-001-032.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-032.1.clones.clns
+    wildcards: sample=107420-001-032, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:10:16 2026]
+Finished job 251.
+48 of 211 steps (23%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:10:16 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-028.1.clones.clns
+    output: ../../results_combineSamples/107420-001-028.1.coverage.png
+    jobid: 247
+    reason: Missing output files: ../../results_combineSamples/107420-001-028.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-028.1.clones.clns
+    wildcards: sample=107420-001-028, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:10:23 2026]
+Finished job 247.
+49 of 211 steps (23%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:10:23 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-014.refined.vdjca
+    output: ../../results_combineSamples/107420-001-014.1.clones.clns, ../../results_combineSamples/107420-001-014.1.assemble.report.txt
+    jobid: 120
+    reason: Missing output files: ../../results_combineSamples/107420-001-014.1.assemble.report.txt, ../../results_combineSamples/107420-001-014.1.clones.clns
+    wildcards: sample=107420-001-014, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:16:01 2026]
+Finished job 120.
+50 of 211 steps (24%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:16:01 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-014.1.clones.clns
+    output: ../../results_combineSamples/107420-001-014.1.coverage.png
+    jobid: 216
+    reason: Missing output files: ../../results_combineSamples/107420-001-014.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-014.1.clones.clns
+    wildcards: sample=107420-001-014, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:16:09 2026]
+Finished job 216.
+51 of 211 steps (24%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:16:09 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-014.1.clones.clns
+    output: ../../results_combineSamples/107420-001-014.1.clones.txt
+    jobid: 119
+    reason: Missing output files: ../../results_combineSamples/107420-001-014.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-014.1.clones.clns
+    wildcards: sample=107420-001-014, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:16:12 2026]
+Finished job 119.
+52 of 211 steps (25%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:16:12 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-009.refined.vdjca
+    output: ../../results_combineSamples/107420-001-009.1.clones.clns, ../../results_combineSamples/107420-001-009.1.assemble.report.txt
+    jobid: 166
+    reason: Missing output files: ../../results_combineSamples/107420-001-009.1.clones.clns, ../../results_combineSamples/107420-001-009.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-009.refined.vdjca
+    wildcards: sample=107420-001-009, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:23:10 2026]
+Finished job 166.
+53 of 211 steps (25%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:23:10 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-004.refined.vdjca
+    output: ../../results_combineSamples/107420-001-004.1.clones.clns, ../../results_combineSamples/107420-001-004.1.assemble.report.txt
+    jobid: 112
+    reason: Missing output files: ../../results_combineSamples/107420-001-004.1.assemble.report.txt, ../../results_combineSamples/107420-001-004.1.clones.clns
+    wildcards: sample=107420-001-004, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:37:09 2026]
+Finished job 112.
+54 of 211 steps (26%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:37:09 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-045.1.clones.clns
+    output: ../../results_combineSamples/107420-001-045.1.clones.txt
+    jobid: 153
+    reason: Missing output files: ../../results_combineSamples/107420-001-045.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-045.1.clones.clns
+    wildcards: sample=107420-001-045, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 16:37:14 2026]
+Finished job 153.
+55 of 211 steps (26%) done
+Select jobs to execute...
+
+[Mon Mar  2 16:37:14 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-017.vdjca
+    output: ../../results_combineSamples/107420-001-017.refined.vdjca, ../../results_combineSamples/107420-001-017.refine.report.txt
+    jobid: 85
+    reason: Missing output files: ../../results_combineSamples/107420-001-017.refine.report.txt, ../../results_combineSamples/107420-001-017.refined.vdjca
+    wildcards: sample=107420-001-017
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 18:26:36 2026]
+Finished job 85.
+56 of 211 steps (27%) done
+Select jobs to execute...
+
+[Mon Mar  2 18:26:36 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-027.vdjca
+    output: ../../results_combineSamples/107420-001-027.refined.vdjca, ../../results_combineSamples/107420-001-027.refine.report.txt
+    jobid: 66
+    reason: Missing output files: ../../results_combineSamples/107420-001-027.refined.vdjca, ../../results_combineSamples/107420-001-027.refine.report.txt
+    wildcards: sample=107420-001-027
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 18:30:41 2026]
+Finished job 66.
+57 of 211 steps (27%) done
+Select jobs to execute...
+
+[Mon Mar  2 18:30:41 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-027.refined.vdjca
+    output: ../../results_combineSamples/107420-001-027.1.clones.clns, ../../results_combineSamples/107420-001-027.1.assemble.report.txt
+    jobid: 132
+    reason: Missing output files: ../../results_combineSamples/107420-001-027.1.clones.clns, ../../results_combineSamples/107420-001-027.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-027.refined.vdjca
+    wildcards: sample=107420-001-027, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 18:37:38 2026]
+Finished job 132.
+58 of 211 steps (27%) done
+Select jobs to execute...
+
+[Mon Mar  2 18:37:38 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-016_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-016_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-016.vdjca, ../../results_combineSamples/107420-001-016.align.report.txt
+    jobid: 37
+    reason: Missing output files: ../../results_combineSamples/107420-001-016.align.report.txt, ../../results_combineSamples/107420-001-016.vdjca
+    wildcards: sample=107420-001-016
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 18:40:31 2026]
+Finished job 37.
+59 of 211 steps (28%) done
+Select jobs to execute...
+
+[Mon Mar  2 18:40:31 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-018.refined.vdjca
+    output: ../../results_combineSamples/107420-001-018.1.clones.clns, ../../results_combineSamples/107420-001-018.1.assemble.report.txt
+    jobid: 124
+    reason: Missing output files: ../../results_combineSamples/107420-001-018.1.assemble.report.txt, ../../results_combineSamples/107420-001-018.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-018.refined.vdjca
+    wildcards: sample=107420-001-018, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:01:20 2026]
+Finished job 124.
+60 of 211 steps (28%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:01:20 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-003.refined.vdjca
+    output: ../../results_combineSamples/107420-001-003.1.clones.clns, ../../results_combineSamples/107420-001-003.1.assemble.report.txt
+    jobid: 110
+    reason: Missing output files: ../../results_combineSamples/107420-001-003.1.assemble.report.txt, ../../results_combineSamples/107420-001-003.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-003.refined.vdjca
+    wildcards: sample=107420-001-003, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:19:01 2026]
+Finished job 110.
+61 of 211 steps (29%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:19:01 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-018.1.clones.clns
+    output: ../../results_combineSamples/107420-001-018.1.coverage.png
+    jobid: 218
+    reason: Missing output files: ../../results_combineSamples/107420-001-018.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-018.1.clones.clns
+    wildcards: sample=107420-001-018, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:19:09 2026]
+Finished job 218.
+62 of 211 steps (29%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:19:09 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-048_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-048_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-048.vdjca, ../../results_combineSamples/107420-001-048.align.report.txt
+    jobid: 27
+    reason: Missing output files: ../../results_combineSamples/107420-001-048.align.report.txt, ../../results_combineSamples/107420-001-048.vdjca
+    wildcards: sample=107420-001-048
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:21:08 2026]
+Finished job 27.
+63 of 211 steps (30%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:21:08 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-048.vdjca
+    output: ../../results_combineSamples/107420-001-048.refined.vdjca, ../../results_combineSamples/107420-001-048.refine.report.txt
+    jobid: 79
+    reason: Missing output files: ../../results_combineSamples/107420-001-048.refined.vdjca, ../../results_combineSamples/107420-001-048.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-048.vdjca
+    wildcards: sample=107420-001-048
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:31:58 2026]
+Finished job 79.
+64 of 211 steps (30%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:31:58 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-048.refined.vdjca
+    output: ../../results_combineSamples/107420-001-048.1.clones.clns, ../../results_combineSamples/107420-001-048.1.assemble.report.txt
+    jobid: 158
+    reason: Missing output files: ../../results_combineSamples/107420-001-048.1.clones.clns, ../../results_combineSamples/107420-001-048.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-048.refined.vdjca
+    wildcards: sample=107420-001-048, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:42:03 2026]
+Finished job 158.
+65 of 211 steps (31%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:42:03 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-003.1.clones.clns
+    output: ../../results_combineSamples/107420-001-003.1.clones.txt
+    jobid: 109
+    reason: Missing output files: ../../results_combineSamples/107420-001-003.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-003.1.clones.clns
+    wildcards: sample=107420-001-003, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:42:07 2026]
+Finished job 109.
+66 of 211 steps (31%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:42:07 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-048.1.clones.clns
+    output: ../../results_combineSamples/107420-001-048.1.coverage.png
+    jobid: 235
+    reason: Missing output files: ../../results_combineSamples/107420-001-048.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-048.1.clones.clns
+    wildcards: sample=107420-001-048, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:42:15 2026]
+Finished job 235.
+67 of 211 steps (32%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:42:15 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-048.1.clones.clns
+    output: ../../results_combineSamples/107420-001-048.1.clones.txt
+    jobid: 157
+    reason: Missing output files: ../../results_combineSamples/107420-001-048.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-048.1.clones.clns
+    wildcards: sample=107420-001-048, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 19:42:20 2026]
+Finished job 157.
+68 of 211 steps (32%) done
+Select jobs to execute...
+
+[Mon Mar  2 19:42:20 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-001.vdjca
+    output: ../../results_combineSamples/107420-001-001.refined.vdjca, ../../results_combineSamples/107420-001-001.refine.report.txt
+    jobid: 53
+    reason: Missing output files: ../../results_combineSamples/107420-001-001.refine.report.txt, ../../results_combineSamples/107420-001-001.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-001.vdjca
+    wildcards: sample=107420-001-001
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 20:39:05 2026]
+Finished job 53.
+69 of 211 steps (33%) done
+Select jobs to execute...
+
+[Mon Mar  2 20:39:05 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-050.vdjca
+    output: ../../results_combineSamples/107420-001-050.refined.vdjca, ../../results_combineSamples/107420-001-050.refine.report.txt
+    jobid: 81
+    reason: Missing output files: ../../results_combineSamples/107420-001-050.refined.vdjca, ../../results_combineSamples/107420-001-050.refine.report.txt
+    wildcards: sample=107420-001-050
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 20:41:13 2026]
+Finished job 81.
+70 of 211 steps (33%) done
+Select jobs to execute...
+
+[Mon Mar  2 20:41:13 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-050.refined.vdjca
+    output: ../../results_combineSamples/107420-001-050.1.clones.clns, ../../results_combineSamples/107420-001-050.1.assemble.report.txt
+    jobid: 162
+    reason: Missing output files: ../../results_combineSamples/107420-001-050.1.clones.clns, ../../results_combineSamples/107420-001-050.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-050.refined.vdjca
+    wildcards: sample=107420-001-050, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 20:44:32 2026]
+Finished job 162.
+71 of 211 steps (34%) done
+Select jobs to execute...
+
+[Mon Mar  2 20:44:32 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-004.1.clones.clns
+    output: ../../results_combineSamples/107420-001-004.1.clones.txt
+    jobid: 111
+    reason: Missing output files: ../../results_combineSamples/107420-001-004.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-004.1.clones.clns
+    wildcards: sample=107420-001-004, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 20:44:36 2026]
+Finished job 111.
+72 of 211 steps (34%) done
+Select jobs to execute...
+
+[Mon Mar  2 20:44:36 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-050.1.clones.clns
+    output: ../../results_combineSamples/107420-001-050.1.coverage.png
+    jobid: 237
+    reason: Missing output files: ../../results_combineSamples/107420-001-050.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-050.1.clones.clns
+    wildcards: sample=107420-001-050, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 20:44:44 2026]
+Finished job 237.
+73 of 211 steps (35%) done
+Select jobs to execute...
+
+[Mon Mar  2 20:44:44 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-050.1.clones.clns
+    output: ../../results_combineSamples/107420-001-050.1.clones.txt
+    jobid: 161
+    reason: Missing output files: ../../results_combineSamples/107420-001-050.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-050.1.clones.clns
+    wildcards: sample=107420-001-050, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 20:44:47 2026]
+Finished job 161.
+74 of 211 steps (35%) done
+Select jobs to execute...
+
+[Mon Mar  2 20:44:47 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-027.1.clones.clns
+    output: ../../results_combineSamples/107420-001-027.1.coverage.png
+    jobid: 222
+    reason: Missing output files: ../../results_combineSamples/107420-001-027.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-027.1.clones.clns
+    wildcards: sample=107420-001-027, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 20:44:54 2026]
+Finished job 222.
+75 of 211 steps (36%) done
+Select jobs to execute...
+
+[Mon Mar  2 20:44:54 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-020.vdjca
+    output: ../../results_combineSamples/107420-001-020.refined.vdjca, ../../results_combineSamples/107420-001-020.refine.report.txt
+    jobid: 92
+    reason: Missing output files: ../../results_combineSamples/107420-001-020.refine.report.txt, ../../results_combineSamples/107420-001-020.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-020.vdjca
+    wildcards: sample=107420-001-020
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 21:47:03 2026]
+Finished job 92.
+76 of 211 steps (36%) done
+Select jobs to execute...
+
+[Mon Mar  2 21:47:03 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-008.1.clones.clns
+    output: ../../results_combineSamples/107420-001-008.1.coverage.png
+    jobid: 252
+    reason: Missing output files: ../../results_combineSamples/107420-001-008.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-008.1.clones.clns
+    wildcards: sample=107420-001-008, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 21:47:11 2026]
+Finished job 252.
+77 of 211 steps (36%) done
+Select jobs to execute...
+
+[Mon Mar  2 21:47:11 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-003.1.clones.clns
+    output: ../../results_combineSamples/107420-001-003.1.coverage.png
+    jobid: 211
+    reason: Missing output files: ../../results_combineSamples/107420-001-003.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-003.1.clones.clns
+    wildcards: sample=107420-001-003, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 21:47:19 2026]
+Finished job 211.
+78 of 211 steps (37%) done
+Select jobs to execute...
+
+[Mon Mar  2 21:47:19 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-029.vdjca
+    output: ../../results_combineSamples/107420-001-029.refined.vdjca, ../../results_combineSamples/107420-001-029.refine.report.txt
+    jobid: 67
+    reason: Missing output files: ../../results_combineSamples/107420-001-029.refined.vdjca, ../../results_combineSamples/107420-001-029.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-029.vdjca
+    wildcards: sample=107420-001-029
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 21:48:56 2026]
+Finished job 67.
+79 of 211 steps (37%) done
+Select jobs to execute...
+
+[Mon Mar  2 21:48:56 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-051.refined.vdjca
+    output: ../../results_combineSamples/107420-001-051.1.clones.clns, ../../results_combineSamples/107420-001-051.1.assemble.report.txt
+    jobid: 204
+    reason: Missing output files: ../../results_combineSamples/107420-001-051.1.assemble.report.txt, ../../results_combineSamples/107420-001-051.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-051.refined.vdjca
+    wildcards: sample=107420-001-051, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 21:50:45 2026]
+Finished job 204.
+80 of 211 steps (38%) done
+Select jobs to execute...
+
+[Mon Mar  2 21:50:45 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-023.1.clones.clns
+    output: ../../results_combineSamples/107420-001-023.1.coverage.png
+    jobid: 243
+    reason: Missing output files: ../../results_combineSamples/107420-001-023.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-023.1.clones.clns
+    wildcards: sample=107420-001-023, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 21:50:53 2026]
+Finished job 243.
+81 of 211 steps (38%) done
+Select jobs to execute...
+
+[Mon Mar  2 21:50:53 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-035.refined.vdjca
+    output: ../../results_combineSamples/107420-001-035.1.clones.clns, ../../results_combineSamples/107420-001-035.1.assemble.report.txt
+    jobid: 142
+    reason: Missing output files: ../../results_combineSamples/107420-001-035.1.clones.clns, ../../results_combineSamples/107420-001-035.1.assemble.report.txt
+    wildcards: sample=107420-001-035, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:13:15 2026]
+Finished job 142.
+82 of 211 steps (39%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:13:15 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-040.refined.vdjca
+    output: ../../results_combineSamples/107420-001-040.1.clones.clns, ../../results_combineSamples/107420-001-040.1.assemble.report.txt
+    jobid: 146
+    reason: Missing output files: ../../results_combineSamples/107420-001-040.1.clones.clns, ../../results_combineSamples/107420-001-040.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-040.refined.vdjca
+    wildcards: sample=107420-001-040, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:19:07 2026]
+Finished job 146.
+83 of 211 steps (39%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:19:07 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-051.1.clones.clns
+    output: ../../results_combineSamples/107420-001-051.1.coverage.png
+    jobid: 258
+    reason: Missing output files: ../../results_combineSamples/107420-001-051.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-051.1.clones.clns
+    wildcards: sample=107420-001-051, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:19:15 2026]
+Finished job 258.
+84 of 211 steps (40%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:19:15 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-025_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-025_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-025.vdjca, ../../results_combineSamples/107420-001-025.align.report.txt
+    jobid: 12
+    reason: Missing output files: ../../results_combineSamples/107420-001-025.vdjca, ../../results_combineSamples/107420-001-025.align.report.txt
+    wildcards: sample=107420-001-025
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:24:03 2026]
+Finished job 12.
+85 of 211 steps (40%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:24:03 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-007.refined.vdjca
+    output: ../../results_combineSamples/107420-001-007.1.clones.clns, ../../results_combineSamples/107420-001-007.1.assemble.report.txt
+    jobid: 114
+    reason: Missing output files: ../../results_combineSamples/107420-001-007.1.assemble.report.txt, ../../results_combineSamples/107420-001-007.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-007.refined.vdjca
+    wildcards: sample=107420-001-007, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:36:40 2026]
+Finished job 114.
+86 of 211 steps (41%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:36:40 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-007.1.clones.clns
+    output: ../../results_combineSamples/107420-001-007.1.clones.txt
+    jobid: 113
+    reason: Missing output files: ../../results_combineSamples/107420-001-007.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-007.1.clones.clns
+    wildcards: sample=107420-001-007, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:36:48 2026]
+Finished job 113.
+87 of 211 steps (41%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:36:48 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-026.refined.vdjca
+    output: ../../results_combineSamples/107420-001-026.1.clones.clns, ../../results_combineSamples/107420-001-026.1.assemble.report.txt
+    jobid: 130
+    reason: Missing output files: ../../results_combineSamples/107420-001-026.1.assemble.report.txt, ../../results_combineSamples/107420-001-026.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-026.refined.vdjca
+    wildcards: sample=107420-001-026, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:44:49 2026]
+Finished job 130.
+88 of 211 steps (42%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:44:49 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-029.refined.vdjca
+    output: ../../results_combineSamples/107420-001-029.1.clones.clns, ../../results_combineSamples/107420-001-029.1.assemble.report.txt
+    jobid: 134
+    reason: Missing output files: ../../results_combineSamples/107420-001-029.1.clones.clns, ../../results_combineSamples/107420-001-029.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-029.refined.vdjca
+    wildcards: sample=107420-001-029, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:51:26 2026]
+Finished job 134.
+89 of 211 steps (42%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:51:26 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-035.1.clones.clns
+    output: ../../results_combineSamples/107420-001-035.1.clones.txt
+    jobid: 141
+    reason: Missing output files: ../../results_combineSamples/107420-001-035.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-035.1.clones.clns
+    wildcards: sample=107420-001-035, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:51:31 2026]
+Finished job 141.
+90 of 211 steps (43%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:51:31 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-040.1.clones.clns
+    output: ../../results_combineSamples/107420-001-040.1.clones.txt
+    jobid: 145
+    reason: Missing output files: ../../results_combineSamples/107420-001-040.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-040.1.clones.clns
+    wildcards: sample=107420-001-040, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:51:35 2026]
+Finished job 145.
+91 of 211 steps (43%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:51:35 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-007.1.clones.clns
+    output: ../../results_combineSamples/107420-001-007.1.coverage.png
+    jobid: 213
+    reason: Missing output files: ../../results_combineSamples/107420-001-007.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-007.1.clones.clns
+    wildcards: sample=107420-001-007, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Mon Mar  2 22:51:42 2026]
+Finished job 213.
+92 of 211 steps (44%) done
+Select jobs to execute...
+
+[Mon Mar  2 22:51:42 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-001.refined.vdjca
+    output: ../../results_combineSamples/107420-001-001.1.clones.clns, ../../results_combineSamples/107420-001-001.1.assemble.report.txt
+    jobid: 106
+    reason: Missing output files: ../../results_combineSamples/107420-001-001.1.assemble.report.txt, ../../results_combineSamples/107420-001-001.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-001.refined.vdjca
+    wildcards: sample=107420-001-001, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 00:14:34 2026]
+Finished job 106.
+93 of 211 steps (44%) done
+Select jobs to execute...
+
+[Tue Mar  3 00:14:34 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-017.refined.vdjca
+    output: ../../results_combineSamples/107420-001-017.1.clones.clns, ../../results_combineSamples/107420-001-017.1.assemble.report.txt
+    jobid: 170
+    reason: Missing output files: ../../results_combineSamples/107420-001-017.1.clones.clns, ../../results_combineSamples/107420-001-017.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-017.refined.vdjca
+    wildcards: sample=107420-001-017, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 02:37:07 2026]
+Finished job 170.
+94 of 211 steps (45%) done
+Select jobs to execute...
+
+[Tue Mar  3 02:37:07 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-026.1.clones.clns
+    output: ../../results_combineSamples/107420-001-026.1.coverage.png
+    jobid: 221
+    reason: Missing output files: ../../results_combineSamples/107420-001-026.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-026.1.clones.clns
+    wildcards: sample=107420-001-026, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 02:37:15 2026]
+Finished job 221.
+95 of 211 steps (45%) done
+Select jobs to execute...
+
+[Tue Mar  3 02:37:15 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-016.vdjca
+    output: ../../results_combineSamples/107420-001-016.refined.vdjca, ../../results_combineSamples/107420-001-016.refine.report.txt
+    jobid: 89
+    reason: Missing output files: ../../results_combineSamples/107420-001-016.refined.vdjca, ../../results_combineSamples/107420-001-016.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-016.vdjca
+    wildcards: sample=107420-001-016
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 03:12:59 2026]
+Finished job 89.
+96 of 211 steps (45%) done
+Select jobs to execute...
+
+[Tue Mar  3 03:12:59 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-006.refined.vdjca
+    output: ../../results_combineSamples/107420-001-006.1.clones.clns, ../../results_combineSamples/107420-001-006.1.assemble.report.txt
+    jobid: 186
+    reason: Missing output files: ../../results_combineSamples/107420-001-006.1.clones.clns, ../../results_combineSamples/107420-001-006.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-006.refined.vdjca
+    wildcards: sample=107420-001-006, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 03:23:02 2026]
+Finished job 186.
+97 of 211 steps (46%) done
+Select jobs to execute...
+
+[Tue Mar  3 03:23:02 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-001.1.clones.clns
+    output: ../../results_combineSamples/107420-001-001.1.coverage.png
+    jobid: 209
+    reason: Missing output files: ../../results_combineSamples/107420-001-001.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-001.1.clones.clns
+    wildcards: sample=107420-001-001, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 03:23:10 2026]
+Finished job 209.
+98 of 211 steps (46%) done
+Select jobs to execute...
+
+[Tue Mar  3 03:23:10 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-016.refined.vdjca
+    output: ../../results_combineSamples/107420-001-016.1.clones.clns, ../../results_combineSamples/107420-001-016.1.assemble.report.txt
+    jobid: 178
+    reason: Missing output files: ../../results_combineSamples/107420-001-016.1.assemble.report.txt, ../../results_combineSamples/107420-001-016.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-016.refined.vdjca
+    wildcards: sample=107420-001-016, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 03:39:33 2026]
+Finished job 178.
+99 of 211 steps (47%) done
+Select jobs to execute...
+
+[Tue Mar  3 03:39:33 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-026.1.clones.clns
+    output: ../../results_combineSamples/107420-001-026.1.clones.txt
+    jobid: 129
+    reason: Missing output files: ../../results_combineSamples/107420-001-026.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-026.1.clones.clns
+    wildcards: sample=107420-001-026, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 03:39:37 2026]
+Finished job 129.
+100 of 211 steps (47%) done
+Select jobs to execute...
+
+[Tue Mar  3 03:39:37 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-049.refined.vdjca
+    output: ../../results_combineSamples/107420-001-049.1.clones.clns, ../../results_combineSamples/107420-001-049.1.assemble.report.txt
+    jobid: 160
+    reason: Missing output files: ../../results_combineSamples/107420-001-049.1.clones.clns, ../../results_combineSamples/107420-001-049.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-049.refined.vdjca
+    wildcards: sample=107420-001-049, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 03:43:53 2026]
+Finished job 160.
+101 of 211 steps (48%) done
+Select jobs to execute...
+
+[Tue Mar  3 03:43:53 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-049.1.clones.clns
+    output: ../../results_combineSamples/107420-001-049.1.clones.txt
+    jobid: 159
+    reason: Missing output files: ../../results_combineSamples/107420-001-049.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-049.1.clones.clns
+    wildcards: sample=107420-001-049, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 03:43:57 2026]
+Finished job 159.
+102 of 211 steps (48%) done
+Select jobs to execute...
+
+[Tue Mar  3 03:43:57 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-033_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-033_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-033.vdjca, ../../results_combineSamples/107420-001-033.align.report.txt
+    jobid: 17
+    reason: Missing output files: ../../results_combineSamples/107420-001-033.vdjca, ../../results_combineSamples/107420-001-033.align.report.txt
+    wildcards: sample=107420-001-033
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 03:48:46 2026]
+Finished job 17.
+103 of 211 steps (49%) done
+Select jobs to execute...
+
+[Tue Mar  3 03:48:46 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-020.refined.vdjca
+    output: ../../results_combineSamples/107420-001-020.1.clones.clns, ../../results_combineSamples/107420-001-020.1.assemble.report.txt
+    jobid: 184
+    reason: Missing output files: ../../results_combineSamples/107420-001-020.1.assemble.report.txt, ../../results_combineSamples/107420-001-020.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-020.refined.vdjca
+    wildcards: sample=107420-001-020, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 04:25:57 2026]
+Finished job 184.
+104 of 211 steps (49%) done
+Select jobs to execute...
+
+[Tue Mar  3 04:25:57 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-033.vdjca
+    output: ../../results_combineSamples/107420-001-033.refined.vdjca, ../../results_combineSamples/107420-001-033.refine.report.txt
+    jobid: 69
+    reason: Missing output files: ../../results_combineSamples/107420-001-033.refine.report.txt, ../../results_combineSamples/107420-001-033.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-033.vdjca
+    wildcards: sample=107420-001-033
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 05:15:39 2026]
+Finished job 69.
+105 of 211 steps (50%) done
+Select jobs to execute...
+
+[Tue Mar  3 05:15:39 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-020.1.clones.clns
+    output: ../../results_combineSamples/107420-001-020.1.coverage.png
+    jobid: 248
+    reason: Missing output files: ../../results_combineSamples/107420-001-020.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-020.1.clones.clns
+    wildcards: sample=107420-001-020, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 05:15:47 2026]
+Finished job 248.
+106 of 211 steps (50%) done
+Select jobs to execute...
+
+[Tue Mar  3 05:15:47 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-033.refined.vdjca
+    output: ../../results_combineSamples/107420-001-033.1.clones.clns, ../../results_combineSamples/107420-001-033.1.assemble.report.txt
+    jobid: 138
+    reason: Missing output files: ../../results_combineSamples/107420-001-033.1.clones.clns, ../../results_combineSamples/107420-001-033.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-033.refined.vdjca
+    wildcards: sample=107420-001-033, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 05:47:15 2026]
+Finished job 138.
+107 of 211 steps (51%) done
+Select jobs to execute...
+
+[Tue Mar  3 05:47:15 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-035.1.clones.clns
+    output: ../../results_combineSamples/107420-001-035.1.coverage.png
+    jobid: 227
+    reason: Missing output files: ../../results_combineSamples/107420-001-035.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-035.1.clones.clns
+    wildcards: sample=107420-001-035, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 05:47:23 2026]
+Finished job 227.
+108 of 211 steps (51%) done
+Select jobs to execute...
+
+[Tue Mar  3 05:47:23 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-033.1.clones.clns
+    output: ../../results_combineSamples/107420-001-033.1.coverage.png
+    jobid: 225
+    reason: Missing output files: ../../results_combineSamples/107420-001-033.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-033.1.clones.clns
+    wildcards: sample=107420-001-033, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 05:47:31 2026]
+Finished job 225.
+109 of 211 steps (52%) done
+Select jobs to execute...
+
+[Tue Mar  3 05:47:31 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-038.refined.vdjca
+    output: ../../results_combineSamples/107420-001-038.1.clones.clns, ../../results_combineSamples/107420-001-038.1.assemble.report.txt
+    jobid: 168
+    reason: Missing output files: ../../results_combineSamples/107420-001-038.1.assemble.report.txt, ../../results_combineSamples/107420-001-038.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-038.refined.vdjca
+    wildcards: sample=107420-001-038, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:00:13 2026]
+Finished job 168.
+110 of 211 steps (52%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:00:13 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-038.1.clones.clns
+    output: ../../results_combineSamples/107420-001-038.1.coverage.png
+    jobid: 240
+    reason: Missing output files: ../../results_combineSamples/107420-001-038.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-038.1.clones.clns
+    wildcards: sample=107420-001-038, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:00:21 2026]
+Finished job 240.
+111 of 211 steps (53%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:00:21 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-052.refined.vdjca
+    output: ../../results_combineSamples/107420-001-052.1.clones.clns, ../../results_combineSamples/107420-001-052.1.assemble.report.txt
+    jobid: 206
+    reason: Missing output files: ../../results_combineSamples/107420-001-052.1.clones.clns, ../../results_combineSamples/107420-001-052.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-052.refined.vdjca
+    wildcards: sample=107420-001-052, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:09:05 2026]
+Finished job 206.
+112 of 211 steps (53%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:09:05 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-002.refined.vdjca
+    output: ../../results_combineSamples/107420-001-002.1.clones.clns, ../../results_combineSamples/107420-001-002.1.assemble.report.txt
+    jobid: 108
+    reason: Missing output files: ../../results_combineSamples/107420-001-002.1.clones.clns, ../../results_combineSamples/107420-001-002.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-002.refined.vdjca
+    wildcards: sample=107420-001-002, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:18:25 2026]
+Finished job 108.
+113 of 211 steps (54%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:18:25 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-016.1.clones.clns
+    output: ../../results_combineSamples/107420-001-016.1.coverage.png
+    jobid: 245
+    reason: Missing output files: ../../results_combineSamples/107420-001-016.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-016.1.clones.clns
+    wildcards: sample=107420-001-016, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:18:33 2026]
+Finished job 245.
+114 of 211 steps (54%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:18:33 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-002.1.clones.clns
+    output: ../../results_combineSamples/107420-001-002.1.coverage.png
+    jobid: 210
+    reason: Missing output files: ../../results_combineSamples/107420-001-002.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-002.1.clones.clns
+    wildcards: sample=107420-001-002, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:18:41 2026]
+Finished job 210.
+115 of 211 steps (55%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:18:41 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-009.1.clones.clns
+    output: ../../results_combineSamples/107420-001-009.1.clones.txt
+    jobid: 165
+    reason: Missing output files: ../../results_combineSamples/107420-001-009.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-009.1.clones.clns
+    wildcards: sample=107420-001-009, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:18:45 2026]
+Finished job 165.
+116 of 211 steps (55%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:18:45 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-052.1.clones.clns
+    output: ../../results_combineSamples/107420-001-052.1.coverage.png
+    jobid: 259
+    reason: Missing output files: ../../results_combineSamples/107420-001-052.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-052.1.clones.clns
+    wildcards: sample=107420-001-052, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:18:53 2026]
+Finished job 259.
+117 of 211 steps (55%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:18:53 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-040.1.clones.clns
+    output: ../../results_combineSamples/107420-001-040.1.coverage.png
+    jobid: 229
+    reason: Missing output files: ../../results_combineSamples/107420-001-040.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-040.1.clones.clns
+    wildcards: sample=107420-001-040, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:19:01 2026]
+Finished job 229.
+118 of 211 steps (56%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:19:01 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-029.1.clones.clns
+    output: ../../results_combineSamples/107420-001-029.1.clones.txt
+    jobid: 133
+    reason: Missing output files: ../../results_combineSamples/107420-001-029.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-029.1.clones.clns
+    wildcards: sample=107420-001-029, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 06:19:03 2026]
+Finished job 133.
+119 of 211 steps (56%) done
+Select jobs to execute...
+
+[Tue Mar  3 06:19:03 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-024.vdjca
+    output: ../../results_combineSamples/107420-001-024.refined.vdjca, ../../results_combineSamples/107420-001-024.refine.report.txt
+    jobid: 100
+    reason: Missing output files: ../../results_combineSamples/107420-001-024.refined.vdjca, ../../results_combineSamples/107420-001-024.refine.report.txt
+    wildcards: sample=107420-001-024
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 07:00:56 2026]
+Finished job 100.
+120 of 211 steps (57%) done
+Select jobs to execute...
+
+[Tue Mar  3 07:00:56 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-002.1.clones.clns
+    output: ../../results_combineSamples/107420-001-002.1.clones.txt
+    jobid: 107
+    reason: Missing output files: ../../results_combineSamples/107420-001-002.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-002.1.clones.clns
+    wildcards: sample=107420-001-002, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 07:01:02 2026]
+Finished job 107.
+121 of 211 steps (57%) done
+Select jobs to execute...
+
+[Tue Mar  3 07:01:02 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-006.1.clones.clns
+    output: ../../results_combineSamples/107420-001-006.1.coverage.png
+    jobid: 249
+    reason: Missing output files: ../../results_combineSamples/107420-001-006.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-006.1.clones.clns
+    wildcards: sample=107420-001-006, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 07:01:10 2026]
+Finished job 249.
+122 of 211 steps (58%) done
+Select jobs to execute...
+
+[Tue Mar  3 07:01:10 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-037.1.clones.clns
+    output: ../../results_combineSamples/107420-001-037.1.coverage.png
+    jobid: 228
+    reason: Missing output files: ../../results_combineSamples/107420-001-037.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-037.1.clones.clns
+    wildcards: sample=107420-001-037, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 07:01:18 2026]
+Finished job 228.
+123 of 211 steps (58%) done
+Select jobs to execute...
+
+[Tue Mar  3 07:01:18 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-052.1.clones.clns
+    output: ../../results_combineSamples/107420-001-052.1.clones.txt
+    jobid: 205
+    reason: Missing output files: ../../results_combineSamples/107420-001-052.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-052.1.clones.clns
+    wildcards: sample=107420-001-052, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 07:01:21 2026]
+Finished job 205.
+124 of 211 steps (59%) done
+Select jobs to execute...
+
+[Tue Mar  3 07:01:21 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-010_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-010_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-010.vdjca, ../../results_combineSamples/107420-001-010.align.report.txt
+    jobid: 6
+    reason: Missing output files: ../../results_combineSamples/107420-001-010.vdjca, ../../results_combineSamples/107420-001-010.align.report.txt
+    wildcards: sample=107420-001-010
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 07:02:27 2026]
+Finished job 6.
+125 of 211 steps (59%) done
+Select jobs to execute...
+
+[Tue Mar  3 07:02:27 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-010.vdjca
+    output: ../../results_combineSamples/107420-001-010.refined.vdjca, ../../results_combineSamples/107420-001-010.refine.report.txt
+    jobid: 58
+    reason: Missing output files: ../../results_combineSamples/107420-001-010.refine.report.txt, ../../results_combineSamples/107420-001-010.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-010.vdjca
+    wildcards: sample=107420-001-010
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 07:06:28 2026]
+Finished job 58.
+126 of 211 steps (60%) done
+Select jobs to execute...
+
+[Tue Mar  3 07:06:28 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-025.vdjca
+    output: ../../results_combineSamples/107420-001-025.refined.vdjca, ../../results_combineSamples/107420-001-025.refine.report.txt
+    jobid: 64
+    reason: Missing output files: ../../results_combineSamples/107420-001-025.refine.report.txt, ../../results_combineSamples/107420-001-025.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-025.vdjca
+    wildcards: sample=107420-001-025
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:00:14 2026]
+Finished job 64.
+127 of 211 steps (60%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:00:14 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-051.1.clones.clns
+    output: ../../results_combineSamples/107420-001-051.1.clones.txt
+    jobid: 203
+    reason: Missing output files: ../../results_combineSamples/107420-001-051.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-051.1.clones.clns
+    wildcards: sample=107420-001-051, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:00:17 2026]
+Finished job 203.
+128 of 211 steps (61%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:00:17 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-049.1.clones.clns
+    output: ../../results_combineSamples/107420-001-049.1.coverage.png
+    jobid: 236
+    reason: Missing output files: ../../results_combineSamples/107420-001-049.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-049.1.clones.clns
+    wildcards: sample=107420-001-049, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:00:25 2026]
+Finished job 236.
+129 of 211 steps (61%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:00:25 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-041.vdjca
+    output: ../../results_combineSamples/107420-001-041.refined.vdjca, ../../results_combineSamples/107420-001-041.refine.report.txt
+    jobid: 74
+    reason: Missing output files: ../../results_combineSamples/107420-001-041.refined.vdjca, ../../results_combineSamples/107420-001-041.refine.report.txt
+    wildcards: sample=107420-001-041
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:02:55 2026]
+Finished job 74.
+130 of 211 steps (62%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:02:55 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-020.1.clones.clns
+    output: ../../results_combineSamples/107420-001-020.1.clones.txt
+    jobid: 183
+    reason: Missing output files: ../../results_combineSamples/107420-001-020.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-020.1.clones.clns
+    wildcards: sample=107420-001-020, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:03:07 2026]
+Finished job 183.
+131 of 211 steps (62%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:03:07 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-001.1.clones.clns
+    output: ../../results_combineSamples/107420-001-001.1.clones.txt
+    jobid: 105
+    reason: Missing output files: ../../results_combineSamples/107420-001-001.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-001.1.clones.clns
+    wildcards: sample=107420-001-001, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:03:16 2026]
+Finished job 105.
+132 of 211 steps (63%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:03:16 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-046_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-046_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-046.vdjca, ../../results_combineSamples/107420-001-046.align.report.txt
+    jobid: 26
+    reason: Missing output files: ../../results_combineSamples/107420-001-046.vdjca, ../../results_combineSamples/107420-001-046.align.report.txt
+    wildcards: sample=107420-001-046
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:05:12 2026]
+Finished job 26.
+133 of 211 steps (63%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:05:12 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-038.1.clones.clns
+    output: ../../results_combineSamples/107420-001-038.1.clones.txt
+    jobid: 167
+    reason: Missing output files: ../../results_combineSamples/107420-001-038.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-038.1.clones.clns
+    wildcards: sample=107420-001-038, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:05:17 2026]
+Finished job 167.
+134 of 211 steps (64%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:05:17 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-029.1.clones.clns
+    output: ../../results_combineSamples/107420-001-029.1.coverage.png
+    jobid: 223
+    reason: Missing output files: ../../results_combineSamples/107420-001-029.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-029.1.clones.clns
+    wildcards: sample=107420-001-029, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:05:25 2026]
+Finished job 223.
+135 of 211 steps (64%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:05:25 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-021_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-021_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-021.vdjca, ../../results_combineSamples/107420-001-021.align.report.txt
+    jobid: 46
+    reason: Missing output files: ../../results_combineSamples/107420-001-021.vdjca, ../../results_combineSamples/107420-001-021.align.report.txt
+    wildcards: sample=107420-001-021
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 08:12:58 2026]
+Finished job 46.
+136 of 211 steps (64%) done
+Select jobs to execute...
+
+[Tue Mar  3 08:12:58 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-021.vdjca
+    output: ../../results_combineSamples/107420-001-021.refined.vdjca, ../../results_combineSamples/107420-001-021.refine.report.txt
+    jobid: 98
+    reason: Missing output files: ../../results_combineSamples/107420-001-021.refine.report.txt, ../../results_combineSamples/107420-001-021.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-021.vdjca
+    wildcards: sample=107420-001-021
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 09:19:24 2026]
+Finished job 98.
+137 of 211 steps (65%) done
+Select jobs to execute...
+
+[Tue Mar  3 09:19:24 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-006.1.clones.clns
+    output: ../../results_combineSamples/107420-001-006.1.clones.txt
+    jobid: 185
+    reason: Missing output files: ../../results_combineSamples/107420-001-006.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-006.1.clones.clns
+    wildcards: sample=107420-001-006, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 09:19:30 2026]
+Finished job 185.
+138 of 211 steps (65%) done
+Select jobs to execute...
+
+[Tue Mar  3 09:19:30 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-017.1.clones.clns
+    output: ../../results_combineSamples/107420-001-017.1.coverage.png
+    jobid: 241
+    reason: Missing output files: ../../results_combineSamples/107420-001-017.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-017.1.clones.clns
+    wildcards: sample=107420-001-017, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 09:19:38 2026]
+Finished job 241.
+139 of 211 steps (66%) done
+Select jobs to execute...
+
+[Tue Mar  3 09:19:38 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-053.vdjca
+    output: ../../results_combineSamples/107420-001-053.refined.vdjca, ../../results_combineSamples/107420-001-053.refine.report.txt
+    jobid: 104
+    reason: Missing output files: ../../results_combineSamples/107420-001-053.refine.report.txt, ../../results_combineSamples/107420-001-053.refined.vdjca
+    wildcards: sample=107420-001-053
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 09:28:51 2026]
+Finished job 104.
+140 of 211 steps (66%) done
+Select jobs to execute...
+
+[Tue Mar  3 09:28:51 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-024.refined.vdjca
+    output: ../../results_combineSamples/107420-001-024.1.clones.clns, ../../results_combineSamples/107420-001-024.1.assemble.report.txt
+    jobid: 200
+    reason: Missing output files: ../../results_combineSamples/107420-001-024.1.assemble.report.txt, ../../results_combineSamples/107420-001-024.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-024.refined.vdjca
+    wildcards: sample=107420-001-024, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 09:55:41 2026]
+Finished job 200.
+141 of 211 steps (67%) done
+Select jobs to execute...
+
+[Tue Mar  3 09:55:41 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-024.1.clones.clns
+    output: ../../results_combineSamples/107420-001-024.1.coverage.png
+    jobid: 256
+    reason: Missing output files: ../../results_combineSamples/107420-001-024.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-024.1.clones.clns
+    wildcards: sample=107420-001-024, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 09:55:49 2026]
+Finished job 256.
+142 of 211 steps (67%) done
+Select jobs to execute...
+
+[Tue Mar  3 09:55:49 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-025.refined.vdjca
+    output: ../../results_combineSamples/107420-001-025.1.clones.clns, ../../results_combineSamples/107420-001-025.1.assemble.report.txt
+    jobid: 128
+    reason: Missing output files: ../../results_combineSamples/107420-001-025.1.assemble.report.txt, ../../results_combineSamples/107420-001-025.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-025.refined.vdjca
+    wildcards: sample=107420-001-025, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 10:45:45 2026]
+Finished job 128.
+143 of 211 steps (68%) done
+Select jobs to execute...
+
+[Tue Mar  3 10:45:45 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-053.refined.vdjca
+    output: ../../results_combineSamples/107420-001-053.1.clones.clns, ../../results_combineSamples/107420-001-053.1.assemble.report.txt
+    jobid: 208
+    reason: Missing output files: ../../results_combineSamples/107420-001-053.1.assemble.report.txt, ../../results_combineSamples/107420-001-053.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-053.refined.vdjca
+    wildcards: sample=107420-001-053, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 10:53:38 2026]
+Finished job 208.
+144 of 211 steps (68%) done
+Select jobs to execute...
+
+[Tue Mar  3 10:53:38 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-022_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-022_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-022.vdjca, ../../results_combineSamples/107420-001-022.align.report.txt
+    jobid: 11
+    reason: Missing output files: ../../results_combineSamples/107420-001-022.align.report.txt, ../../results_combineSamples/107420-001-022.vdjca
+    wildcards: sample=107420-001-022
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 10:54:13 2026]
+Finished job 11.
+145 of 211 steps (69%) done
+Select jobs to execute...
+
+[Tue Mar  3 10:54:13 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-053.1.clones.clns
+    output: ../../results_combineSamples/107420-001-053.1.coverage.png
+    jobid: 260
+    reason: Missing output files: ../../results_combineSamples/107420-001-053.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-053.1.clones.clns
+    wildcards: sample=107420-001-053, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 10:54:21 2026]
+Finished job 260.
+146 of 211 steps (69%) done
+Select jobs to execute...
+
+[Tue Mar  3 10:54:21 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-022.vdjca
+    output: ../../results_combineSamples/107420-001-022.refined.vdjca, ../../results_combineSamples/107420-001-022.refine.report.txt
+    jobid: 63
+    reason: Missing output files: ../../results_combineSamples/107420-001-022.refine.report.txt, ../../results_combineSamples/107420-001-022.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-022.vdjca
+    wildcards: sample=107420-001-022
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 10:55:35 2026]
+Finished job 63.
+147 of 211 steps (70%) done
+Select jobs to execute...
+
+[Tue Mar  3 10:55:35 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-022.refined.vdjca
+    output: ../../results_combineSamples/107420-001-022.1.clones.clns, ../../results_combineSamples/107420-001-022.1.assemble.report.txt
+    jobid: 126
+    reason: Missing output files: ../../results_combineSamples/107420-001-022.1.clones.clns, ../../results_combineSamples/107420-001-022.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-022.refined.vdjca
+    wildcards: sample=107420-001-022, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 10:57:27 2026]
+Finished job 126.
+148 of 211 steps (70%) done
+Select jobs to execute...
+
+[Tue Mar  3 10:57:27 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-015.1.clones.clns
+    output: ../../results_combineSamples/107420-001-015.1.clones.txt
+    jobid: 121
+    reason: Missing output files: ../../results_combineSamples/107420-001-015.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-015.1.clones.clns
+    wildcards: sample=107420-001-015, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 10:57:31 2026]
+Finished job 121.
+149 of 211 steps (71%) done
+Select jobs to execute...
+
+[Tue Mar  3 10:57:31 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-010.refined.vdjca
+    output: ../../results_combineSamples/107420-001-010.1.clones.clns, ../../results_combineSamples/107420-001-010.1.assemble.report.txt
+    jobid: 116
+    reason: Missing output files: ../../results_combineSamples/107420-001-010.1.clones.clns, ../../results_combineSamples/107420-001-010.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-010.refined.vdjca
+    wildcards: sample=107420-001-010, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 14:28:58 2026]
+Finished job 116.
+150 of 211 steps (71%) done
+Select jobs to execute...
+
+[Tue Mar  3 14:28:58 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-010.1.clones.clns
+    output: ../../results_combineSamples/107420-001-010.1.coverage.png
+    jobid: 214
+    reason: Missing output files: ../../results_combineSamples/107420-001-010.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-010.1.clones.clns
+    wildcards: sample=107420-001-010, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 14:29:05 2026]
+Finished job 214.
+151 of 211 steps (72%) done
+Select jobs to execute...
+
+[Tue Mar  3 14:29:05 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-021.refined.vdjca
+    output: ../../results_combineSamples/107420-001-021.1.clones.clns, ../../results_combineSamples/107420-001-021.1.assemble.report.txt
+    jobid: 196
+    reason: Missing output files: ../../results_combineSamples/107420-001-021.1.assemble.report.txt, ../../results_combineSamples/107420-001-021.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-021.refined.vdjca
+    wildcards: sample=107420-001-021, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 15:54:45 2026]
+Finished job 196.
+152 of 211 steps (72%) done
+Select jobs to execute...
+
+[Tue Mar  3 15:54:45 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-021.1.clones.clns
+    output: ../../results_combineSamples/107420-001-021.1.clones.txt
+    jobid: 195
+    reason: Missing output files: ../../results_combineSamples/107420-001-021.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-021.1.clones.clns
+    wildcards: sample=107420-001-021, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 15:54:57 2026]
+Finished job 195.
+153 of 211 steps (73%) done
+Select jobs to execute...
+
+[Tue Mar  3 15:54:57 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-046.vdjca
+    output: ../../results_combineSamples/107420-001-046.refined.vdjca, ../../results_combineSamples/107420-001-046.refine.report.txt
+    jobid: 78
+    reason: Missing output files: ../../results_combineSamples/107420-001-046.refine.report.txt, ../../results_combineSamples/107420-001-046.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-046.vdjca
+    wildcards: sample=107420-001-046
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 15:59:49 2026]
+Finished job 78.
+154 of 211 steps (73%) done
+Select jobs to execute...
+
+[Tue Mar  3 15:59:49 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-041.refined.vdjca
+    output: ../../results_combineSamples/107420-001-041.1.clones.clns, ../../results_combineSamples/107420-001-041.1.assemble.report.txt
+    jobid: 148
+    reason: Missing output files: ../../results_combineSamples/107420-001-041.1.clones.clns, ../../results_combineSamples/107420-001-041.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-041.refined.vdjca
+    wildcards: sample=107420-001-041, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 16:05:40 2026]
+Finished job 148.
+155 of 211 steps (73%) done
+Select jobs to execute...
+
+[Tue Mar  3 16:05:40 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-032.1.clones.clns
+    output: ../../results_combineSamples/107420-001-032.1.clones.txt
+    jobid: 189
+    reason: Missing output files: ../../results_combineSamples/107420-001-032.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-032.1.clones.clns
+    wildcards: sample=107420-001-032, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 16:05:51 2026]
+Finished job 189.
+156 of 211 steps (74%) done
+Select jobs to execute...
+
+[Tue Mar  3 16:05:51 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-046.refined.vdjca
+    output: ../../results_combineSamples/107420-001-046.1.clones.clns, ../../results_combineSamples/107420-001-046.1.assemble.report.txt
+    jobid: 156
+    reason: Missing output files: ../../results_combineSamples/107420-001-046.1.clones.clns, ../../results_combineSamples/107420-001-046.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-046.refined.vdjca
+    wildcards: sample=107420-001-046, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:06 2026]
+Finished job 156.
+157 of 211 steps (74%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:06 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-027.1.clones.clns
+    output: ../../results_combineSamples/107420-001-027.1.clones.txt
+    jobid: 131
+    reason: Missing output files: ../../results_combineSamples/107420-001-027.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-027.1.clones.clns
+    wildcards: sample=107420-001-027, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:10 2026]
+Finished job 131.
+158 of 211 steps (75%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:10 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-028.1.clones.clns
+    output: ../../results_combineSamples/107420-001-028.1.clones.txt
+    jobid: 181
+    reason: Missing output files: ../../results_combineSamples/107420-001-028.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-028.1.clones.clns
+    wildcards: sample=107420-001-028, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:13 2026]
+Finished job 181.
+159 of 211 steps (75%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:13 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-017.1.clones.clns
+    output: ../../results_combineSamples/107420-001-017.1.clones.txt
+    jobid: 169
+    reason: Missing output files: ../../results_combineSamples/107420-001-017.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-017.1.clones.clns
+    wildcards: sample=107420-001-017, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:24 2026]
+Finished job 169.
+160 of 211 steps (76%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:24 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-047.1.clones.clns
+    output: ../../results_combineSamples/107420-001-047.1.clones.txt
+    jobid: 201
+    reason: Missing output files: ../../results_combineSamples/107420-001-047.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-047.1.clones.clns
+    wildcards: sample=107420-001-047, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:27 2026]
+Finished job 201.
+161 of 211 steps (76%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:27 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-016.1.clones.clns
+    output: ../../results_combineSamples/107420-001-016.1.clones.txt
+    jobid: 177
+    reason: Missing output files: ../../results_combineSamples/107420-001-016.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-016.1.clones.clns
+    wildcards: sample=107420-001-016, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:38 2026]
+Finished job 177.
+162 of 211 steps (77%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:38 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-033.1.clones.clns
+    output: ../../results_combineSamples/107420-001-033.1.clones.txt
+    jobid: 137
+    reason: Missing output files: ../../results_combineSamples/107420-001-033.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-033.1.clones.clns
+    wildcards: sample=107420-001-033, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:46 2026]
+Finished job 137.
+163 of 211 steps (77%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:46 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-025.1.clones.clns
+    output: ../../results_combineSamples/107420-001-025.1.clones.txt
+    jobid: 127
+    reason: Missing output files: ../../results_combineSamples/107420-001-025.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-025.1.clones.clns
+    wildcards: sample=107420-001-025, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:52 2026]
+Finished job 127.
+164 of 211 steps (78%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:52 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-053.1.clones.clns
+    output: ../../results_combineSamples/107420-001-053.1.clones.txt
+    jobid: 207
+    reason: Missing output files: ../../results_combineSamples/107420-001-053.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-053.1.clones.clns
+    wildcards: sample=107420-001-053, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:01:56 2026]
+Finished job 207.
+165 of 211 steps (78%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:01:56 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-008.1.clones.clns
+    output: ../../results_combineSamples/107420-001-008.1.clones.txt
+    jobid: 191
+    reason: Missing output files: ../../results_combineSamples/107420-001-008.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-008.1.clones.clns
+    wildcards: sample=107420-001-008, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:02:00 2026]
+Finished job 191.
+166 of 211 steps (79%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:02:00 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-005.vdjca
+    output: ../../results_combineSamples/107420-001-005.refined.vdjca, ../../results_combineSamples/107420-001-005.refine.report.txt
+    jobid: 97
+    reason: Missing output files: ../../results_combineSamples/107420-001-005.refine.report.txt, ../../results_combineSamples/107420-001-005.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-005.vdjca
+    wildcards: sample=107420-001-005
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:29:52 2026]
+Finished job 97.
+167 of 211 steps (79%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:29:52 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-005.refined.vdjca
+    output: ../../results_combineSamples/107420-001-005.1.clones.clns, ../../results_combineSamples/107420-001-005.1.assemble.report.txt
+    jobid: 194
+    reason: Missing output files: ../../results_combineSamples/107420-001-005.1.assemble.report.txt, ../../results_combineSamples/107420-001-005.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-005.refined.vdjca
+    wildcards: sample=107420-001-005, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:51:00 2026]
+Finished job 194.
+168 of 211 steps (80%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:51:00 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-005.1.clones.clns
+    output: ../../results_combineSamples/107420-001-005.1.clones.txt
+    jobid: 193
+    reason: Missing output files: ../../results_combineSamples/107420-001-005.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-005.1.clones.clns
+    wildcards: sample=107420-001-005, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:51:08 2026]
+Finished job 193.
+169 of 211 steps (80%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:51:08 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-037.1.clones.clns
+    output: ../../results_combineSamples/107420-001-037.1.clones.txt
+    jobid: 143
+    reason: Missing output files: ../../results_combineSamples/107420-001-037.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-037.1.clones.clns
+    wildcards: sample=107420-001-037, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:51:11 2026]
+Finished job 143.
+170 of 211 steps (81%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:51:11 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-024.1.clones.clns
+    output: ../../results_combineSamples/107420-001-024.1.clones.txt
+    jobid: 199
+    reason: Missing output files: ../../results_combineSamples/107420-001-024.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-024.1.clones.clns
+    wildcards: sample=107420-001-024, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:51:17 2026]
+Finished job 199.
+171 of 211 steps (81%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:51:17 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-022.1.clones.clns
+    output: ../../results_combineSamples/107420-001-022.1.clones.txt
+    jobid: 125
+    reason: Missing output files: ../../results_combineSamples/107420-001-022.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-022.1.clones.clns
+    wildcards: sample=107420-001-022, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:51:20 2026]
+Finished job 125.
+172 of 211 steps (82%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:51:20 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-039.vdjca
+    output: ../../results_combineSamples/107420-001-039.refined.vdjca, ../../results_combineSamples/107420-001-039.refine.report.txt
+    jobid: 82
+    reason: Missing output files: ../../results_combineSamples/107420-001-039.refine.report.txt, ../../results_combineSamples/107420-001-039.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-039.vdjca
+    wildcards: sample=107420-001-039
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 17:55:18 2026]
+Finished job 82.
+173 of 211 steps (82%) done
+Select jobs to execute...
+
+[Tue Mar  3 17:55:18 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-039.refined.vdjca
+    output: ../../results_combineSamples/107420-001-039.1.clones.clns, ../../results_combineSamples/107420-001-039.1.assemble.report.txt
+    jobid: 164
+    reason: Missing output files: ../../results_combineSamples/107420-001-039.1.assemble.report.txt, ../../results_combineSamples/107420-001-039.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-039.refined.vdjca
+    wildcards: sample=107420-001-039, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:00:01 2026]
+Finished job 164.
+174 of 211 steps (82%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:00:01 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-030.1.clones.clns
+    output: ../../results_combineSamples/107420-001-030.1.clones.txt
+    jobid: 197
+    reason: Missing output files: ../../results_combineSamples/107420-001-030.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-030.1.clones.clns
+    wildcards: sample=107420-001-030, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:00:04 2026]
+Finished job 197.
+175 of 211 steps (83%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:00:04 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-023.1.clones.clns
+    output: ../../results_combineSamples/107420-001-023.1.clones.txt
+    jobid: 173
+    reason: Missing output files: ../../results_combineSamples/107420-001-023.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-023.1.clones.clns
+    wildcards: sample=107420-001-023, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:00:15 2026]
+Finished job 173.
+176 of 211 steps (83%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:00:15 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-009.1.clones.clns
+    output: ../../results_combineSamples/107420-001-009.1.coverage.png
+    jobid: 239
+    reason: Missing output files: ../../results_combineSamples/107420-001-009.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-009.1.clones.clns
+    wildcards: sample=107420-001-009, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:00:23 2026]
+Finished job 239.
+177 of 211 steps (84%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:00:23 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-046.1.clones.clns
+    output: ../../results_combineSamples/107420-001-046.1.clones.txt
+    jobid: 155
+    reason: Missing output files: ../../results_combineSamples/107420-001-046.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-046.1.clones.clns
+    wildcards: sample=107420-001-046, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:00:26 2026]
+Finished job 155.
+178 of 211 steps (84%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:00:26 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-041.1.clones.clns
+    output: ../../results_combineSamples/107420-001-041.1.coverage.png
+    jobid: 230
+    reason: Missing output files: ../../results_combineSamples/107420-001-041.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-041.1.clones.clns
+    wildcards: sample=107420-001-041, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:00:34 2026]
+Finished job 230.
+179 of 211 steps (85%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:00:34 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-034.vdjca
+    output: ../../results_combineSamples/107420-001-034.refined.vdjca, ../../results_combineSamples/107420-001-034.refine.report.txt
+    jobid: 70
+    reason: Missing output files: ../../results_combineSamples/107420-001-034.refine.report.txt, ../../results_combineSamples/107420-001-034.refined.vdjca
+    wildcards: sample=107420-001-034
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:41:54 2026]
+Finished job 70.
+180 of 211 steps (85%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:41:54 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-046.1.clones.clns
+    output: ../../results_combineSamples/107420-001-046.1.coverage.png
+    jobid: 234
+    reason: Missing output files: ../../results_combineSamples/107420-001-046.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-046.1.clones.clns
+    wildcards: sample=107420-001-046, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:42:02 2026]
+Finished job 234.
+181 of 211 steps (86%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:42:02 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-034.refined.vdjca
+    output: ../../results_combineSamples/107420-001-034.1.clones.clns, ../../results_combineSamples/107420-001-034.1.assemble.report.txt
+    jobid: 140
+    reason: Missing output files: ../../results_combineSamples/107420-001-034.1.assemble.report.txt, ../../results_combineSamples/107420-001-034.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-034.refined.vdjca
+    wildcards: sample=107420-001-034, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:58:18 2026]
+Finished job 140.
+182 of 211 steps (86%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:58:18 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-034.1.clones.clns
+    output: ../../results_combineSamples/107420-001-034.1.coverage.png
+    jobid: 226
+    reason: Missing output files: ../../results_combineSamples/107420-001-034.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-034.1.clones.clns
+    wildcards: sample=107420-001-034, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:58:26 2026]
+Finished job 226.
+183 of 211 steps (87%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:58:26 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-004.1.clones.clns
+    output: ../../results_combineSamples/107420-001-004.1.coverage.png
+    jobid: 212
+    reason: Missing output files: ../../results_combineSamples/107420-001-004.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-004.1.clones.clns
+    wildcards: sample=107420-001-004, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:58:34 2026]
+Finished job 212.
+184 of 211 steps (87%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:58:34 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-010.1.clones.clns
+    output: ../../results_combineSamples/107420-001-010.1.clones.txt
+    jobid: 115
+    reason: Missing output files: ../../results_combineSamples/107420-001-010.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-010.1.clones.clns
+    wildcards: sample=107420-001-010, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:58:38 2026]
+Finished job 115.
+185 of 211 steps (88%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:58:38 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-034.1.clones.clns
+    output: ../../results_combineSamples/107420-001-034.1.clones.txt
+    jobid: 139
+    reason: Missing output files: ../../results_combineSamples/107420-001-034.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-034.1.clones.clns
+    wildcards: sample=107420-001-034, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:58:45 2026]
+Finished job 139.
+186 of 211 steps (88%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:58:45 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-005.1.clones.clns
+    output: ../../results_combineSamples/107420-001-005.1.coverage.png
+    jobid: 253
+    reason: Missing output files: ../../results_combineSamples/107420-001-005.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-005.1.clones.clns
+    wildcards: sample=107420-001-005, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:58:53 2026]
+Finished job 253.
+187 of 211 steps (89%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:58:53 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-012.1.clones.clns
+    output: ../../results_combineSamples/107420-001-012.1.coverage.png
+    jobid: 242
+    reason: Missing output files: ../../results_combineSamples/107420-001-012.1.coverage.png
+    wildcards: sample=107420-001-012, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:00 2026]
+Finished job 242.
+188 of 211 steps (89%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:00 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-022.1.clones.clns
+    output: ../../results_combineSamples/107420-001-022.1.coverage.png
+    jobid: 219
+    reason: Missing output files: ../../results_combineSamples/107420-001-022.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-022.1.clones.clns
+    wildcards: sample=107420-001-022, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:08 2026]
+Finished job 219.
+189 of 211 steps (90%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:08 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-039.1.clones.clns
+    output: ../../results_combineSamples/107420-001-039.1.coverage.png
+    jobid: 238
+    reason: Missing output files: ../../results_combineSamples/107420-001-039.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-039.1.clones.clns
+    wildcards: sample=107420-001-039, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:16 2026]
+Finished job 238.
+190 of 211 steps (90%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:16 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-047.1.clones.clns
+    output: ../../results_combineSamples/107420-001-047.1.coverage.png
+    jobid: 257
+    reason: Missing output files: ../../results_combineSamples/107420-001-047.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-047.1.clones.clns
+    wildcards: sample=107420-001-047, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:24 2026]
+Finished job 257.
+191 of 211 steps (91%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:24 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-025.1.clones.clns
+    output: ../../results_combineSamples/107420-001-025.1.coverage.png
+    jobid: 220
+    reason: Missing output files: ../../results_combineSamples/107420-001-025.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-025.1.clones.clns
+    wildcards: sample=107420-001-025, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:32 2026]
+Finished job 220.
+192 of 211 steps (91%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:32 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-021.1.clones.clns
+    output: ../../results_combineSamples/107420-001-021.1.coverage.png
+    jobid: 254
+    reason: Missing output files: ../../results_combineSamples/107420-001-021.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-021.1.clones.clns
+    wildcards: sample=107420-001-021, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:40 2026]
+Finished job 254.
+193 of 211 steps (91%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:40 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-018.1.clones.clns
+    output: ../../results_combineSamples/107420-001-018.1.clones.txt
+    jobid: 123
+    reason: Missing output files: ../../results_combineSamples/107420-001-018.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-018.1.clones.clns
+    wildcards: sample=107420-001-018, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:46 2026]
+Finished job 123.
+194 of 211 steps (92%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:46 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-041.1.clones.clns
+    output: ../../results_combineSamples/107420-001-041.1.clones.txt
+    jobid: 147
+    reason: Missing output files: ../../results_combineSamples/107420-001-041.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-041.1.clones.clns
+    wildcards: sample=107420-001-041, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:49 2026]
+Finished job 147.
+195 of 211 steps (92%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:49 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-039.1.clones.clns
+    output: ../../results_combineSamples/107420-001-039.1.clones.txt
+    jobid: 163
+    reason: Missing output files: ../../results_combineSamples/107420-001-039.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-039.1.clones.clns
+    wildcards: sample=107420-001-039, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 18:59:52 2026]
+Finished job 163.
+196 of 211 steps (93%) done
+Select jobs to execute...
+
+[Tue Mar  3 18:59:52 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-043_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-043_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-043.vdjca, ../../results_combineSamples/107420-001-043.align.report.txt
+    jobid: 36
+    reason: Missing output files: ../../results_combineSamples/107420-001-043.vdjca, ../../results_combineSamples/107420-001-043.align.report.txt
+    wildcards: sample=107420-001-043
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 19:04:43 2026]
+Finished job 36.
+197 of 211 steps (93%) done
+Select jobs to execute...
+
+[Tue Mar  3 19:04:44 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-043.vdjca
+    output: ../../results_combineSamples/107420-001-043.refined.vdjca, ../../results_combineSamples/107420-001-043.refine.report.txt
+    jobid: 88
+    reason: Missing output files: ../../results_combineSamples/107420-001-043.refined.vdjca, ../../results_combineSamples/107420-001-043.refine.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-043.vdjca
+    wildcards: sample=107420-001-043
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 19:35:11 2026]
+Finished job 88.
+198 of 211 steps (94%) done
+Select jobs to execute...
+
+[Tue Mar  3 19:35:11 2026]
+rule align:
+    input: ../../data/duplicateCombinations/combined_files/107420-001-031_R1_combined.fastq.gz, ../../data/duplicateCombinations/combined_files/107420-001-031_R2_combined.fastq.gz
+    output: ../../results_combineSamples/107420-001-031.vdjca, ../../results_combineSamples/107420-001-031.align.report.txt
+    jobid: 16
+    reason: Missing output files: ../../results_combineSamples/107420-001-031.vdjca, ../../results_combineSamples/107420-001-031.align.report.txt
+    wildcards: sample=107420-001-031
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 19:36:12 2026]
+Finished job 16.
+199 of 211 steps (94%) done
+Select jobs to execute...
+
+[Tue Mar  3 19:36:12 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-031.vdjca
+    output: ../../results_combineSamples/107420-001-031.refined.vdjca, ../../results_combineSamples/107420-001-031.refine.report.txt
+    jobid: 68
+    reason: Missing output files: ../../results_combineSamples/107420-001-031.refine.report.txt, ../../results_combineSamples/107420-001-031.refined.vdjca; Input files updated by another job: ../../results_combineSamples/107420-001-031.vdjca
+    wildcards: sample=107420-001-031
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 19:39:09 2026]
+Finished job 68.
+200 of 211 steps (95%) done
+Select jobs to execute...
+
+[Tue Mar  3 19:39:09 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-031.refined.vdjca
+    output: ../../results_combineSamples/107420-001-031.1.clones.clns, ../../results_combineSamples/107420-001-031.1.assemble.report.txt
+    jobid: 136
+    reason: Missing output files: ../../results_combineSamples/107420-001-031.1.clones.clns, ../../results_combineSamples/107420-001-031.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/107420-001-031.refined.vdjca
+    wildcards: sample=107420-001-031, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 19:43:36 2026]
+Finished job 136.
+201 of 211 steps (95%) done
+Select jobs to execute...
+
+[Tue Mar  3 19:43:36 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-031.1.clones.clns
+    output: ../../results_combineSamples/107420-001-031.1.coverage.png
+    jobid: 224
+    reason: Missing output files: ../../results_combineSamples/107420-001-031.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-031.1.clones.clns
+    wildcards: sample=107420-001-031, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 19:43:44 2026]
+Finished job 224.
+202 of 211 steps (96%) done
+Select jobs to execute...
+
+[Tue Mar  3 19:43:44 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-031.1.clones.clns
+    output: ../../results_combineSamples/107420-001-031.1.clones.txt
+    jobid: 135
+    reason: Missing output files: ../../results_combineSamples/107420-001-031.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-031.1.clones.clns
+    wildcards: sample=107420-001-031, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 19:43:47 2026]
+Finished job 135.
+203 of 211 steps (96%) done
+Select jobs to execute...
+
+[Tue Mar  3 19:43:47 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/107420-001-013.vdjca
+    output: ../../results_combineSamples/107420-001-013.refined.vdjca, ../../results_combineSamples/107420-001-013.refine.report.txt
+    jobid: 59
+    reason: Missing output files: ../../results_combineSamples/107420-001-013.refine.report.txt, ../../results_combineSamples/107420-001-013.refined.vdjca
+    wildcards: sample=107420-001-013
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 20:03:56 2026]
+Finished job 59.
+204 of 211 steps (97%) done
+Select jobs to execute...
+
+[Tue Mar  3 20:03:56 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-043.refined.vdjca
+    output: ../../results_combineSamples/107420-001-043.1.clones.clns, ../../results_combineSamples/107420-001-043.1.assemble.report.txt
+    jobid: 176
+    reason: Missing output files: ../../results_combineSamples/107420-001-043.1.assemble.report.txt, ../../results_combineSamples/107420-001-043.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-043.refined.vdjca
+    wildcards: sample=107420-001-043, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 20:38:25 2026]
+Finished job 176.
+205 of 211 steps (97%) done
+Select jobs to execute...
+
+[Tue Mar  3 20:38:25 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-043.1.clones.clns
+    output: ../../results_combineSamples/107420-001-043.1.clones.txt
+    jobid: 175
+    reason: Missing output files: ../../results_combineSamples/107420-001-043.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-043.1.clones.clns
+    wildcards: sample=107420-001-043, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 20:38:32 2026]
+Finished job 175.
+206 of 211 steps (98%) done
+Select jobs to execute...
+
+[Tue Mar  3 20:38:32 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-043.1.clones.clns
+    output: ../../results_combineSamples/107420-001-043.1.coverage.png
+    jobid: 244
+    reason: Missing output files: ../../results_combineSamples/107420-001-043.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-043.1.clones.clns
+    wildcards: sample=107420-001-043, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 20:38:40 2026]
+Finished job 244.
+207 of 211 steps (98%) done
+Select jobs to execute...
+
+[Tue Mar  3 20:38:40 2026]
+rule assemble:
+    input: ../../results_combineSamples/107420-001-013.refined.vdjca
+    output: ../../results_combineSamples/107420-001-013.1.clones.clns, ../../results_combineSamples/107420-001-013.1.assemble.report.txt
+    jobid: 118
+    reason: Missing output files: ../../results_combineSamples/107420-001-013.1.assemble.report.txt, ../../results_combineSamples/107420-001-013.1.clones.clns; Input files updated by another job: ../../results_combineSamples/107420-001-013.refined.vdjca
+    wildcards: sample=107420-001-013, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 20:49:39 2026]
+Finished job 118.
+208 of 211 steps (99%) done
+Select jobs to execute...
+
+[Tue Mar  3 20:49:39 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/107420-001-013.1.clones.clns
+    output: ../../results_combineSamples/107420-001-013.1.coverage.png
+    jobid: 215
+    reason: Missing output files: ../../results_combineSamples/107420-001-013.1.coverage.png; Input files updated by another job: ../../results_combineSamples/107420-001-013.1.clones.clns
+    wildcards: sample=107420-001-013, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 20:49:47 2026]
+Finished job 215.
+209 of 211 steps (99%) done
+Select jobs to execute...
+
+[Tue Mar  3 20:49:47 2026]
+rule export_clones:
+    input: ../../results_combineSamples/107420-001-013.1.clones.clns
+    output: ../../results_combineSamples/107420-001-013.1.clones.txt
+    jobid: 117
+    reason: Missing output files: ../../results_combineSamples/107420-001-013.1.clones.txt; Input files updated by another job: ../../results_combineSamples/107420-001-013.1.clones.clns
+    wildcards: sample=107420-001-013, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 20:49:52 2026]
+Finished job 117.
+210 of 211 steps (99.5%) done
+Select jobs to execute...
+
+[Tue Mar  3 20:49:52 2026]
+localrule all:
+    input: ../../results_combineSamples/107420-001-001.vdjca, ../../results_combineSamples/107420-001-002.vdjca, ../../results_combineSamples/107420-001-003.vdjca, ../../results_combineSamples/107420-001-004.vdjca, ../../results_combineSamples/107420-001-007.vdjca, ../../results_combineSamples/107420-001-010.vdjca, ../../results_combineSamples/107420-001-013.vdjca, ../../results_combineSamples/107420-001-014.vdjca, ../../results_combineSamples/107420-001-015.vdjca, ../../results_combineSamples/107420-001-018.vdjca, ../../results_combineSamples/107420-001-022.vdjca, ../../results_combineSamples/107420-001-025.vdjca, ../../results_combineSamples/107420-001-026.vdjca, ../../results_combineSamples/107420-001-027.vdjca, ../../results_combineSamples/107420-001-029.vdjca, ../../results_combineSamples/107420-001-031.vdjca, ../../results_combineSamples/107420-001-033.vdjca, ../../results_combineSamples/107420-001-034.vdjca, ../../results_combineSamples/107420-001-035.vdjca, ../../results_combineSamples/107420-001-037.vdjca, ../../results_combineSamples/107420-001-040.vdjca, ../../results_combineSamples/107420-001-041.vdjca, ../../results_combineSamples/107420-001-042.vdjca, ../../results_combineSamples/107420-001-044.vdjca, ../../results_combineSamples/107420-001-045.vdjca, ../../results_combineSamples/107420-001-046.vdjca, ../../results_combineSamples/107420-001-048.vdjca, ../../results_combineSamples/107420-001-049.vdjca, ../../results_combineSamples/107420-001-050.vdjca, ../../results_combineSamples/107420-001-039.vdjca, ../../results_combineSamples/107420-001-009.vdjca, ../../results_combineSamples/107420-001-038.vdjca, ../../results_combineSamples/107420-001-017.vdjca, ../../results_combineSamples/107420-001-012.vdjca, ../../results_combineSamples/107420-001-023.vdjca, ../../results_combineSamples/107420-001-043.vdjca, ../../results_combineSamples/107420-001-016.vdjca, ../../results_combineSamples/107420-001-036.vdjca, ../../results_combineSamples/107420-001-028.vdjca, ../../results_combineSamples/107420-001-020.vdjca, ../../results_combineSamples/107420-001-006.vdjca, ../../results_combineSamples/107420-001-019.vdjca, ../../results_combineSamples/107420-001-032.vdjca, ../../results_combineSamples/107420-001-008.vdjca, ../../results_combineSamples/107420-001-005.vdjca, ../../results_combineSamples/107420-001-021.vdjca, ../../results_combineSamples/107420-001-030.vdjca, ../../results_combineSamples/107420-001-024.vdjca, ../../results_combineSamples/107420-001-047.vdjca, ../../results_combineSamples/107420-001-051.vdjca, ../../results_combineSamples/107420-001-052.vdjca, ../../results_combineSamples/107420-001-053.vdjca, ../../results_combineSamples/107420-001-001.align.report.txt, ../../results_combineSamples/107420-001-002.align.report.txt, ../../results_combineSamples/107420-001-003.align.report.txt, ../../results_combineSamples/107420-001-004.align.report.txt, ../../results_combineSamples/107420-001-007.align.report.txt, ../../results_combineSamples/107420-001-010.align.report.txt, ../../results_combineSamples/107420-001-013.align.report.txt, ../../results_combineSamples/107420-001-014.align.report.txt, ../../results_combineSamples/107420-001-015.align.report.txt, ../../results_combineSamples/107420-001-018.align.report.txt, ../../results_combineSamples/107420-001-022.align.report.txt, ../../results_combineSamples/107420-001-025.align.report.txt, ../../results_combineSamples/107420-001-026.align.report.txt, ../../results_combineSamples/107420-001-027.align.report.txt, ../../results_combineSamples/107420-001-029.align.report.txt, ../../results_combineSamples/107420-001-031.align.report.txt, ../../results_combineSamples/107420-001-033.align.report.txt, ../../results_combineSamples/107420-001-034.align.report.txt, ../../results_combineSamples/107420-001-035.align.report.txt, ../../results_combineSamples/107420-001-037.align.report.txt, ../../results_combineSamples/107420-001-040.align.report.txt, ../../results_combineSamples/107420-001-041.align.report.txt, ../../results_combineSamples/107420-001-042.align.report.txt, ../../results_combineSamples/107420-001-044.align.report.txt, ../../results_combineSamples/107420-001-045.align.report.txt, ../../results_combineSamples/107420-001-046.align.report.txt, ../../results_combineSamples/107420-001-048.align.report.txt, ../../results_combineSamples/107420-001-049.align.report.txt, ../../results_combineSamples/107420-001-050.align.report.txt, ../../results_combineSamples/107420-001-039.align.report.txt, ../../results_combineSamples/107420-001-009.align.report.txt, ../../results_combineSamples/107420-001-038.align.report.txt, ../../results_combineSamples/107420-001-017.align.report.txt, ../../results_combineSamples/107420-001-012.align.report.txt, ../../results_combineSamples/107420-001-023.align.report.txt, ../../results_combineSamples/107420-001-043.align.report.txt, ../../results_combineSamples/107420-001-016.align.report.txt, ../../results_combineSamples/107420-001-036.align.report.txt, ../../results_combineSamples/107420-001-028.align.report.txt, ../../results_combineSamples/107420-001-020.align.report.txt, ../../results_combineSamples/107420-001-006.align.report.txt, ../../results_combineSamples/107420-001-019.align.report.txt, ../../results_combineSamples/107420-001-032.align.report.txt, ../../results_combineSamples/107420-001-008.align.report.txt, ../../results_combineSamples/107420-001-005.align.report.txt, ../../results_combineSamples/107420-001-021.align.report.txt, ../../results_combineSamples/107420-001-030.align.report.txt, ../../results_combineSamples/107420-001-024.align.report.txt, ../../results_combineSamples/107420-001-047.align.report.txt, ../../results_combineSamples/107420-001-051.align.report.txt, ../../results_combineSamples/107420-001-052.align.report.txt, ../../results_combineSamples/107420-001-053.align.report.txt, ../../results_combineSamples/107420-001-001.refined.vdjca, ../../results_combineSamples/107420-001-002.refined.vdjca, ../../results_combineSamples/107420-001-003.refined.vdjca, ../../results_combineSamples/107420-001-004.refined.vdjca, ../../results_combineSamples/107420-001-007.refined.vdjca, ../../results_combineSamples/107420-001-010.refined.vdjca, ../../results_combineSamples/107420-001-013.refined.vdjca, ../../results_combineSamples/107420-001-014.refined.vdjca, ../../results_combineSamples/107420-001-015.refined.vdjca, ../../results_combineSamples/107420-001-018.refined.vdjca, ../../results_combineSamples/107420-001-022.refined.vdjca, ../../results_combineSamples/107420-001-025.refined.vdjca, ../../results_combineSamples/107420-001-026.refined.vdjca, ../../results_combineSamples/107420-001-027.refined.vdjca, ../../results_combineSamples/107420-001-029.refined.vdjca, ../../results_combineSamples/107420-001-031.refined.vdjca, ../../results_combineSamples/107420-001-033.refined.vdjca, ../../results_combineSamples/107420-001-034.refined.vdjca, ../../results_combineSamples/107420-001-035.refined.vdjca, ../../results_combineSamples/107420-001-037.refined.vdjca, ../../results_combineSamples/107420-001-040.refined.vdjca, ../../results_combineSamples/107420-001-041.refined.vdjca, ../../results_combineSamples/107420-001-042.refined.vdjca, ../../results_combineSamples/107420-001-044.refined.vdjca, ../../results_combineSamples/107420-001-045.refined.vdjca, ../../results_combineSamples/107420-001-046.refined.vdjca, ../../results_combineSamples/107420-001-048.refined.vdjca, ../../results_combineSamples/107420-001-049.refined.vdjca, ../../results_combineSamples/107420-001-050.refined.vdjca, ../../results_combineSamples/107420-001-039.refined.vdjca, ../../results_combineSamples/107420-001-009.refined.vdjca, ../../results_combineSamples/107420-001-038.refined.vdjca, ../../results_combineSamples/107420-001-017.refined.vdjca, ../../results_combineSamples/107420-001-012.refined.vdjca, ../../results_combineSamples/107420-001-023.refined.vdjca, ../../results_combineSamples/107420-001-043.refined.vdjca, ../../results_combineSamples/107420-001-016.refined.vdjca, ../../results_combineSamples/107420-001-036.refined.vdjca, ../../results_combineSamples/107420-001-028.refined.vdjca, ../../results_combineSamples/107420-001-020.refined.vdjca, ../../results_combineSamples/107420-001-006.refined.vdjca, ../../results_combineSamples/107420-001-019.refined.vdjca, ../../results_combineSamples/107420-001-032.refined.vdjca, ../../results_combineSamples/107420-001-008.refined.vdjca, ../../results_combineSamples/107420-001-005.refined.vdjca, ../../results_combineSamples/107420-001-021.refined.vdjca, ../../results_combineSamples/107420-001-030.refined.vdjca, ../../results_combineSamples/107420-001-024.refined.vdjca, ../../results_combineSamples/107420-001-047.refined.vdjca, ../../results_combineSamples/107420-001-051.refined.vdjca, ../../results_combineSamples/107420-001-052.refined.vdjca, ../../results_combineSamples/107420-001-053.refined.vdjca, ../../results_combineSamples/107420-001-001.refine.report.txt, ../../results_combineSamples/107420-001-002.refine.report.txt, ../../results_combineSamples/107420-001-003.refine.report.txt, ../../results_combineSamples/107420-001-004.refine.report.txt, ../../results_combineSamples/107420-001-007.refine.report.txt, ../../results_combineSamples/107420-001-010.refine.report.txt, ../../results_combineSamples/107420-001-013.refine.report.txt, ../../results_combineSamples/107420-001-014.refine.report.txt, ../../results_combineSamples/107420-001-015.refine.report.txt, ../../results_combineSamples/107420-001-018.refine.report.txt, ../../results_combineSamples/107420-001-022.refine.report.txt, ../../results_combineSamples/107420-001-025.refine.report.txt, ../../results_combineSamples/107420-001-026.refine.report.txt, ../../results_combineSamples/107420-001-027.refine.report.txt, ../../results_combineSamples/107420-001-029.refine.report.txt, ../../results_combineSamples/107420-001-031.refine.report.txt, ../../results_combineSamples/107420-001-033.refine.report.txt, ../../results_combineSamples/107420-001-034.refine.report.txt, ../../results_combineSamples/107420-001-035.refine.report.txt, ../../results_combineSamples/107420-001-037.refine.report.txt, ../../results_combineSamples/107420-001-040.refine.report.txt, ../../results_combineSamples/107420-001-041.refine.report.txt, ../../results_combineSamples/107420-001-042.refine.report.txt, ../../results_combineSamples/107420-001-044.refine.report.txt, ../../results_combineSamples/107420-001-045.refine.report.txt, ../../results_combineSamples/107420-001-046.refine.report.txt, ../../results_combineSamples/107420-001-048.refine.report.txt, ../../results_combineSamples/107420-001-049.refine.report.txt, ../../results_combineSamples/107420-001-050.refine.report.txt, ../../results_combineSamples/107420-001-039.refine.report.txt, ../../results_combineSamples/107420-001-009.refine.report.txt, ../../results_combineSamples/107420-001-038.refine.report.txt, ../../results_combineSamples/107420-001-017.refine.report.txt, ../../results_combineSamples/107420-001-012.refine.report.txt, ../../results_combineSamples/107420-001-023.refine.report.txt, ../../results_combineSamples/107420-001-043.refine.report.txt, ../../results_combineSamples/107420-001-016.refine.report.txt, ../../results_combineSamples/107420-001-036.refine.report.txt, ../../results_combineSamples/107420-001-028.refine.report.txt, ../../results_combineSamples/107420-001-020.refine.report.txt, ../../results_combineSamples/107420-001-006.refine.report.txt, ../../results_combineSamples/107420-001-019.refine.report.txt, ../../results_combineSamples/107420-001-032.refine.report.txt, ../../results_combineSamples/107420-001-008.refine.report.txt, ../../results_combineSamples/107420-001-005.refine.report.txt, ../../results_combineSamples/107420-001-021.refine.report.txt, ../../results_combineSamples/107420-001-030.refine.report.txt, ../../results_combineSamples/107420-001-024.refine.report.txt, ../../results_combineSamples/107420-001-047.refine.report.txt, ../../results_combineSamples/107420-001-051.refine.report.txt, ../../results_combineSamples/107420-001-052.refine.report.txt, ../../results_combineSamples/107420-001-053.refine.report.txt, ../../results_combineSamples/107420-001-001.1.clones.txt, ../../results_combineSamples/107420-001-002.1.clones.txt, ../../results_combineSamples/107420-001-003.1.clones.txt, ../../results_combineSamples/107420-001-004.1.clones.txt, ../../results_combineSamples/107420-001-007.1.clones.txt, ../../results_combineSamples/107420-001-010.1.clones.txt, ../../results_combineSamples/107420-001-013.1.clones.txt, ../../results_combineSamples/107420-001-014.1.clones.txt, ../../results_combineSamples/107420-001-015.1.clones.txt, ../../results_combineSamples/107420-001-018.1.clones.txt, ../../results_combineSamples/107420-001-022.1.clones.txt, ../../results_combineSamples/107420-001-025.1.clones.txt, ../../results_combineSamples/107420-001-026.1.clones.txt, ../../results_combineSamples/107420-001-027.1.clones.txt, ../../results_combineSamples/107420-001-029.1.clones.txt, ../../results_combineSamples/107420-001-031.1.clones.txt, ../../results_combineSamples/107420-001-033.1.clones.txt, ../../results_combineSamples/107420-001-034.1.clones.txt, ../../results_combineSamples/107420-001-035.1.clones.txt, ../../results_combineSamples/107420-001-037.1.clones.txt, ../../results_combineSamples/107420-001-040.1.clones.txt, ../../results_combineSamples/107420-001-041.1.clones.txt, ../../results_combineSamples/107420-001-042.1.clones.txt, ../../results_combineSamples/107420-001-044.1.clones.txt, ../../results_combineSamples/107420-001-045.1.clones.txt, ../../results_combineSamples/107420-001-046.1.clones.txt, ../../results_combineSamples/107420-001-048.1.clones.txt, ../../results_combineSamples/107420-001-049.1.clones.txt, ../../results_combineSamples/107420-001-050.1.clones.txt, ../../results_combineSamples/107420-001-039.1.clones.txt, ../../results_combineSamples/107420-001-009.1.clones.txt, ../../results_combineSamples/107420-001-038.1.clones.txt, ../../results_combineSamples/107420-001-017.1.clones.txt, ../../results_combineSamples/107420-001-012.1.clones.txt, ../../results_combineSamples/107420-001-023.1.clones.txt, ../../results_combineSamples/107420-001-043.1.clones.txt, ../../results_combineSamples/107420-001-016.1.clones.txt, ../../results_combineSamples/107420-001-036.1.clones.txt, ../../results_combineSamples/107420-001-028.1.clones.txt, ../../results_combineSamples/107420-001-020.1.clones.txt, ../../results_combineSamples/107420-001-006.1.clones.txt, ../../results_combineSamples/107420-001-019.1.clones.txt, ../../results_combineSamples/107420-001-032.1.clones.txt, ../../results_combineSamples/107420-001-008.1.clones.txt, ../../results_combineSamples/107420-001-005.1.clones.txt, ../../results_combineSamples/107420-001-021.1.clones.txt, ../../results_combineSamples/107420-001-030.1.clones.txt, ../../results_combineSamples/107420-001-024.1.clones.txt, ../../results_combineSamples/107420-001-047.1.clones.txt, ../../results_combineSamples/107420-001-051.1.clones.txt, ../../results_combineSamples/107420-001-052.1.clones.txt, ../../results_combineSamples/107420-001-053.1.clones.txt, ../../results_combineSamples/107420-001-001.1.clones.clns, ../../results_combineSamples/107420-001-002.1.clones.clns, ../../results_combineSamples/107420-001-003.1.clones.clns, ../../results_combineSamples/107420-001-004.1.clones.clns, ../../results_combineSamples/107420-001-007.1.clones.clns, ../../results_combineSamples/107420-001-010.1.clones.clns, ../../results_combineSamples/107420-001-013.1.clones.clns, ../../results_combineSamples/107420-001-014.1.clones.clns, ../../results_combineSamples/107420-001-015.1.clones.clns, ../../results_combineSamples/107420-001-018.1.clones.clns, ../../results_combineSamples/107420-001-022.1.clones.clns, ../../results_combineSamples/107420-001-025.1.clones.clns, ../../results_combineSamples/107420-001-026.1.clones.clns, ../../results_combineSamples/107420-001-027.1.clones.clns, ../../results_combineSamples/107420-001-029.1.clones.clns, ../../results_combineSamples/107420-001-031.1.clones.clns, ../../results_combineSamples/107420-001-033.1.clones.clns, ../../results_combineSamples/107420-001-034.1.clones.clns, ../../results_combineSamples/107420-001-035.1.clones.clns, ../../results_combineSamples/107420-001-037.1.clones.clns, ../../results_combineSamples/107420-001-040.1.clones.clns, ../../results_combineSamples/107420-001-041.1.clones.clns, ../../results_combineSamples/107420-001-042.1.clones.clns, ../../results_combineSamples/107420-001-044.1.clones.clns, ../../results_combineSamples/107420-001-045.1.clones.clns, ../../results_combineSamples/107420-001-046.1.clones.clns, ../../results_combineSamples/107420-001-048.1.clones.clns, ../../results_combineSamples/107420-001-049.1.clones.clns, ../../results_combineSamples/107420-001-050.1.clones.clns, ../../results_combineSamples/107420-001-039.1.clones.clns, ../../results_combineSamples/107420-001-009.1.clones.clns, ../../results_combineSamples/107420-001-038.1.clones.clns, ../../results_combineSamples/107420-001-017.1.clones.clns, ../../results_combineSamples/107420-001-012.1.clones.clns, ../../results_combineSamples/107420-001-023.1.clones.clns, ../../results_combineSamples/107420-001-043.1.clones.clns, ../../results_combineSamples/107420-001-016.1.clones.clns, ../../results_combineSamples/107420-001-036.1.clones.clns, ../../results_combineSamples/107420-001-028.1.clones.clns, ../../results_combineSamples/107420-001-020.1.clones.clns, ../../results_combineSamples/107420-001-006.1.clones.clns, ../../results_combineSamples/107420-001-019.1.clones.clns, ../../results_combineSamples/107420-001-032.1.clones.clns, ../../results_combineSamples/107420-001-008.1.clones.clns, ../../results_combineSamples/107420-001-005.1.clones.clns, ../../results_combineSamples/107420-001-021.1.clones.clns, ../../results_combineSamples/107420-001-030.1.clones.clns, ../../results_combineSamples/107420-001-024.1.clones.clns, ../../results_combineSamples/107420-001-047.1.clones.clns, ../../results_combineSamples/107420-001-051.1.clones.clns, ../../results_combineSamples/107420-001-052.1.clones.clns, ../../results_combineSamples/107420-001-053.1.clones.clns, ../../results_combineSamples/107420-001-001.1.assemble.report.txt, ../../results_combineSamples/107420-001-002.1.assemble.report.txt, ../../results_combineSamples/107420-001-003.1.assemble.report.txt, ../../results_combineSamples/107420-001-004.1.assemble.report.txt, ../../results_combineSamples/107420-001-007.1.assemble.report.txt, ../../results_combineSamples/107420-001-010.1.assemble.report.txt, ../../results_combineSamples/107420-001-013.1.assemble.report.txt, ../../results_combineSamples/107420-001-014.1.assemble.report.txt, ../../results_combineSamples/107420-001-015.1.assemble.report.txt, ../../results_combineSamples/107420-001-018.1.assemble.report.txt, ../../results_combineSamples/107420-001-022.1.assemble.report.txt, ../../results_combineSamples/107420-001-025.1.assemble.report.txt, ../../results_combineSamples/107420-001-026.1.assemble.report.txt, ../../results_combineSamples/107420-001-027.1.assemble.report.txt, ../../results_combineSamples/107420-001-029.1.assemble.report.txt, ../../results_combineSamples/107420-001-031.1.assemble.report.txt, ../../results_combineSamples/107420-001-033.1.assemble.report.txt, ../../results_combineSamples/107420-001-034.1.assemble.report.txt, ../../results_combineSamples/107420-001-035.1.assemble.report.txt, ../../results_combineSamples/107420-001-037.1.assemble.report.txt, ../../results_combineSamples/107420-001-040.1.assemble.report.txt, ../../results_combineSamples/107420-001-041.1.assemble.report.txt, ../../results_combineSamples/107420-001-042.1.assemble.report.txt, ../../results_combineSamples/107420-001-044.1.assemble.report.txt, ../../results_combineSamples/107420-001-045.1.assemble.report.txt, ../../results_combineSamples/107420-001-046.1.assemble.report.txt, ../../results_combineSamples/107420-001-048.1.assemble.report.txt, ../../results_combineSamples/107420-001-049.1.assemble.report.txt, ../../results_combineSamples/107420-001-050.1.assemble.report.txt, ../../results_combineSamples/107420-001-039.1.assemble.report.txt, ../../results_combineSamples/107420-001-009.1.assemble.report.txt, ../../results_combineSamples/107420-001-038.1.assemble.report.txt, ../../results_combineSamples/107420-001-017.1.assemble.report.txt, ../../results_combineSamples/107420-001-012.1.assemble.report.txt, ../../results_combineSamples/107420-001-023.1.assemble.report.txt, ../../results_combineSamples/107420-001-043.1.assemble.report.txt, ../../results_combineSamples/107420-001-016.1.assemble.report.txt, ../../results_combineSamples/107420-001-036.1.assemble.report.txt, ../../results_combineSamples/107420-001-028.1.assemble.report.txt, ../../results_combineSamples/107420-001-020.1.assemble.report.txt, ../../results_combineSamples/107420-001-006.1.assemble.report.txt, ../../results_combineSamples/107420-001-019.1.assemble.report.txt, ../../results_combineSamples/107420-001-032.1.assemble.report.txt, ../../results_combineSamples/107420-001-008.1.assemble.report.txt, ../../results_combineSamples/107420-001-005.1.assemble.report.txt, ../../results_combineSamples/107420-001-021.1.assemble.report.txt, ../../results_combineSamples/107420-001-030.1.assemble.report.txt, ../../results_combineSamples/107420-001-024.1.assemble.report.txt, ../../results_combineSamples/107420-001-047.1.assemble.report.txt, ../../results_combineSamples/107420-001-051.1.assemble.report.txt, ../../results_combineSamples/107420-001-052.1.assemble.report.txt, ../../results_combineSamples/107420-001-053.1.assemble.report.txt, ../../results_combineSamples/107420-001-001.1.coverage.png, ../../results_combineSamples/107420-001-002.1.coverage.png, ../../results_combineSamples/107420-001-003.1.coverage.png, ../../results_combineSamples/107420-001-004.1.coverage.png, ../../results_combineSamples/107420-001-007.1.coverage.png, ../../results_combineSamples/107420-001-010.1.coverage.png, ../../results_combineSamples/107420-001-013.1.coverage.png, ../../results_combineSamples/107420-001-014.1.coverage.png, ../../results_combineSamples/107420-001-015.1.coverage.png, ../../results_combineSamples/107420-001-018.1.coverage.png, ../../results_combineSamples/107420-001-022.1.coverage.png, ../../results_combineSamples/107420-001-025.1.coverage.png, ../../results_combineSamples/107420-001-026.1.coverage.png, ../../results_combineSamples/107420-001-027.1.coverage.png, ../../results_combineSamples/107420-001-029.1.coverage.png, ../../results_combineSamples/107420-001-031.1.coverage.png, ../../results_combineSamples/107420-001-033.1.coverage.png, ../../results_combineSamples/107420-001-034.1.coverage.png, ../../results_combineSamples/107420-001-035.1.coverage.png, ../../results_combineSamples/107420-001-037.1.coverage.png, ../../results_combineSamples/107420-001-040.1.coverage.png, ../../results_combineSamples/107420-001-041.1.coverage.png, ../../results_combineSamples/107420-001-042.1.coverage.png, ../../results_combineSamples/107420-001-044.1.coverage.png, ../../results_combineSamples/107420-001-045.1.coverage.png, ../../results_combineSamples/107420-001-046.1.coverage.png, ../../results_combineSamples/107420-001-048.1.coverage.png, ../../results_combineSamples/107420-001-049.1.coverage.png, ../../results_combineSamples/107420-001-050.1.coverage.png, ../../results_combineSamples/107420-001-039.1.coverage.png, ../../results_combineSamples/107420-001-009.1.coverage.png, ../../results_combineSamples/107420-001-038.1.coverage.png, ../../results_combineSamples/107420-001-017.1.coverage.png, ../../results_combineSamples/107420-001-012.1.coverage.png, ../../results_combineSamples/107420-001-023.1.coverage.png, ../../results_combineSamples/107420-001-043.1.coverage.png, ../../results_combineSamples/107420-001-016.1.coverage.png, ../../results_combineSamples/107420-001-036.1.coverage.png, ../../results_combineSamples/107420-001-028.1.coverage.png, ../../results_combineSamples/107420-001-020.1.coverage.png, ../../results_combineSamples/107420-001-006.1.coverage.png, ../../results_combineSamples/107420-001-019.1.coverage.png, ../../results_combineSamples/107420-001-032.1.coverage.png, ../../results_combineSamples/107420-001-008.1.coverage.png, ../../results_combineSamples/107420-001-005.1.coverage.png, ../../results_combineSamples/107420-001-021.1.coverage.png, ../../results_combineSamples/107420-001-030.1.coverage.png, ../../results_combineSamples/107420-001-024.1.coverage.png, ../../results_combineSamples/107420-001-047.1.coverage.png, ../../results_combineSamples/107420-001-051.1.coverage.png, ../../results_combineSamples/107420-001-052.1.coverage.png, ../../results_combineSamples/107420-001-053.1.coverage.png
+    jobid: 0
+    reason: Input files updated by another job: ../../results_combineSamples/107420-001-001.1.coverage.png, ../../results_combineSamples/107420-001-033.1.clones.txt, ../../results_combineSamples/107420-001-046.1.clones.clns, ../../results_combineSamples/107420-001-050.1.clones.clns, ../../results_combineSamples/107420-001-039.1.clones.clns, ../../results_combineSamples/107420-001-002.1.clones.txt, ../../results_combineSamples/107420-001-013.refined.vdjca, ../../results_combineSamples/107420-001-006.1.clones.txt, ../../results_combineSamples/107420-001-017.refine.report.txt, ../../results_combineSamples/107420-001-018.refine.report.txt, ../../results_combineSamples/107420-001-039.vdjca, ../../results_combineSamples/107420-001-033.1.clones.clns, ../../results_combineSamples/107420-001-034.1.clones.txt, ../../results_combineSamples/107420-001-003.1.clones.txt, ../../results_combineSamples/107420-001-026.refine.report.txt, ../../results_combineSamples/107420-001-050.refine.report.txt, ../../results_combineSamples/107420-001-022.1.assemble.report.txt, ../../results_combineSamples/107420-001-048.1.coverage.png, ../../results_combineSamples/107420-001-024.1.coverage.png, ../../results_combineSamples/107420-001-049.refined.vdjca, ../../results_combineSamples/107420-001-037.1.assemble.report.txt, ../../results_combineSamples/107420-001-007.vdjca, ../../results_combineSamples/107420-001-051.1.coverage.png, ../../results_combineSamples/107420-001-026.refined.vdjca, ../../results_combineSamples/107420-001-025.align.report.txt, ../../results_combineSamples/107420-001-051.1.assemble.report.txt, ../../results_combineSamples/107420-001-020.1.clones.clns, ../../results_combineSamples/107420-001-002.vdjca, ../../results_combineSamples/107420-001-023.1.coverage.png, ../../results_combineSamples/107420-001-017.1.clones.clns, ../../results_combineSamples/107420-001-046.1.coverage.png, ../../results_combineSamples/107420-001-051.1.clones.txt, ../../results_combineSamples/107420-001-016.refine.report.txt, ../../results_combineSamples/107420-001-028.1.coverage.png, ../../results_combineSamples/107420-001-024.refine.report.txt, ../../results_combineSamples/107420-001-041.1.clones.clns, ../../results_combineSamples/107420-001-052.refine.report.txt, ../../results_combineSamples/107420-001-013.1.clones.txt, ../../results_combineSamples/107420-001-048.refined.vdjca, ../../results_combineSamples/107420-001-026.1.clones.txt, ../../results_combineSamples/107420-001-010.1.assemble.report.txt, ../../results_combineSamples/107420-001-027.refined.vdjca, ../../results_combineSamples/107420-001-027.1.clones.clns, ../../results_combineSamples/107420-001-007.align.report.txt, ../../results_combineSamples/107420-001-037.refine.report.txt, ../../results_combineSamples/107420-001-046.1.assemble.report.txt, ../../results_combineSamples/107420-001-052.1.assemble.report.txt, ../../results_combineSamples/107420-001-023.vdjca, ../../results_combineSamples/107420-001-009.1.assemble.report.txt, ../../results_combineSamples/107420-001-021.1.clones.clns, ../../results_combineSamples/107420-001-048.refine.report.txt, ../../results_combineSamples/107420-001-050.1.clones.txt, ../../results_combineSamples/107420-001-040.align.report.txt, ../../results_combineSamples/107420-001-021.1.clones.txt, ../../results_combineSamples/107420-001-009.refine.report.txt, ../../results_combineSamples/107420-001-052.refined.vdjca, ../../results_combineSamples/107420-001-043.1.coverage.png, ../../results_combineSamples/107420-001-041.refine.report.txt, ../../results_combineSamples/107420-001-040.1.coverage.png, ../../results_combineSamples/107420-001-025.refine.report.txt, ../../results_combineSamples/107420-001-043.1.clones.clns, ../../results_combineSamples/107420-001-029.1.coverage.png, ../../results_combineSamples/107420-001-038.1.clones.clns, ../../results_combineSamples/107420-001-002.refined.vdjca, ../../results_combineSamples/107420-001-020.refine.report.txt, ../../results_combineSamples/107420-001-044.1.coverage.png, ../../results_combineSamples/107420-001-031.1.coverage.png, ../../results_combineSamples/107420-001-020.refined.vdjca, ../../results_combineSamples/107420-001-038.1.clones.txt, ../../results_combineSamples/107420-001-051.refine.report.txt, ../../results_combineSamples/107420-001-046.refine.report.txt, ../../results_combineSamples/107420-001-022.vdjca, ../../results_combineSamples/107420-001-005.1.clones.clns, ../../results_combineSamples/107420-001-043.refined.vdjca, ../../results_combineSamples/107420-001-045.refined.vdjca, ../../results_combineSamples/107420-001-018.refined.vdjca, ../../results_combineSamples/107420-001-013.refine.report.txt, ../../results_combineSamples/107420-001-046.refined.vdjca, ../../results_combineSamples/107420-001-033.align.report.txt, ../../results_combineSamples/107420-001-004.1.clones.clns, ../../results_combineSamples/107420-001-003.1.assemble.report.txt, ../../results_combineSamples/107420-001-022.1.coverage.png, ../../results_combineSamples/107420-001-024.1.clones.clns, ../../results_combineSamples/107420-001-039.1.clones.txt, ../../results_combineSamples/107420-001-026.1.clones.clns, ../../results_combineSamples/107420-001-006.refined.vdjca, ../../results_combineSamples/107420-001-006.align.report.txt, ../../results_combineSamples/107420-001-052.1.clones.txt, ../../results_combineSamples/107420-001-045.1.clones.txt, ../../results_combineSamples/107420-001-007.1.coverage.png, ../../results_combineSamples/107420-001-008.1.assemble.report.txt, ../../results_combineSamples/107420-001-047.1.coverage.png, ../../results_combineSamples/107420-001-043.refine.report.txt, ../../results_combineSamples/107420-001-024.1.clones.txt, ../../results_combineSamples/107420-001-007.1.assemble.report.txt, ../../results_combineSamples/107420-001-022.align.report.txt, ../../results_combineSamples/107420-001-049.1.coverage.png, ../../results_combineSamples/107420-001-049.1.clones.clns, ../../results_combineSamples/107420-001-048.1.clones.clns, ../../results_combineSamples/107420-001-046.align.report.txt, ../../results_combineSamples/107420-001-010.refine.report.txt, ../../results_combineSamples/107420-001-051.1.clones.clns, ../../results_combineSamples/107420-001-031.vdjca, ../../results_combineSamples/107420-001-028.1.clones.txt, ../../results_combineSamples/107420-001-020.1.coverage.png, ../../results_combineSamples/107420-001-007.refine.report.txt, ../../results_combineSamples/107420-001-021.refined.vdjca, ../../results_combineSamples/107420-001-010.1.coverage.png, ../../results_combineSamples/107420-001-010.1.clones.clns, ../../results_combineSamples/107420-001-020.align.report.txt, ../../results_combineSamples/107420-001-004.1.clones.txt, ../../results_combineSamples/107420-001-003.1.clones.clns, ../../results_combineSamples/107420-001-015.1.coverage.png, ../../results_combineSamples/107420-001-048.vdjca, ../../results_combineSamples/107420-001-030.1.clones.txt, ../../results_combineSamples/107420-001-047.1.clones.clns, ../../results_combineSamples/107420-001-026.1.assemble.report.txt, ../../results_combineSamples/107420-001-014.1.clones.txt, ../../results_combineSamples/107420-001-017.1.coverage.png, ../../results_combineSamples/107420-001-045.1.clones.clns, ../../results_combineSamples/107420-001-025.refined.vdjca, ../../results_combineSamples/107420-001-009.1.clones.clns, ../../results_combineSamples/107420-001-023.1.clones.txt, ../../results_combineSamples/107420-001-008.1.coverage.png, ../../results_combineSamples/107420-001-035.1.clones.txt, ../../results_combineSamples/107420-001-015.1.clones.txt, ../../results_combineSamples/107420-001-023.align.report.txt, ../../results_combineSamples/107420-001-009.vdjca, ../../results_combineSamples/107420-001-031.1.clones.txt, ../../results_combineSamples/107420-001-017.1.assemble.report.txt, ../../results_combineSamples/107420-001-009.refined.vdjca, ../../results_combineSamples/107420-001-012.1.coverage.png, ../../results_combineSamples/107420-001-001.1.clones.txt, ../../results_combineSamples/107420-001-040.1.clones.txt, ../../results_combineSamples/107420-001-036.1.coverage.png, ../../results_combineSamples/107420-001-022.1.clones.clns, ../../results_combineSamples/107420-001-041.1.assemble.report.txt, ../../results_combineSamples/107420-001-010.refined.vdjca, ../../results_combineSamples/107420-001-014.1.clones.clns, ../../results_combineSamples/107420-001-030.1.assemble.report.txt, ../../results_combineSamples/107420-001-041.1.clones.txt, ../../results_combineSamples/107420-001-029.1.clones.clns, ../../results_combineSamples/107420-001-018.1.clones.clns, ../../results_combineSamples/107420-001-006.1.clones.clns, ../../results_combineSamples/107420-001-013.1.clones.clns, ../../results_combineSamples/107420-001-018.vdjca, ../../results_combineSamples/107420-001-025.1.coverage.png, ../../results_combineSamples/107420-001-018.align.report.txt, ../../results_combineSamples/107420-001-043.vdjca, ../../results_combineSamples/107420-001-047.1.assemble.report.txt, ../../results_combineSamples/107420-001-053.refine.report.txt, ../../results_combineSamples/107420-001-046.vdjca, ../../results_combineSamples/107420-001-029.align.report.txt, ../../results_combineSamples/107420-001-034.refined.vdjca, ../../results_combineSamples/107420-001-005.1.assemble.report.txt, ../../results_combineSamples/107420-001-032.1.assemble.report.txt, ../../results_combineSamples/107420-001-017.1.clones.txt, ../../results_combineSamples/107420-001-023.1.clones.clns, ../../results_combineSamples/107420-001-037.1.clones.txt, ../../results_combineSamples/107420-001-048.align.report.txt, ../../results_combineSamples/107420-001-049.refine.report.txt, ../../results_combineSamples/107420-001-037.refined.vdjca, ../../results_combineSamples/107420-001-021.1.assemble.report.txt, ../../results_combineSamples/107420-001-002.refine.report.txt, ../../results_combineSamples/107420-001-021.align.report.txt, ../../results_combineSamples/107420-001-030.1.coverage.png, ../../results_combineSamples/107420-001-003.1.coverage.png, ../../results_combineSamples/107420-001-005.1.clones.txt, ../../results_combineSamples/107420-001-051.align.report.txt, ../../results_combineSamples/107420-001-005.align.report.txt, ../../results_combineSamples/107420-001-038.refined.vdjca, ../../results_combineSamples/107420-001-037.1.coverage.png, ../../results_combineSamples/107420-001-023.refine.report.txt, ../../results_combineSamples/107420-001-033.refined.vdjca, ../../results_combineSamples/107420-001-016.1.assemble.report.txt, ../../results_combineSamples/107420-001-025.1.assemble.report.txt, ../../results_combineSamples/107420-001-006.refine.report.txt, ../../results_combineSamples/107420-001-030.refine.report.txt, ../../results_combineSamples/107420-001-015.1.clones.clns, ../../results_combineSamples/107420-001-005.refine.report.txt, ../../results_combineSamples/107420-001-017.refined.vdjca, ../../results_combineSamples/107420-001-043.1.assemble.report.txt, ../../results_combineSamples/107420-001-013.1.assemble.report.txt, ../../results_combineSamples/107420-001-018.1.assemble.report.txt, ../../results_combineSamples/107420-001-032.1.clones.txt, ../../results_combineSamples/107420-001-053.1.clones.txt, ../../results_combineSamples/107420-001-029.refined.vdjca, ../../results_combineSamples/107420-001-022.refined.vdjca, ../../results_combineSamples/107420-001-016.refined.vdjca, ../../results_combineSamples/107420-001-049.1.clones.txt, ../../results_combineSamples/107420-001-025.1.clones.txt, ../../results_combineSamples/107420-001-001.1.assemble.report.txt, ../../results_combineSamples/107420-001-050.refined.vdjca, ../../results_combineSamples/107420-001-029.1.clones.txt, ../../results_combineSamples/107420-001-048.1.assemble.report.txt, ../../results_combineSamples/107420-001-020.1.clones.txt, ../../results_combineSamples/107420-001-040.1.clones.clns, ../../results_combineSamples/107420-001-050.1.coverage.png, ../../results_combineSamples/107420-001-053.1.clones.clns, ../../results_combineSamples/107420-001-009.align.report.txt, ../../results_combineSamples/107420-001-031.1.clones.clns, ../../results_combineSamples/107420-001-035.1.clones.clns, ../../results_combineSamples/107420-001-001.align.report.txt, ../../results_combineSamples/107420-001-035.1.coverage.png, ../../results_combineSamples/107420-001-031.align.report.txt, ../../results_combineSamples/107420-001-033.1.assemble.report.txt, ../../results_combineSamples/107420-001-030.refined.vdjca, ../../results_combineSamples/107420-001-040.refine.report.txt, ../../results_combineSamples/107420-001-031.refined.vdjca, ../../results_combineSamples/107420-001-045.1.assemble.report.txt, ../../results_combineSamples/107420-001-002.1.clones.clns, ../../results_combineSamples/107420-001-038.refine.report.txt, ../../results_combineSamples/107420-001-006.1.coverage.png, ../../results_combineSamples/107420-001-026.1.coverage.png, ../../results_combineSamples/107420-001-005.vdjca, ../../results_combineSamples/107420-001-018.1.clones.txt, ../../results_combineSamples/107420-001-013.1.coverage.png, ../../results_combineSamples/107420-001-027.refine.report.txt, ../../results_combineSamples/107420-001-006.vdjca, ../../results_combineSamples/107420-001-041.refined.vdjca, ../../results_combineSamples/107420-001-022.1.clones.txt, ../../results_combineSamples/107420-001-009.1.clones.txt, ../../results_combineSamples/107420-001-016.1.coverage.png, ../../results_combineSamples/107420-001-001.1.clones.clns, ../../results_combineSamples/107420-001-023.refined.vdjca, ../../results_combineSamples/107420-001-016.1.clones.txt, ../../results_combineSamples/107420-001-008.1.clones.clns, ../../results_combineSamples/107420-001-009.1.coverage.png, ../../results_combineSamples/107420-001-040.refined.vdjca, ../../results_combineSamples/107420-001-040.vdjca, ../../results_combineSamples/107420-001-039.align.report.txt, ../../results_combineSamples/107420-001-043.align.report.txt, ../../results_combineSamples/107420-001-042.1.coverage.png, ../../results_combineSamples/107420-001-037.align.report.txt, ../../results_combineSamples/107420-001-015.1.assemble.report.txt, ../../results_combineSamples/107420-001-031.1.assemble.report.txt, ../../results_combineSamples/107420-001-031.refine.report.txt, ../../results_combineSamples/107420-001-001.refine.report.txt, ../../results_combineSamples/107420-001-014.1.assemble.report.txt, ../../results_combineSamples/107420-001-039.1.coverage.png, ../../results_combineSamples/107420-001-028.1.assemble.report.txt, ../../results_combineSamples/107420-001-041.1.coverage.png, ../../results_combineSamples/107420-001-007.1.clones.txt, ../../results_combineSamples/107420-001-043.1.clones.txt, ../../results_combineSamples/107420-001-039.refined.vdjca, ../../results_combineSamples/107420-001-029.vdjca, ../../results_combineSamples/107420-001-045.vdjca, ../../results_combineSamples/107420-001-024.refined.vdjca, ../../results_combineSamples/107420-001-001.refined.vdjca, ../../results_combineSamples/107420-001-032.1.coverage.png, ../../results_combineSamples/107420-001-002.align.report.txt, ../../results_combineSamples/107420-001-033.refine.report.txt, ../../results_combineSamples/107420-001-010.vdjca, ../../results_combineSamples/107420-001-010.align.report.txt, ../../results_combineSamples/107420-001-007.1.clones.clns, ../../results_combineSamples/107420-001-004.1.coverage.png, ../../results_combineSamples/107420-001-016.align.report.txt, ../../results_combineSamples/107420-001-053.1.coverage.png, ../../results_combineSamples/107420-001-051.vdjca, ../../results_combineSamples/107420-001-027.1.clones.txt, ../../results_combineSamples/107420-001-045.align.report.txt, ../../results_combineSamples/107420-001-049.1.assemble.report.txt, ../../results_combineSamples/107420-001-003.refine.report.txt, ../../results_combineSamples/107420-001-002.1.assemble.report.txt, ../../results_combineSamples/107420-001-023.1.assemble.report.txt, ../../results_combineSamples/107420-001-034.1.clones.clns, ../../results_combineSamples/107420-001-033.vdjca, ../../results_combineSamples/107420-001-025.vdjca, ../../results_combineSamples/107420-001-038.1.assemble.report.txt, ../../results_combineSamples/107420-001-007.refined.vdjca, ../../results_combineSamples/107420-001-010.1.clones.txt, ../../results_combineSamples/107420-001-034.refine.report.txt, ../../results_combineSamples/107420-001-024.1.assemble.report.txt, ../../results_combineSamples/107420-001-034.1.assemble.report.txt, ../../results_combineSamples/107420-001-038.1.coverage.png, ../../results_combineSamples/107420-001-021.1.coverage.png, ../../results_combineSamples/107420-001-005.1.coverage.png, ../../results_combineSamples/107420-001-014.1.coverage.png, ../../results_combineSamples/107420-001-027.1.coverage.png, ../../results_combineSamples/107420-001-016.1.clones.clns, ../../results_combineSamples/107420-001-006.1.assemble.report.txt, ../../results_combineSamples/107420-001-053.refined.vdjca, ../../results_combineSamples/107420-001-046.1.clones.txt, ../../results_combineSamples/107420-001-050.1.assemble.report.txt, ../../results_combineSamples/107420-001-053.1.assemble.report.txt, ../../results_combineSamples/107420-001-052.1.coverage.png, ../../results_combineSamples/107420-001-039.refine.report.txt, ../../results_combineSamples/107420-001-045.refine.report.txt, ../../results_combineSamples/107420-001-037.1.clones.clns, ../../results_combineSamples/107420-001-052.align.report.txt, ../../results_combineSamples/107420-001-051.refined.vdjca, ../../results_combineSamples/107420-001-008.1.clones.txt, ../../results_combineSamples/107420-001-030.1.clones.clns, ../../results_combineSamples/107420-001-039.1.assemble.report.txt, ../../results_combineSamples/107420-001-052.vdjca, ../../results_combineSamples/107420-001-001.vdjca, ../../results_combineSamples/107420-001-045.1.coverage.png, ../../results_combineSamples/107420-001-005.refined.vdjca, ../../results_combineSamples/107420-001-004.1.assemble.report.txt, ../../results_combineSamples/107420-001-022.refine.report.txt, ../../results_combineSamples/107420-001-027.1.assemble.report.txt, ../../results_combineSamples/107420-001-029.refine.report.txt, ../../results_combineSamples/107420-001-003.refined.vdjca, ../../results_combineSamples/107420-001-032.1.clones.clns, ../../results_combineSamples/107420-001-037.vdjca, ../../results_combineSamples/107420-001-028.1.clones.clns, ../../results_combineSamples/107420-001-033.1.coverage.png, ../../results_combineSamples/107420-001-029.1.assemble.report.txt, ../../results_combineSamples/107420-001-018.1.coverage.png, ../../results_combineSamples/107420-001-025.1.clones.clns, ../../results_combineSamples/107420-001-016.vdjca, ../../results_combineSamples/107420-001-052.1.clones.clns, ../../results_combineSamples/107420-001-021.refine.report.txt, ../../results_combineSamples/107420-001-020.vdjca, ../../results_combineSamples/107420-001-021.vdjca, ../../results_combineSamples/107420-001-040.1.assemble.report.txt, ../../results_combineSamples/107420-001-002.1.coverage.png, ../../results_combineSamples/107420-001-020.1.assemble.report.txt, ../../results_combineSamples/107420-001-035.1.assemble.report.txt, ../../results_combineSamples/107420-001-047.1.clones.txt, ../../results_combineSamples/107420-001-034.1.coverage.png, ../../results_combineSamples/107420-001-048.1.clones.txt
+    resources: tmpdir=/tmp
+
+[Tue Mar  3 20:49:52 2026]
+Finished job 0.
+211 of 211 steps (100%) done
+Complete log: .snakemake/log/2026-03-02T074459.638082.snakemake.log

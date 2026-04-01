@@ -1,0 +1,936 @@
+Row 0: Processing A20_Blood_CD4_CM (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-007_AGACTACC-TGATAGCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-001_TACCGAGG-AGTTCAGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-001_TACCGAGG-AGTTCAGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-007_AGACTACC-TGATAGCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-007_AGACTACC-TGATAGCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-001_TACCGAGG-AGTTCAGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-001_TACCGAGG-AGTTCAGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-007_AGACTACC-TGATAGCT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD4_CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-001_TACCGAGG-AGTTCAGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-007_AGACTACC-TGATAGCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-007_AGACTACC-TGATAGCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-001_TACCGAGG-AGTTCAGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-001_TACCGAGG-AGTTCAGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-001_TACCGAGG-AGTTCAGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-007_AGACTACC-TGATAGCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-007_AGACTACC-TGATAGCT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD4_CM_R2.fastq.gz
+Row 1: Processing A20_Blood_CD4_EM+EMRA (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-008_AGAGAGTT-CGCCAGTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-008_AGAGAGTT-CGCCAGTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-008_AGAGAGTT-CGCCAGTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-002_AGAAGGCG-AGTTAGGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-002_AGAAGGCG-AGTTAGGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-008_AGAGAGTT-CGCCAGTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-002_AGAAGGCG-AGTTAGGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-002_AGAAGGCG-AGTTAGGC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD4_EM+EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-002_AGAAGGCG-AGTTAGGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-008_AGAGAGTT-CGCCAGTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-008_AGAGAGTT-CGCCAGTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-008_AGAGAGTT-CGCCAGTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-002_AGAAGGCG-AGTTAGGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-002_AGAAGGCG-AGTTAGGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-002_AGAAGGCG-AGTTAGGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-008_AGAGAGTT-CGCCAGTT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD4_EM+EMRA_R2.fastq.gz
+Row 2: Processing A20_Blood_CD4_N (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-005_AGACCTGC-AGAAGCCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-005_AGACCTGC-AGAAGCCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-005_AGACCTGC-AGAAGCCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-005_AGACCTGC-AGAAGCCT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD4_N_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-005_AGACCTGC-AGAAGCCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-005_AGACCTGC-AGAAGCCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-005_AGACCTGC-AGAAGCCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-005_AGACCTGC-AGAAGCCT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD4_N_R2.fastq.gz
+Row 3: Processing A20_Blood_CD8_EM+CM (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-003_AGAAGTTA-GCCGGTAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-009_AGAGCCTA-ACCTCGAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-009_AGAGCCTA-ACCTCGAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-003_AGAAGTTA-GCCGGTAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-009_AGAGCCTA-ACCTCGAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-003_AGAAGTTA-GCCGGTAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-009_AGAGCCTA-ACCTCGAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-003_AGAAGTTA-GCCGGTAG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD8_EM+CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-003_AGAAGTTA-GCCGGTAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-009_AGAGCCTA-ACCTCGAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-003_AGAAGTTA-GCCGGTAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-009_AGAGCCTA-ACCTCGAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-003_AGAAGTTA-GCCGGTAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-009_AGAGCCTA-ACCTCGAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-009_AGAGCCTA-ACCTCGAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-003_AGAAGTTA-GCCGGTAG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD8_EM+CM_R2.fastq.gz
+Row 4: Processing A20_Blood_CD8_EMRA (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-004_AGACCAAT-CGAGCGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-004_AGACCAAT-CGAGCGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-004_AGACCAAT-CGAGCGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-004_AGACCAAT-CGAGCGGA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD8_EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-004_AGACCAAT-CGAGCGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-004_AGACCAAT-CGAGCGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-004_AGACCAAT-CGAGCGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-004_AGACCAAT-CGAGCGGA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD8_EMRA_R2.fastq.gz
+Row 5: Processing A20_Blood_CD8_N (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-006_AGACGATG-TGCTTCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-006_AGACGATG-TGCTTCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-006_AGACGATG-TGCTTCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-006_AGACGATG-TGCTTCGC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD8_N_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-006_AGACGATG-TGCTTCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-006_AGACGATG-TGCTTCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-006_AGACGATG-TGCTTCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-006_AGACGATG-TGCTTCGC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Blood_CD8_N_R2.fastq.gz
+Row 6: Processing A20_Fat_CD4_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-013_AGGCCTTG-TGGACTGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-013_AGGCCTTG-TGGACTGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-013_AGGCCTTG-TGGACTGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-013_AGGCCTTG-TGGACTGC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Fat_CD4_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-013_AGGCCTTG-TGGACTGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-013_AGGCCTTG-TGGACTGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-013_AGGCCTTG-TGGACTGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-013_AGGCCTTG-TGGACTGC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Fat_CD4_CD69+_R2.fastq.gz
+Row 7: Processing A20_Fat_CD4_CD69- (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-014_AGTATAGT-TGACCAGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-014_AGTATAGT-TGACCAGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-014_AGTATAGT-TGACCAGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-014_AGTATAGT-TGACCAGC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Fat_CD4_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-014_AGTATAGT-TGACCAGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-014_AGTATAGT-TGACCAGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-014_AGTATAGT-TGACCAGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-014_AGTATAGT-TGACCAGC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Fat_CD4_CD69-_R2.fastq.gz
+Row 8: Processing A20_Fat_CD8_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-015_ATAAGACT-CTATATGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-015_ATAAGACT-CTATATGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-015_ATAAGACT-CTATATGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-015_ATAAGACT-CTATATGG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Fat_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-015_ATAAGACT-CTATATGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-015_ATAAGACT-CTATATGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-015_ATAAGACT-CTATATGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-015_ATAAGACT-CTATATGG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Fat_CD8_CD69+_R2.fastq.gz
+Row 9: Processing A20_Skin_CD4_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-010_AGATAGCC-CGTATCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-010_AGATAGCC-CGTATCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-010_AGATAGCC-CGTATCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-010_AGATAGCC-CGTATCGC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Skin_CD4_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-010_AGATAGCC-CGTATCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-010_AGATAGCC-CGTATCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-010_AGATAGCC-CGTATCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-010_AGATAGCC-CGTATCGC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Skin_CD4_CD69+_R2.fastq.gz
+Row 10: Processing A20_Skin_CD4_CD69- (1 IDs)
+  [!] No R1 files found for IDs: ['107420-001-011']
+  [!] No R2 files found for IDs: ['107420-001-011']
+Row 11: Processing A20_Skin_CD8_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-012_AGGATGAT-ATCCGCGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-012_AGGATGAT-ATCCGCGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-012_AGGATGAT-ATCCGCGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-012_AGGATGAT-ATCCGCGA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Skin_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-012_AGGATGAT-ATCCGCGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-012_AGGATGAT-ATCCGCGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-012_AGGATGAT-ATCCGCGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-012_AGGATGAT-ATCCGCGA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A20_Skin_CD8_CD69+_R2.fastq.gz
+Row 12: Processing A21_Blood_CD4_CM (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-022_ATCCTTCA-CAGGCTTA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-022_ATCCTTCA-CAGGCTTA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-022_ATCCTTCA-CAGGCTTA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-016_ATACCAGG-GAGCCTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-016_ATACCAGG-GAGCCTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-016_ATACCAGG-GAGCCTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-016_ATACCAGG-GAGCCTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-022_ATCCTTCA-CAGGCTTA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD4_CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-016_ATACCAGG-GAGCCTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-022_ATCCTTCA-CAGGCTTA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-022_ATCCTTCA-CAGGCTTA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-022_ATCCTTCA-CAGGCTTA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-016_ATACCAGG-GAGCCTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-022_ATCCTTCA-CAGGCTTA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-016_ATACCAGG-GAGCCTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-016_ATACCAGG-GAGCCTCC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD4_CM_R2.fastq.gz
+Row 13: Processing A21_Blood_CD4_EM+EMRA (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-023_CTACGACA-TTGGACTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-017_GATTCTGC-CTCTCGTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-023_CTACGACA-TTGGACTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-017_GATTCTGC-CTCTCGTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-023_CTACGACA-TTGGACTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-017_GATTCTGC-CTCTCGTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-017_GATTCTGC-CTCTCGTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-023_CTACGACA-TTGGACTC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD4_EM+EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-023_CTACGACA-TTGGACTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-017_GATTCTGC-CTCTCGTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-017_GATTCTGC-CTCTCGTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-017_GATTCTGC-CTCTCGTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-023_CTACGACA-TTGGACTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-023_CTACGACA-TTGGACTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-023_CTACGACA-TTGGACTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-017_GATTCTGC-CTCTCGTC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD4_EM+EMRA_R2.fastq.gz
+Row 14: Processing A21_Blood_CD4_N (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-020_ATAGAATC-GTTATGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-020_ATAGAATC-GTTATGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-020_ATAGAATC-GTTATGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-020_ATAGAATC-GTTATGGA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD4_N_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-020_ATAGAATC-GTTATGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-020_ATAGAATC-GTTATGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-020_ATAGAATC-GTTATGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-020_ATAGAATC-GTTATGGA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD4_N_R2.fastq.gz
+Row 15: Processing A21_Blood_CD8_EM+CM (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-024_ATTCGACC-GTTGACGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-018_ATACGCAG-GACTGCAT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-018_ATACGCAG-GACTGCAT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-018_ATACGCAG-GACTGCAT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-018_ATACGCAG-GACTGCAT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-024_ATTCGACC-GTTGACGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-024_ATTCGACC-GTTGACGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-024_ATTCGACC-GTTGACGT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD8_EM+CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-018_ATACGCAG-GACTGCAT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-024_ATTCGACC-GTTGACGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-024_ATTCGACC-GTTGACGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-018_ATACGCAG-GACTGCAT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-024_ATTCGACC-GTTGACGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-024_ATTCGACC-GTTGACGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-018_ATACGCAG-GACTGCAT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-018_ATACGCAG-GACTGCAT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD8_EM+CM_R2.fastq.gz
+Row 16: Processing A21_Blood_CD8_EMRA (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-019_ATACTGAC-GGAAGATC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-019_ATACTGAC-GGAAGATC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-025_TAAGTGGT-GGCTTAAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-025_TAAGTGGT-GGCTTAAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-019_ATACTGAC-GGAAGATC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-019_ATACTGAC-GGAAGATC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-025_TAAGTGGT-GGCTTAAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-025_TAAGTGGT-GGCTTAAG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD8_EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-019_ATACTGAC-GGAAGATC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-019_ATACTGAC-GGAAGATC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-025_TAAGTGGT-GGCTTAAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-025_TAAGTGGT-GGCTTAAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-019_ATACTGAC-GGAAGATC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-025_TAAGTGGT-GGCTTAAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-025_TAAGTGGT-GGCTTAAG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-019_ATACTGAC-GGAAGATC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD8_EMRA_R2.fastq.gz
+Row 17: Processing A21_Blood_CD8_N (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-021_TCGTAGTG-CCAAGTCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-021_TCGTAGTG-CCAAGTCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-021_TCGTAGTG-CCAAGTCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-021_TCGTAGTG-CCAAGTCT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD8_N_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-021_TCGTAGTG-CCAAGTCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-021_TCGTAGTG-CCAAGTCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-021_TCGTAGTG-CCAAGTCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-021_TCGTAGTG-CCAAGTCT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Blood_CD8_N_R2.fastq.gz
+Row 18: Processing A21_Fat_CD4_CD69- (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-029_CGGACAAC-AATCCGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-029_CGGACAAC-AATCCGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-029_CGGACAAC-AATCCGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-029_CGGACAAC-AATCCGGA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Fat_CD4_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-029_CGGACAAC-AATCCGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-029_CGGACAAC-AATCCGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-029_CGGACAAC-AATCCGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-029_CGGACAAC-AATCCGGA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Fat_CD4_CD69-_R2.fastq.gz
+Row 19: Processing A21_Fat_CD8_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-030_ACTTACGT-CGATCTAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-030_ACTTACGT-CGATCTAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-030_ACTTACGT-CGATCTAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-030_ACTTACGT-CGATCTAA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Fat_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-030_ACTTACGT-CGATCTAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-030_ACTTACGT-CGATCTAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-030_ACTTACGT-CGATCTAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-030_ACTTACGT-CGATCTAA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Fat_CD8_CD69+_R2.fastq.gz
+Row 20: Processing A21_Fat_CD8_CD69- (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-031_ACTTGCAG-TCGGTCGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-031_ACTTGCAG-TCGGTCGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-031_ACTTGCAG-TCGGTCGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-031_ACTTGCAG-TCGGTCGT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Fat_CD8_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-031_ACTTGCAG-TCGGTCGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-031_ACTTGCAG-TCGGTCGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-031_ACTTGCAG-TCGGTCGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-031_ACTTGCAG-TCGGTCGT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Fat_CD8_CD69-_R2.fastq.gz
+Row 21: Processing A21_Skin_CD4_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-026_ATTGATTA-ACCGGAGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-026_ATTGATTA-ACCGGAGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-026_ATTGATTA-ACCGGAGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-026_ATTGATTA-ACCGGAGG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Skin_CD4_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-026_ATTGATTA-ACCGGAGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-026_ATTGATTA-ACCGGAGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-026_ATTGATTA-ACCGGAGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-026_ATTGATTA-ACCGGAGG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Skin_CD4_CD69+_R2.fastq.gz
+Row 22: Processing A21_Skin_CD4_CD69- (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-027_CAATGGTT-CATTCGGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-027_CAATGGTT-CATTCGGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-027_CAATGGTT-CATTCGGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-027_CAATGGTT-CATTCGGT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Skin_CD4_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-027_CAATGGTT-CATTCGGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-027_CAATGGTT-CATTCGGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-027_CAATGGTT-CATTCGGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-027_CAATGGTT-CATTCGGT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Skin_CD4_CD69-_R2.fastq.gz
+Row 23: Processing A21_Skin_CD8_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-028_CAGACCTT-TCTATGCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-028_CAGACCTT-TCTATGCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-028_CAGACCTT-TCTATGCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-028_CAGACCTT-TCTATGCC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Skin_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-028_CAGACCTT-TCTATGCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-028_CAGACCTT-TCTATGCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-028_CAGACCTT-TCTATGCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-028_CAGACCTT-TCTATGCC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A21_Skin_CD8_CD69+_R2.fastq.gz
+Row 24: Processing A25_Blood_CD4_CM (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-042_TTGGACTC-CTGCTTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-042_TTGGACTC-CTGCTTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-042_TTGGACTC-CTGCTTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-042_TTGGACTC-CTGCTTCC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Blood_CD4_CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-042_TTGGACTC-CTGCTTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-042_TTGGACTC-CTGCTTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-042_TTGGACTC-CTGCTTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-042_TTGGACTC-CTGCTTCC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Blood_CD4_CM_R2.fastq.gz
+Row 25: Processing A25_Blood_CD4_EM+EMRA (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-043_GGCTTAAG-GGTCACGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-043_GGCTTAAG-GGTCACGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-043_GGCTTAAG-GGTCACGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-043_GGCTTAAG-GGTCACGA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Blood_CD4_EM+EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-043_GGCTTAAG-GGTCACGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-043_GGCTTAAG-GGTCACGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-043_GGCTTAAG-GGTCACGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-043_GGCTTAAG-GGTCACGA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Blood_CD4_EM+EMRA_R2.fastq.gz
+Row 26: Processing A25_Blood_CD8_EM+CM (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-044_GCAATGCA-AACGTTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-044_GCAATGCA-AACGTTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-044_GCAATGCA-AACGTTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-044_GCAATGCA-AACGTTCC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Blood_CD8_EM+CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-044_GCAATGCA-AACGTTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-044_GCAATGCA-AACGTTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-044_GCAATGCA-AACGTTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-044_GCAATGCA-AACGTTCC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Blood_CD8_EM+CM_R2.fastq.gz
+Row 27: Processing A25_Blood_CD8_EMRA (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-045_CGGCGTGA-ACAGGCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-045_CGGCGTGA-ACAGGCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-045_CGGCGTGA-ACAGGCGC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-045_CGGCGTGA-ACAGGCGC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Blood_CD8_EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-045_CGGCGTGA-ACAGGCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-045_CGGCGTGA-ACAGGCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-045_CGGCGTGA-ACAGGCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-045_CGGCGTGA-ACAGGCGC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Blood_CD8_EMRA_R2.fastq.gz
+Row 28: Processing A25_Fat_CD4_CD69+ (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-048_GGTACCTT-GACGTCTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-048_GGTACCTT-GACGTCTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-053_CTCCAGAC-GACTATGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-048_GGTACCTT-GACGTCTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-053_CTCCAGAC-GACTATGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-053_CTCCAGAC-GACTATGG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-048_GGTACCTT-GACGTCTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-053_CTCCAGAC-GACTATGG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Fat_CD4_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-053_CTCCAGAC-GACTATGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-048_GGTACCTT-GACGTCTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-053_CTCCAGAC-GACTATGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-048_GGTACCTT-GACGTCTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-053_CTCCAGAC-GACTATGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-048_GGTACCTT-GACGTCTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-048_GGTACCTT-GACGTCTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-053_CTCCAGAC-GACTATGG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Fat_CD4_CD69+_R2.fastq.gz
+Row 29: Processing A25_Fat_CD4_CD69- (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-049_AACGTTCC-AGTACTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-049_AACGTTCC-AGTACTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-049_AACGTTCC-AGTACTCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-049_AACGTTCC-AGTACTCC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Fat_CD4_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-049_AACGTTCC-AGTACTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-049_AACGTTCC-AGTACTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-049_AACGTTCC-AGTACTCC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-049_AACGTTCC-AGTACTCC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Fat_CD4_CD69-_R2.fastq.gz
+Row 30: Processing A25_Fat_CD8_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-050_GCAGAATT-TGGCCGGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-050_GCAGAATT-TGGCCGGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-050_GCAGAATT-TGGCCGGT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-050_GCAGAATT-TGGCCGGT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Fat_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-050_GCAGAATT-TGGCCGGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-050_GCAGAATT-TGGCCGGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-050_GCAGAATT-TGGCCGGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-050_GCAGAATT-TGGCCGGT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Fat_CD8_CD69+_R2.fastq.gz
+Row 31: Processing A25_Fat_CD8_CD69- (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-051_ATGAGGCC-CAATTAAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-052_CTATCAAG-TCTGCCAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-052_CTATCAAG-TCTGCCAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-052_CTATCAAG-TCTGCCAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-051_ATGAGGCC-CAATTAAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-051_ATGAGGCC-CAATTAAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-051_ATGAGGCC-CAATTAAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-052_CTATCAAG-TCTGCCAA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Fat_CD8_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-051_ATGAGGCC-CAATTAAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-051_ATGAGGCC-CAATTAAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-052_CTATCAAG-TCTGCCAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-052_CTATCAAG-TCTGCCAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-051_ATGAGGCC-CAATTAAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-051_ATGAGGCC-CAATTAAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-052_CTATCAAG-TCTGCCAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-052_CTATCAAG-TCTGCCAA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Fat_CD8_CD69-_R2.fastq.gz
+Row 32: Processing A25_Skin_CD4_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-046_GTTCCAAT-GCAGAATT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-046_GTTCCAAT-GCAGAATT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-046_GTTCCAAT-GCAGAATT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-046_GTTCCAAT-GCAGAATT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Skin_CD4_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-046_GTTCCAAT-GCAGAATT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-046_GTTCCAAT-GCAGAATT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-046_GTTCCAAT-GCAGAATT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-046_GTTCCAAT-GCAGAATT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Skin_CD4_CD69+_R2.fastq.gz
+Row 33: Processing A25_Skin_CD8_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-047_GCACGGAC-TGCGAGAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-047_GCACGGAC-TGCGAGAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-047_GCACGGAC-TGCGAGAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-047_GCACGGAC-TGCGAGAC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Skin_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-047_GCACGGAC-TGCGAGAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-047_GCACGGAC-TGCGAGAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-047_GCACGGAC-TGCGAGAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-047_GCACGGAC-TGCGAGAC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A25_Skin_CD8_CD69+_R2.fastq.gz
+Row 34: Processing A26_Blood_CD4_CM (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-032_GGAGCGTC-GCACGGAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-032_GGAGCGTC-GCACGGAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-032_GGAGCGTC-GCACGGAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-032_GGAGCGTC-GCACGGAC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Blood_CD4_CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-032_GGAGCGTC-GCACGGAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-032_GGAGCGTC-GCACGGAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-032_GGAGCGTC-GCACGGAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-032_GGAGCGTC-GCACGGAC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Blood_CD4_CM_R2.fastq.gz
+Row 35: Processing A26_Blood_CD4_EM+EMRA (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-033_GGACTTGG-CGTCTGCG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-033_GGACTTGG-CGTCTGCG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-033_GGACTTGG-CGTCTGCG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-033_GGACTTGG-CGTCTGCG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Blood_CD4_EM+EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-033_GGACTTGG-CGTCTGCG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-033_GGACTTGG-CGTCTGCG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-033_GGACTTGG-CGTCTGCG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-033_GGACTTGG-CGTCTGCG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Blood_CD4_EM+EMRA_R2.fastq.gz
+Row 36: Processing A26_Blood_CD8_EM+CM (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-034_AAGTCCAA-TACTCATA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-034_AAGTCCAA-TACTCATA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-034_AAGTCCAA-TACTCATA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-034_AAGTCCAA-TACTCATA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Blood_CD8_EM+CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-034_AAGTCCAA-TACTCATA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-034_AAGTCCAA-TACTCATA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-034_AAGTCCAA-TACTCATA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-034_AAGTCCAA-TACTCATA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Blood_CD8_EM+CM_R2.fastq.gz
+Row 37: Processing A26_Blood_CD8_EMRA (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-035_ATCCACTG-ACGCACCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-035_ATCCACTG-ACGCACCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-035_ATCCACTG-ACGCACCT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-035_ATCCACTG-ACGCACCT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Blood_CD8_EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-035_ATCCACTG-ACGCACCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-035_ATCCACTG-ACGCACCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-035_ATCCACTG-ACGCACCT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-035_ATCCACTG-ACGCACCT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Blood_CD8_EMRA_R2.fastq.gz
+Row 38: Processing A26_Fat_CD4_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-038_GACCTGAA-CTCACCAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-038_GACCTGAA-CTCACCAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-038_GACCTGAA-CTCACCAA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-038_GACCTGAA-CTCACCAA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Fat_CD4_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-038_GACCTGAA-CTCACCAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-038_GACCTGAA-CTCACCAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-038_GACCTGAA-CTCACCAA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-038_GACCTGAA-CTCACCAA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Fat_CD4_CD69+_R2.fastq.gz
+Row 39: Processing A26_Fat_CD4_CD69- (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-039_TCTCTACT-GAACCGCG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-039_TCTCTACT-GAACCGCG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-039_TCTCTACT-GAACCGCG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-039_TCTCTACT-GAACCGCG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Fat_CD4_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-039_TCTCTACT-GAACCGCG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-039_TCTCTACT-GAACCGCG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-039_TCTCTACT-GAACCGCG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-039_TCTCTACT-GAACCGCG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Fat_CD4_CD69-_R2.fastq.gz
+Row 40: Processing A26_Fat_CD8_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-040_CTCTCGTC-AGGTTATA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-040_CTCTCGTC-AGGTTATA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-040_CTCTCGTC-AGGTTATA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-040_CTCTCGTC-AGGTTATA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Fat_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-040_CTCTCGTC-AGGTTATA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-040_CTCTCGTC-AGGTTATA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-040_CTCTCGTC-AGGTTATA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-040_CTCTCGTC-AGGTTATA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Fat_CD8_CD69+_R2.fastq.gz
+Row 41: Processing A26_Fat_CD8_CD69- (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-041_ATGGCATG-GGTACCTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-041_ATGGCATG-GGTACCTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-041_ATGGCATG-GGTACCTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-041_ATGGCATG-GGTACCTT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Fat_CD8_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-041_ATGGCATG-GGTACCTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-041_ATGGCATG-GGTACCTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-041_ATGGCATG-GGTACCTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-041_ATGGCATG-GGTACCTT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Fat_CD8_CD69-_R2.fastq.gz
+Row 42: Processing A26_Skin_CD4_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-036_GCTTGTCA-GTATGTTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-036_GCTTGTCA-GTATGTTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-036_GCTTGTCA-GTATGTTC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-036_GCTTGTCA-GTATGTTC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Skin_CD4_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-036_GCTTGTCA-GTATGTTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-036_GCTTGTCA-GTATGTTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-036_GCTTGTCA-GTATGTTC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-036_GCTTGTCA-GTATGTTC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Skin_CD4_CD69+_R2.fastq.gz
+Row 43: Processing A26_Skin_CD8_CD69+ (1 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-037_TGGATCGA-TATCGCAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-037_TGGATCGA-TATCGCAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-037_TGGATCGA-TATCGCAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-037_TGGATCGA-TATCGCAC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Skin_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23F3MGLT4_107420-001-037_TGGATCGA-TATCGCAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNJ2LT4_107420-001-037_TGGATCGA-TATCGCAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FJ52LT4_107420-001-037_TGGATCGA-TATCGCAC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FHTNLT4_107420-001-037_TGGATCGA-TATCGCAC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/A26_Skin_CD8_CD69+_R2.fastq.gz
+Row 44: Processing DYN011_BM_CD4_CD69+ (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_BM_CD4_CD69+_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_BM_CD4_CD69+_R2.fastq.gz
+Row 45: Processing DYN011_BM_CD4_CD69- (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_BM_CD4_CD69-_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_BM_CD4_CD69-_R2.fastq.gz
+Row 46: Processing DYN011_BM_CD8_CD69+ (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_BM_CD8_CD69+_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_BM_CD8_CD69+_R2.fastq.gz
+Row 47: Processing DYN011_BM_CD8_CD69- (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_BM_CD8_CD69-_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_BM_CD8_CD69-_R2.fastq.gz
+Row 48: Processing DYN011_Blood_CD4_CM (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_Blood_CD4_CM_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_Blood_CD4_CM_R2.fastq.gz
+Row 49: Processing DYN011_Blood_CD4_EM+EMRA (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_Blood_CD4_EM+EMRA_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_Blood_CD4_EM+EMRA_R2.fastq.gz
+Row 50: Processing DYN011_Blood_CD8_EM+CM (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_Blood_CD8_EM+CM_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_Blood_CD8_EM+CM_R2.fastq.gz
+Row 51: Processing DYN011_Blood_CD8_EMRA (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_Blood_CD8_EMRA_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN011_Blood_CD8_EMRA_R2.fastq.gz
+Row 52: Processing DYN013_BM_CD4_CD69+ (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-081_AATGCCTC-TGGATCGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-077_TCCAACGC-AAGTCCAA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD4_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-081_AATGCCTC-TGGATCGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-077_TCCAACGC-AAGTCCAA_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD4_CD69+_R2.fastq.gz
+Row 53: Processing DYN013_BM_CD4_CD69- (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-082_TAATACAG-GTGAATAT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-078_CCGTGAAG-ATCCACTG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD4_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-082_TAATACAG-GTGAATAT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-078_CCGTGAAG-ATCCACTG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD4_CD69-_R2.fastq.gz
+Row 54: Processing DYN013_BM_CD4_TregMemory (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD4_TregMemory_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD4_TregMemory_R2.fastq.gz
+Row 55: Processing DYN013_BM_CD4_TregNaive (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD4_TregNaive_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD4_TregNaive_R2.fastq.gz
+Row 56: Processing DYN013_BM_CD8_CD69+ (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD8_CD69+_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD8_CD69+_R2.fastq.gz
+Row 57: Processing DYN013_BM_CD8_CD69- (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD8_CD69-_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_BM_CD8_CD69-_R2.fastq.gz
+Row 58: Processing DYN013_Blood_CD4_CM (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-054_TATCGCAC-ACACTAAG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-058_TACTCATA-GCCACAGG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD4_CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-058_TACTCATA-GCCACAGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-054_TATCGCAC-ACACTAAG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD4_CM_R2.fastq.gz
+Row 59: Processing DYN013_Blood_CD4_EM+EMRA (3 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-055_CGCTATGT-GTGTCGGA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-060_GACGTCTT-GGTGAACC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-074_ACTAAGAT-CCGCGGTT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD4_EM+EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-060_GACGTCTT-GGTGAACC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-055_CGCTATGT-GTGTCGGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-074_ACTAAGAT-CCGCGGTT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD4_EM+EMRA_R2.fastq.gz
+Row 60: Processing DYN013_Blood_CD4_TregMemory (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-093_GCGCTCTA-GTCGGAGC_L007_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-095_GGTGAACC-TCCAACGC_L007_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD4_TregMemory_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-095_GGTGAACC-TCCAACGC_L007_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-093_GCGCTCTA-GTCGGAGC_L007_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD4_TregMemory_R2.fastq.gz
+Row 61: Processing DYN013_Blood_CD4_TregNaive (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-094_AACAGGTT-CTTGGTAT_L007_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-092_ATATCTCG-ACTAAGAT_L007_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD4_TregNaive_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-092_ATATCTCG-ACTAAGAT_L007_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-094_AACAGGTT-CTTGGTAT_L007_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD4_TregNaive_R2.fastq.gz
+Row 62: Processing DYN013_Blood_CD8_EM+CM (3 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-059_CAATTAAC-ATATCTCG_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-075_GTCGGAGC-TTATAACC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-056_GTATGTTC-TTCCTGTT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD8_EM+CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-059_CAATTAAC-ATATCTCG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-056_GTATGTTC-TTCCTGTT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-075_GTCGGAGC-TTATAACC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD8_EM+CM_R2.fastq.gz
+Row 63: Processing DYN013_Blood_CD8_EMRA (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-057_ACGCACCT-CCTTCACC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-076_CTTGGTAT-GGACTTGG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD8_EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-057_ACGCACCT-CCTTCACC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-076_CTTGGTAT-GGACTTGG_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN013_Blood_CD8_EMRA_R2.fastq.gz
+Row 64: Processing DYN014_BM_CD4_CD69+ (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD4_CD69+_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD4_CD69+_R2.fastq.gz
+Row 65: Processing DYN014_BM_CD4_CD69- (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-063_TTCCTGTT-AAGATACT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-061_GTGAATAT-GAATGAGA_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD4_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-061_GTGAATAT-GAATGAGA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-063_TTCCTGTT-AAGATACT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD4_CD69-_R2.fastq.gz
+Row 66: Processing DYN014_BM_CD4_TregMemory (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD4_TregMemory_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD4_TregMemory_R2.fastq.gz
+Row 67: Processing DYN014_BM_CD4_TregNaive (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD4_TregNaive_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD4_TregNaive_R2.fastq.gz
+Row 68: Processing DYN014_BM_CD8_CD69+ (3 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-065_ATTGTGAA-GCAATGCA_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-062_ACACTAAG-ATATGGAT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-091_AGTTCAGG-TCTGTTGG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD8_CD69+_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-091_AGTTCAGG-TCTGTTGG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-065_ATTGTGAA-GCAATGCA_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-062_ACACTAAG-ATATGGAT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD8_CD69+_R2.fastq.gz
+Row 69: Processing DYN014_BM_CD8_CD69- (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-090_ACCTTGGC-ATGAGGCC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-064_GCCACAGG-ATGGCATG_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD8_CD69-_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-064_GCCACAGG-ATGGCATG_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-090_ACCTTGGC-ATGAGGCC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_BM_CD8_CD69-_R2.fastq.gz
+Row 70: Processing DYN014_Blood_CD4_CM (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-086_GGTACCTT-GACGTCTT_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-083_CGGCGTGA-ACAGGCGC_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD4_CM_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-083_CGGCGTGA-ACAGGCGC_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-086_GGTACCTT-GACGTCTT_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD4_CM_R2.fastq.gz
+Row 71: Processing DYN014_Blood_CD4_EM+EMRA (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD4_EM+EMRA_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD4_EM+EMRA_R2.fastq.gz
+Row 72: Processing DYN014_Blood_CD4_TregMemory (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-100_ATATGGAT-TAATACAG_L007_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-099_GAATGAGA-AATGCCTC_L007_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD4_TregMemory_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-099_GAATGAGA-AATGCCTC_L007_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/2377C3LT3_107420-001-100_ATATGGAT-TAATACAG_L007_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD4_TregMemory_R2.fastq.gz
+Row 73: Processing DYN014_Blood_CD4_TregNaive (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD4_TregNaive_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD4_TregNaive_R2.fastq.gz
+Row 74: Processing DYN014_Blood_CD8_EM+CM (1 IDs)
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD8_EM+CM_R1.fastq.gz
+  [Copy] Single file -> /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD8_EM+CM_R2.fastq.gz
+Row 75: Processing DYN014_Blood_CD8_EMRA (2 IDs)
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-085_GCACGGAC-TGCGAGAC_L008_R1.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-088_GCAGAATT-TGGCCGGT_L008_R1.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD8_EMRA_R1.fastq.gz
+  [Merge]
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-088_GCAGAATT-TGGCCGGT_L008_R2.fastq.gz
+/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/23FNWJLT4_107420-001-085_GCACGGAC-TGCGAGAC_L008_R2.fastq.gz files
+ ->
+ /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq/DYN014_Blood_CD8_EMRA_R2.fastq.gz
+
+Process complete. Merged files are in: /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq

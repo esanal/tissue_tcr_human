@@ -1,0 +1,686 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 88
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+align                   78
+all                      1
+assemble                94
+export_clones           99
+export_qc_tags          99
+refineTagsAndSort       81
+total                  452
+
+Select jobs to execute...
+
+[Wed Apr  1 20:06:13 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-049.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-049.1.coverage.png
+    jobid: 471
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-049.1.coverage.png
+    wildcards: sample=107420-001-049, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-084.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-084.1.coverage.png
+    jobid: 501
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-084.1.coverage.png
+    wildcards: sample=107420-001-084, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-064.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-064.1.clones.clns, ../../results_combinedGSIDs/107420-001-064.1.assemble.report.txt
+    jobid: 390
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-064.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-064.1.clones.clns
+    wildcards: sample=107420-001-064, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-063.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-063.1.clones.clns, ../../results_combinedGSIDs/107420-001-063.1.assemble.report.txt
+    jobid: 382
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-063.1.clones.clns, ../../results_combinedGSIDs/107420-001-063.1.assemble.report.txt
+    wildcards: sample=107420-001-063, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-093.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-093.1.clones.clns, ../../results_combinedGSIDs/107420-001-093.1.assemble.report.txt
+    jobid: 276
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-093.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-093.1.clones.clns
+    wildcards: sample=107420-001-093, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-076.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-076.1.clones.clns, ../../results_combinedGSIDs/107420-001-076.1.assemble.report.txt
+    jobid: 284
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-076.1.clones.clns, ../../results_combinedGSIDs/107420-001-076.1.assemble.report.txt
+    wildcards: sample=107420-001-076, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-056.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-056.1.clones.clns, ../../results_combinedGSIDs/107420-001-056.1.assemble.report.txt
+    jobid: 376
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-056.1.clones.clns, ../../results_combinedGSIDs/107420-001-056.1.assemble.report.txt
+    wildcards: sample=107420-001-056, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-087.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-087.1.coverage.png
+    jobid: 451
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-087.1.coverage.png
+    wildcards: sample=107420-001-087, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-015.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-015.1.clones.clns, ../../results_combinedGSIDs/107420-001-015.1.assemble.report.txt
+    jobid: 216
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-015.1.clones.clns, ../../results_combinedGSIDs/107420-001-015.1.assemble.report.txt
+    wildcards: sample=107420-001-015, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-045.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-045.1.clones.clns, ../../results_combinedGSIDs/107420-001-045.1.assemble.report.txt
+    jobid: 236
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-045.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-045.1.clones.clns
+    wildcards: sample=107420-001-045, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-053.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-053.1.clones.clns, ../../results_combinedGSIDs/107420-001-053.1.assemble.report.txt
+    jobid: 316
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-053.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-053.1.clones.clns
+    wildcards: sample=107420-001-053, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-038.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-038.1.clones.clns, ../../results_combinedGSIDs/107420-001-038.1.assemble.report.txt
+    jobid: 350
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-038.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-038.1.clones.clns
+    wildcards: sample=107420-001-038, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-003.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-003.1.clones.clns, ../../results_combinedGSIDs/107420-001-003.1.assemble.report.txt
+    jobid: 210
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-003.1.clones.clns, ../../results_combinedGSIDs/107420-001-003.1.assemble.report.txt
+    wildcards: sample=107420-001-003, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-091.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-091.1.clones.clns, ../../results_combinedGSIDs/107420-001-091.1.assemble.report.txt
+    jobid: 290
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-091.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-091.1.clones.clns
+    wildcards: sample=107420-001-091, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-023.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-023.1.clones.clns, ../../results_combinedGSIDs/107420-001-023.1.assemble.report.txt
+    jobid: 322
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-023.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-023.1.clones.clns
+    wildcards: sample=107420-001-023, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-058.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-058.1.clones.clns, ../../results_combinedGSIDs/107420-001-058.1.assemble.report.txt
+    jobid: 270
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-058.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-058.1.clones.clns
+    wildcards: sample=107420-001-058, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-031.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-031.1.clones.txt
+    jobid: 229
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-031.1.clones.txt
+    wildcards: sample=107420-001-031, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-041.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-041.1.clones.txt
+    jobid: 249
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-041.1.clones.txt
+    wildcards: sample=107420-001-041, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-031.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-031.1.coverage.png
+    jobid: 418
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-031.1.coverage.png
+    wildcards: sample=107420-001-031, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-033.vdjca
+    output: ../../results_combinedGSIDs/107420-001-033.refined.vdjca, ../../results_combinedGSIDs/107420-001-033.refine.report.txt
+    jobid: 155
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-033.refined.vdjca, ../../results_combinedGSIDs/107420-001-033.refine.report.txt
+    wildcards: sample=107420-001-033
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-041.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-041.1.coverage.png
+    jobid: 428
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-041.1.coverage.png
+    wildcards: sample=107420-001-041, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:06:13 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-068.vdjca
+    output: ../../results_combinedGSIDs/107420-001-068.refined.vdjca, ../../results_combinedGSIDs/107420-001-068.refine.report.txt
+    jobid: 178
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-068.refine.report.txt, ../../results_combinedGSIDs/107420-001-068.refined.vdjca
+    wildcards: sample=107420-001-068
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:06:21 2026]
+Finished job 229.
+1 of 452 steps (0.2%) done
+Select jobs to execute...
+
+[Wed Apr  1 20:06:21 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-072.vdjca
+    output: ../../results_combinedGSIDs/107420-001-072.refined.vdjca, ../../results_combinedGSIDs/107420-001-072.refine.report.txt
+    jobid: 128
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-072.refined.vdjca, ../../results_combinedGSIDs/107420-001-072.refine.report.txt
+    wildcards: sample=107420-001-072
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:06:24 2026]
+Finished job 249.
+2 of 452 steps (0.4%) done
+Select jobs to execute...
+
+[Wed Apr  1 20:06:24 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-087.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-087.1.clones.txt
+    jobid: 295
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-087.1.clones.txt
+    wildcards: sample=107420-001-087, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:06:29 2026]
+Finished job 418.
+3 of 452 steps (1%) done
+Select jobs to execute...
+
+[Wed Apr  1 20:06:30 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-084.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-084.1.clones.txt
+    jobid: 395
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-084.1.clones.txt
+    wildcards: sample=107420-001-084, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:06:30 2026]
+Finished job 451.
+4 of 452 steps (1%) done
+[Wed Apr  1 20:06:30 2026]
+Finished job 471.
+5 of 452 steps (1%) done
+Select jobs to execute...
+
+[Wed Apr  1 20:06:30 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-049.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-049.1.clones.txt
+    jobid: 335
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-049.1.clones.txt
+    wildcards: sample=107420-001-049, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+[Wed Apr  1 20:06:30 2026]
+Finished job 428.
+6 of 452 steps (1%) done
+[Wed Apr  1 20:06:30 2026]
+Finished job 501.
+7 of 452 steps (2%) done
+[Wed Apr  1 20:06:35 2026]
+Finished job 335.
+8 of 452 steps (2%) done
+[Wed Apr  1 20:06:36 2026]
+Finished job 295.
+9 of 452 steps (2%) done
+[Wed Apr  1 20:06:43 2026]
+Finished job 395.
+10 of 452 steps (2%) done
+[Wed Apr  1 20:12:13 2026]
+Finished job 382.
+11 of 452 steps (2%) done
+
+[Wed Apr  1 20:12:13 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-063.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-063.1.coverage.png
+    jobid: 494
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-063.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-063.1.clones.clns
+    wildcards: sample=107420-001-063, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:12:14 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-063.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-063.1.clones.txt
+    jobid: 381
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-063.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-063.1.clones.clns
+    wildcards: sample=107420-001-063, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:12:22 2026]
+Finished job 381.
+12 of 452 steps (3%) done
+Select jobs to execute...
+[Wed Apr  1 20:12:22 2026]
+Finished job 494.
+13 of 452 steps (3%) done
+[Wed Apr  1 20:13:16 2026]
+Finished job 390.
+14 of 452 steps (3%) done
+
+[Wed Apr  1 20:13:16 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-064.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-064.1.coverage.png
+    jobid: 498
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-064.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-064.1.clones.clns
+    wildcards: sample=107420-001-064, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:13:16 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-064.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-064.1.clones.txt
+    jobid: 389
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-064.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-064.1.clones.clns
+    wildcards: sample=107420-001-064, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:13:21 2026]
+Finished job 389.
+15 of 452 steps (3%) done
+Select jobs to execute...
+[Wed Apr  1 20:13:25 2026]
+Finished job 498.
+16 of 452 steps (4%) done
+[Wed Apr  1 20:15:47 2026]
+Finished job 376.
+17 of 452 steps (4%) done
+
+[Wed Apr  1 20:15:47 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-056.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-056.1.clones.txt
+    jobid: 375
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-056.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-056.1.clones.clns
+    wildcards: sample=107420-001-056, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:15:47 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-056.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-056.1.coverage.png
+    jobid: 491
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-056.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-056.1.clones.clns
+    wildcards: sample=107420-001-056, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:15:54 2026]
+Finished job 375.
+18 of 452 steps (4%) done
+Select jobs to execute...
+[Wed Apr  1 20:15:55 2026]
+Finished job 491.
+19 of 452 steps (4%) done
+[Wed Apr  1 20:25:20 2026]
+Finished job 290.
+20 of 452 steps (4%) done
+
+[Wed Apr  1 20:25:20 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-091.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-091.1.clones.txt
+    jobid: 289
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-091.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-091.1.clones.clns
+    wildcards: sample=107420-001-091, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:25:20 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-091.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-091.1.coverage.png
+    jobid: 448
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-091.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-091.1.clones.clns
+    wildcards: sample=107420-001-091, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:25:26 2026]
+Finished job 289.
+21 of 452 steps (5%) done
+Select jobs to execute...
+[Wed Apr  1 20:25:29 2026]
+Finished job 448.
+22 of 452 steps (5%) done
+[Wed Apr  1 20:27:21 2026]
+Finished job 128.
+23 of 452 steps (5%) done
+
+[Wed Apr  1 20:27:21 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-072.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-072.1.clones.clns, ../../results_combinedGSIDs/107420-001-072.1.assemble.report.txt
+    jobid: 256
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-072.1.clones.clns, ../../results_combinedGSIDs/107420-001-072.1.assemble.report.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-072.refined.vdjca
+    wildcards: sample=107420-001-072, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:30:27 2026]
+Finished job 216.
+24 of 452 steps (5%) done
+Select jobs to execute...
+
+[Wed Apr  1 20:30:27 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-015.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-015.1.clones.txt
+    jobid: 215
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-015.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-015.1.clones.clns
+    wildcards: sample=107420-001-015, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:30:27 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-015.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-015.1.coverage.png
+    jobid: 411
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-015.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-015.1.clones.clns
+    wildcards: sample=107420-001-015, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:30:31 2026]
+Finished job 215.
+25 of 452 steps (6%) done
+Select jobs to execute...
+[Wed Apr  1 20:30:35 2026]
+Finished job 411.
+26 of 452 steps (6%) done
+[Wed Apr  1 20:34:00 2026]
+Finished job 236.
+27 of 452 steps (6%) done
+
+[Wed Apr  1 20:34:00 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-045.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-045.1.coverage.png
+    jobid: 421
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-045.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-045.1.clones.clns
+    wildcards: sample=107420-001-045, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:34:00 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-045.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-045.1.clones.txt
+    jobid: 235
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-045.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-045.1.clones.clns
+    wildcards: sample=107420-001-045, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:34:04 2026]
+Finished job 235.
+28 of 452 steps (6%) done
+Select jobs to execute...
+[Wed Apr  1 20:34:09 2026]
+Finished job 421.
+29 of 452 steps (6%) done
+[Wed Apr  1 20:35:56 2026]
+Finished job 316.
+30 of 452 steps (7%) done
+
+[Wed Apr  1 20:35:56 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-053.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-053.1.coverage.png
+    jobid: 461
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-053.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-053.1.clones.clns
+    wildcards: sample=107420-001-053, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:35:56 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-053.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-053.1.clones.txt
+    jobid: 315
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-053.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-053.1.clones.clns
+    wildcards: sample=107420-001-053, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:36:00 2026]
+Finished job 315.
+31 of 452 steps (7%) done
+Select jobs to execute...
+[Wed Apr  1 20:36:05 2026]
+Finished job 461.
+32 of 452 steps (7%) done
+[Wed Apr  1 20:38:05 2026]
+Finished job 270.
+33 of 452 steps (7%) done
+
+[Wed Apr  1 20:38:05 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-058.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-058.1.coverage.png
+    jobid: 438
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-058.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-058.1.clones.clns
+    wildcards: sample=107420-001-058, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:38:05 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-058.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-058.1.clones.txt
+    jobid: 269
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-058.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-058.1.clones.clns
+    wildcards: sample=107420-001-058, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:38:14 2026]
+Finished job 438.
+34 of 452 steps (8%) done
+Select jobs to execute...
+[Wed Apr  1 20:38:23 2026]
+Finished job 269.
+35 of 452 steps (8%) done
+[Wed Apr  1 20:46:07 2026]
+Finished job 350.
+36 of 452 steps (8%) done
+
+[Wed Apr  1 20:46:07 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-038.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-038.1.coverage.png
+    jobid: 478
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-038.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-038.1.clones.clns
+    wildcards: sample=107420-001-038, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:46:07 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-038.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-038.1.clones.txt
+    jobid: 349
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-038.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-038.1.clones.clns
+    wildcards: sample=107420-001-038, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:46:10 2026]
+Finished job 349.
+37 of 452 steps (8%) done
+Select jobs to execute...
+[Wed Apr  1 20:46:15 2026]
+Finished job 478.
+38 of 452 steps (8%) done
+[Wed Apr  1 20:47:40 2026]
+Finished job 284.
+39 of 452 steps (9%) done
+
+[Wed Apr  1 20:47:40 2026]
+rule export_qc_tags:
+    input: ../../results_combinedGSIDs/107420-001-076.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-076.1.coverage.png
+    jobid: 445
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-076.1.coverage.png; Input files updated by another job: ../../results_combinedGSIDs/107420-001-076.1.clones.clns
+    wildcards: sample=107420-001-076, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 20:47:40 2026]
+rule export_clones:
+    input: ../../results_combinedGSIDs/107420-001-076.1.clones.clns
+    output: ../../results_combinedGSIDs/107420-001-076.1.clones.txt
+    jobid: 283
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-076.1.clones.txt; Input files updated by another job: ../../results_combinedGSIDs/107420-001-076.1.clones.clns
+    wildcards: sample=107420-001-076, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 20:47:47 2026]
+Finished job 283.
+40 of 452 steps (9%) done
+Select jobs to execute...
+[Wed Apr  1 20:47:48 2026]
+Finished job 445.
+41 of 452 steps (9%) done
+[Wed Apr  1 20:48:28 2026]
+Finished job 178.
+42 of 452 steps (9%) done
+
+[Wed Apr  1 20:48:28 2026]
+rule assemble:
+    input: ../../results_combinedGSIDs/107420-001-068.refined.vdjca
+    output: ../../results_combinedGSIDs/107420-001-068.1.clones.clns, ../../results_combinedGSIDs/107420-001-068.1.assemble.report.txt
+    jobid: 356
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-068.1.assemble.report.txt, ../../results_combinedGSIDs/107420-001-068.1.clones.clns; Input files updated by another job: ../../results_combinedGSIDs/107420-001-068.refined.vdjca
+    wildcards: sample=107420-001-068, read_threshold=1
+    threads: 4
+    resources: tmpdir=/tmp
+

@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 72
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+align                  101
+all                      1
+assemble               101
+export_clones          101
+export_qc_tags         101
+refineTagsAndSort      101
+total                  506
+
+Select jobs to execute...
+
+[Wed Apr  1 13:03:29 2026]
+rule align:
+    input: /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs/107420-001-072_R1.fastq.gz, /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs/107420-001-072_R2.fastq.gz
+    output: ../../results_combinedGSIDs/107420-001-072.vdjca, ../../results_combinedGSIDs/107420-001-072.align.report.txt
+    jobid: 27
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-072.vdjca, ../../results_combinedGSIDs/107420-001-072.align.report.txt
+    wildcards: sample=107420-001-072
+    threads: 72
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Wed Apr  1 13:04:42 2026]
+Error in rule align:
+    jobid: 27
+    input: /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs/107420-001-072_R1.fastq.gz, /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs/107420-001-072_R2.fastq.gz
+    output: ../../results_combinedGSIDs/107420-001-072.vdjca, ../../results_combinedGSIDs/107420-001-072.align.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx1400g align             --preset takara-human-rna-tcr-umi-smartseq             --species hsa             -r ../../results_combinedGSIDs/107420-001-072.align.report.txt             /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs/107420-001-072_R1.fastq.gz /home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs/107420-001-072_R2.fastq.gz ../../results_combinedGSIDs/107420-001-072.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2026-04-01T130327.273786.snakemake.log

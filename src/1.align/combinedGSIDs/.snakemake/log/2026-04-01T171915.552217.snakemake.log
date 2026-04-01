@@ -1,0 +1,503 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 88
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+align                   78
+all                      1
+assemble               101
+export_clones          101
+export_qc_tags         101
+refineTagsAndSort      101
+total                  483
+
+Select jobs to execute...
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-015.vdjca
+    output: ../../results_combinedGSIDs/107420-001-015.refined.vdjca, ../../results_combinedGSIDs/107420-001-015.refine.report.txt
+    jobid: 108
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-015.refine.report.txt, ../../results_combinedGSIDs/107420-001-015.refined.vdjca
+    wildcards: sample=107420-001-015
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-049.vdjca
+    output: ../../results_combinedGSIDs/107420-001-049.refined.vdjca, ../../results_combinedGSIDs/107420-001-049.refine.report.txt
+    jobid: 168
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-049.refine.report.txt, ../../results_combinedGSIDs/107420-001-049.refined.vdjca
+    wildcards: sample=107420-001-049
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-093.vdjca
+    output: ../../results_combinedGSIDs/107420-001-093.refined.vdjca, ../../results_combinedGSIDs/107420-001-093.refine.report.txt
+    jobid: 138
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-093.refine.report.txt, ../../results_combinedGSIDs/107420-001-093.refined.vdjca
+    wildcards: sample=107420-001-093
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-084.vdjca
+    output: ../../results_combinedGSIDs/107420-001-084.refined.vdjca, ../../results_combinedGSIDs/107420-001-084.refine.report.txt
+    jobid: 198
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-084.refined.vdjca, ../../results_combinedGSIDs/107420-001-084.refine.report.txt
+    wildcards: sample=107420-001-084
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-076.vdjca
+    output: ../../results_combinedGSIDs/107420-001-076.refined.vdjca, ../../results_combinedGSIDs/107420-001-076.refine.report.txt
+    jobid: 142
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-076.refined.vdjca, ../../results_combinedGSIDs/107420-001-076.refine.report.txt
+    wildcards: sample=107420-001-076
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-038.vdjca
+    output: ../../results_combinedGSIDs/107420-001-038.refined.vdjca, ../../results_combinedGSIDs/107420-001-038.refine.report.txt
+    jobid: 175
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-038.refine.report.txt, ../../results_combinedGSIDs/107420-001-038.refined.vdjca
+    wildcards: sample=107420-001-038
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-023.vdjca
+    output: ../../results_combinedGSIDs/107420-001-023.refined.vdjca, ../../results_combinedGSIDs/107420-001-023.refine.report.txt
+    jobid: 161
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-023.refined.vdjca, ../../results_combinedGSIDs/107420-001-023.refine.report.txt
+    wildcards: sample=107420-001-023
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-063.vdjca
+    output: ../../results_combinedGSIDs/107420-001-063.refined.vdjca, ../../results_combinedGSIDs/107420-001-063.refine.report.txt
+    jobid: 191
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-063.refine.report.txt, ../../results_combinedGSIDs/107420-001-063.refined.vdjca
+    wildcards: sample=107420-001-063
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-003.vdjca
+    output: ../../results_combinedGSIDs/107420-001-003.refined.vdjca, ../../results_combinedGSIDs/107420-001-003.refine.report.txt
+    jobid: 105
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-003.refined.vdjca, ../../results_combinedGSIDs/107420-001-003.refine.report.txt
+    wildcards: sample=107420-001-003
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-058.vdjca
+    output: ../../results_combinedGSIDs/107420-001-058.refined.vdjca, ../../results_combinedGSIDs/107420-001-058.refine.report.txt
+    jobid: 135
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-058.refined.vdjca, ../../results_combinedGSIDs/107420-001-058.refine.report.txt
+    wildcards: sample=107420-001-058
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-064.vdjca
+    output: ../../results_combinedGSIDs/107420-001-064.refined.vdjca, ../../results_combinedGSIDs/107420-001-064.refine.report.txt
+    jobid: 195
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-064.refine.report.txt, ../../results_combinedGSIDs/107420-001-064.refined.vdjca
+    wildcards: sample=107420-001-064
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-053.vdjca
+    output: ../../results_combinedGSIDs/107420-001-053.refined.vdjca, ../../results_combinedGSIDs/107420-001-053.refine.report.txt
+    jobid: 158
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-053.refine.report.txt, ../../results_combinedGSIDs/107420-001-053.refined.vdjca
+    wildcards: sample=107420-001-053
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-072.vdjca
+    output: ../../results_combinedGSIDs/107420-001-072.refined.vdjca, ../../results_combinedGSIDs/107420-001-072.refine.report.txt
+    jobid: 128
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-072.refined.vdjca, ../../results_combinedGSIDs/107420-001-072.refine.report.txt
+    wildcards: sample=107420-001-072
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-056.vdjca
+    output: ../../results_combinedGSIDs/107420-001-056.refined.vdjca, ../../results_combinedGSIDs/107420-001-056.refine.report.txt
+    jobid: 188
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-056.refined.vdjca, ../../results_combinedGSIDs/107420-001-056.refine.report.txt
+    wildcards: sample=107420-001-056
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-033.vdjca
+    output: ../../results_combinedGSIDs/107420-001-033.refined.vdjca, ../../results_combinedGSIDs/107420-001-033.refine.report.txt
+    jobid: 155
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-033.refine.report.txt, ../../results_combinedGSIDs/107420-001-033.refined.vdjca
+    wildcards: sample=107420-001-033
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-041.vdjca
+    output: ../../results_combinedGSIDs/107420-001-041.refined.vdjca, ../../results_combinedGSIDs/107420-001-041.refine.report.txt
+    jobid: 125
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-041.refine.report.txt, ../../results_combinedGSIDs/107420-001-041.refined.vdjca
+    wildcards: sample=107420-001-041
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-087.vdjca
+    output: ../../results_combinedGSIDs/107420-001-087.refined.vdjca, ../../results_combinedGSIDs/107420-001-087.refine.report.txt
+    jobid: 148
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-087.refine.report.txt, ../../results_combinedGSIDs/107420-001-087.refined.vdjca
+    wildcards: sample=107420-001-087
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-045.vdjca
+    output: ../../results_combinedGSIDs/107420-001-045.refined.vdjca, ../../results_combinedGSIDs/107420-001-045.refine.report.txt
+    jobid: 118
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-045.refined.vdjca, ../../results_combinedGSIDs/107420-001-045.refine.report.txt
+    wildcards: sample=107420-001-045
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-068.vdjca
+    output: ../../results_combinedGSIDs/107420-001-068.refined.vdjca, ../../results_combinedGSIDs/107420-001-068.refine.report.txt
+    jobid: 178
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-068.refined.vdjca, ../../results_combinedGSIDs/107420-001-068.refine.report.txt
+    wildcards: sample=107420-001-068
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-075.vdjca
+    output: ../../results_combinedGSIDs/107420-001-075.refined.vdjca, ../../results_combinedGSIDs/107420-001-075.refine.report.txt
+    jobid: 141
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-075.refined.vdjca, ../../results_combinedGSIDs/107420-001-075.refine.report.txt
+    wildcards: sample=107420-001-075
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-031.vdjca
+    output: ../../results_combinedGSIDs/107420-001-031.refined.vdjca, ../../results_combinedGSIDs/107420-001-031.refine.report.txt
+    jobid: 115
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-031.refined.vdjca, ../../results_combinedGSIDs/107420-001-031.refine.report.txt
+    wildcards: sample=107420-001-031
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+[Wed Apr  1 17:19:16 2026]
+rule refineTagsAndSort:
+    input: ../../results_combinedGSIDs/107420-001-091.vdjca
+    output: ../../results_combinedGSIDs/107420-001-091.refined.vdjca, ../../results_combinedGSIDs/107420-001-091.refine.report.txt
+    jobid: 145
+    reason: Missing output files: ../../results_combinedGSIDs/107420-001-091.refined.vdjca, ../../results_combinedGSIDs/107420-001-091.refine.report.txt
+    wildcards: sample=107420-001-091
+    threads: 4
+    resources: tmpdir=/tmp
+
+[Wed Apr  1 17:19:16 2026]
+[Wed Apr  1 17:19:16 2026]
+[Wed Apr  1 17:19:16 2026]
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 168
+    input: ../../results_combinedGSIDs/107420-001-049.vdjca
+    output: ../../results_combinedGSIDs/107420-001-049.refined.vdjca, ../../results_combinedGSIDs/107420-001-049.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-049.refine.report.txt           ../../results_combinedGSIDs/107420-001-049.vdjca ../../results_combinedGSIDs/107420-001-049.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule refineTagsAndSort:
+    jobid: 108
+    input: ../../results_combinedGSIDs/107420-001-015.vdjca
+    output: ../../results_combinedGSIDs/107420-001-015.refined.vdjca, ../../results_combinedGSIDs/107420-001-015.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-015.refine.report.txt           ../../results_combinedGSIDs/107420-001-015.vdjca ../../results_combinedGSIDs/107420-001-015.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 138
+    input: ../../results_combinedGSIDs/107420-001-093.vdjca
+    output: ../../results_combinedGSIDs/107420-001-093.refined.vdjca, ../../results_combinedGSIDs/107420-001-093.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-093.refine.report.txt           ../../results_combinedGSIDs/107420-001-093.vdjca ../../results_combinedGSIDs/107420-001-093.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule refineTagsAndSort:
+    jobid: 198
+    input: ../../results_combinedGSIDs/107420-001-084.vdjca
+    output: ../../results_combinedGSIDs/107420-001-084.refined.vdjca, ../../results_combinedGSIDs/107420-001-084.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-084.refine.report.txt           ../../results_combinedGSIDs/107420-001-084.vdjca ../../results_combinedGSIDs/107420-001-084.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 175
+    input: ../../results_combinedGSIDs/107420-001-038.vdjca
+    output: ../../results_combinedGSIDs/107420-001-038.refined.vdjca, ../../results_combinedGSIDs/107420-001-038.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-038.refine.report.txt           ../../results_combinedGSIDs/107420-001-038.vdjca ../../results_combinedGSIDs/107420-001-038.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule refineTagsAndSort:
+    jobid: 142
+    input: ../../results_combinedGSIDs/107420-001-076.vdjca
+    output: ../../results_combinedGSIDs/107420-001-076.refined.vdjca, ../../results_combinedGSIDs/107420-001-076.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-076.refine.report.txt           ../../results_combinedGSIDs/107420-001-076.vdjca ../../results_combinedGSIDs/107420-001-076.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Error in rule refineTagsAndSort:
+    jobid: 161
+    input: ../../results_combinedGSIDs/107420-001-023.vdjca
+    output: ../../results_combinedGSIDs/107420-001-023.refined.vdjca, ../../results_combinedGSIDs/107420-001-023.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-023.refine.report.txt           ../../results_combinedGSIDs/107420-001-023.vdjca ../../results_combinedGSIDs/107420-001-023.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 191
+    input: ../../results_combinedGSIDs/107420-001-063.vdjca
+    output: ../../results_combinedGSIDs/107420-001-063.refined.vdjca, ../../results_combinedGSIDs/107420-001-063.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-063.refine.report.txt           ../../results_combinedGSIDs/107420-001-063.vdjca ../../results_combinedGSIDs/107420-001-063.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 105
+    input: ../../results_combinedGSIDs/107420-001-003.vdjca
+    output: ../../results_combinedGSIDs/107420-001-003.refined.vdjca, ../../results_combinedGSIDs/107420-001-003.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-003.refine.report.txt           ../../results_combinedGSIDs/107420-001-003.vdjca ../../results_combinedGSIDs/107420-001-003.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 135
+    input: ../../results_combinedGSIDs/107420-001-058.vdjca
+    output: ../../results_combinedGSIDs/107420-001-058.refined.vdjca, ../../results_combinedGSIDs/107420-001-058.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-058.refine.report.txt           ../../results_combinedGSIDs/107420-001-058.vdjca ../../results_combinedGSIDs/107420-001-058.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 195
+    input: ../../results_combinedGSIDs/107420-001-064.vdjca
+    output: ../../results_combinedGSIDs/107420-001-064.refined.vdjca, ../../results_combinedGSIDs/107420-001-064.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-064.refine.report.txt           ../../results_combinedGSIDs/107420-001-064.vdjca ../../results_combinedGSIDs/107420-001-064.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 158
+    input: ../../results_combinedGSIDs/107420-001-053.vdjca
+    output: ../../results_combinedGSIDs/107420-001-053.refined.vdjca, ../../results_combinedGSIDs/107420-001-053.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-053.refine.report.txt           ../../results_combinedGSIDs/107420-001-053.vdjca ../../results_combinedGSIDs/107420-001-053.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 128
+    input: ../../results_combinedGSIDs/107420-001-072.vdjca
+    output: ../../results_combinedGSIDs/107420-001-072.refined.vdjca, ../../results_combinedGSIDs/107420-001-072.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-072.refine.report.txt           ../../results_combinedGSIDs/107420-001-072.vdjca ../../results_combinedGSIDs/107420-001-072.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 188
+    input: ../../results_combinedGSIDs/107420-001-056.vdjca
+    output: ../../results_combinedGSIDs/107420-001-056.refined.vdjca, ../../results_combinedGSIDs/107420-001-056.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-056.refine.report.txt           ../../results_combinedGSIDs/107420-001-056.vdjca ../../results_combinedGSIDs/107420-001-056.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 155
+    input: ../../results_combinedGSIDs/107420-001-033.vdjca
+    output: ../../results_combinedGSIDs/107420-001-033.refined.vdjca, ../../results_combinedGSIDs/107420-001-033.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-033.refine.report.txt           ../../results_combinedGSIDs/107420-001-033.vdjca ../../results_combinedGSIDs/107420-001-033.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 125
+    input: ../../results_combinedGSIDs/107420-001-041.vdjca
+    output: ../../results_combinedGSIDs/107420-001-041.refined.vdjca, ../../results_combinedGSIDs/107420-001-041.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-041.refine.report.txt           ../../results_combinedGSIDs/107420-001-041.vdjca ../../results_combinedGSIDs/107420-001-041.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 148
+    input: ../../results_combinedGSIDs/107420-001-087.vdjca
+    output: ../../results_combinedGSIDs/107420-001-087.refined.vdjca, ../../results_combinedGSIDs/107420-001-087.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-087.refine.report.txt           ../../results_combinedGSIDs/107420-001-087.vdjca ../../results_combinedGSIDs/107420-001-087.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 118
+    input: ../../results_combinedGSIDs/107420-001-045.vdjca
+    output: ../../results_combinedGSIDs/107420-001-045.refined.vdjca, ../../results_combinedGSIDs/107420-001-045.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-045.refine.report.txt           ../../results_combinedGSIDs/107420-001-045.vdjca ../../results_combinedGSIDs/107420-001-045.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 178
+    input: ../../results_combinedGSIDs/107420-001-068.vdjca
+    output: ../../results_combinedGSIDs/107420-001-068.refined.vdjca, ../../results_combinedGSIDs/107420-001-068.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-068.refine.report.txt           ../../results_combinedGSIDs/107420-001-068.vdjca ../../results_combinedGSIDs/107420-001-068.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 141
+    input: ../../results_combinedGSIDs/107420-001-075.vdjca
+    output: ../../results_combinedGSIDs/107420-001-075.refined.vdjca, ../../results_combinedGSIDs/107420-001-075.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-075.refine.report.txt           ../../results_combinedGSIDs/107420-001-075.vdjca ../../results_combinedGSIDs/107420-001-075.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 115
+    input: ../../results_combinedGSIDs/107420-001-031.vdjca
+    output: ../../results_combinedGSIDs/107420-001-031.refined.vdjca, ../../results_combinedGSIDs/107420-001-031.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-031.refine.report.txt           ../../results_combinedGSIDs/107420-001-031.vdjca ../../results_combinedGSIDs/107420-001-031.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  1 17:19:16 2026]
+Error in rule refineTagsAndSort:
+    jobid: 145
+    input: ../../results_combinedGSIDs/107420-001-091.vdjca
+    output: ../../results_combinedGSIDs/107420-001-091.refined.vdjca, ../../results_combinedGSIDs/107420-001-091.refine.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx22528             refineTagsAndSort             --report ../../results_combinedGSIDs/107420-001-091.refine.report.txt           ../../results_combinedGSIDs/107420-001-091.vdjca ../../results_combinedGSIDs/107420-001-091.refined.vdjca
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2026-04-01T171915.552217.snakemake.log

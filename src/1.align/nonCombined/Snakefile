@@ -1,0 +1,109 @@
+import os
+
+# 1. Discover all samples (including those in subdirectories)
+ALL_SAMPLES, = glob_wildcards("../data/{sample}_R1.fastq.gz")
+
+# Filter: Keep only samples that DO NOT have a '/' in their name
+SAMPLES = [s for s in ALL_SAMPLES if "/" not in s]
+
+print(f"Total samples found: {len(ALL_SAMPLES)}")
+print(f"Samples kept (excluding subdirectories): {len(SAMPLES)}")
+
+
+configfile: "config.yaml"
+RES_DIR = config["results_dir"]
+MIXCR_MEM = config.get("mixcr_memory", "230g")  # default if not set in config
+READ_THRESHOLDS = config.get("read_thresholds")
+POST_ANALYSIS = config.get("post_analysis")
+
+rule all:
+    input:
+        expand(os.path.join(RES_DIR, "{sample}.vdjca"), sample=SAMPLES),
+        expand(os.path.join(RES_DIR, "{sample}.align.report.txt"), sample=SAMPLES),
+        expand(os.path.join(RES_DIR, "{sample}.refined.vdjca"), sample=SAMPLES),
+        expand(os.path.join(RES_DIR, "{sample}.refine.report.txt"), sample=SAMPLES),
+        expand(os.path.join(RES_DIR, "{sample}.{read_threshold}.clones.txt"), sample=SAMPLES, read_threshold=READ_THRESHOLDS),
+        expand(os.path.join(RES_DIR, "{sample}.{read_threshold}.clones.clns"), sample=SAMPLES, read_threshold=READ_THRESHOLDS),
+        expand(os.path.join(RES_DIR, "{sample}.{read_threshold}.assemble.report.txt"), sample=SAMPLES, read_threshold=READ_THRESHOLDS),
+        expand(os.path.join(RES_DIR, "{sample}.{read_threshold}.coverage.png"), sample=SAMPLES, read_threshold=READ_THRESHOLDS)
+
+rule align:
+    input:
+        r1="../data/{sample}_R1.fastq.gz",
+        r2="../data/{sample}_R2.fastq.gz"
+    output:
+        vdjca=os.path.join(RES_DIR, "{sample}.vdjca"),
+        report=os.path.join(RES_DIR, "{sample}.align.report.txt")
+    params:
+        preset=config["mixcr_preset"],
+        species=config["mixcr_species"],
+        mem=MIXCR_MEM
+    shell:
+        """
+        mixcr-4.7.0 -Xmx{params.mem} align \
+            --preset {params.preset} \
+            --species {params.species} \
+            -r {output.report} \
+            {input.r1} {input.r2} {output.vdjca}
+        """
+
+rule refineTagsAndSort:
+    input:
+        vdjca=os.path.join(RES_DIR, "{sample}.vdjca")
+    output:
+        refined=os.path.join(RES_DIR, "{sample}.refined.vdjca"),
+        report=os.path.join(RES_DIR, "{sample}.refine.report.txt")
+    params:
+        mem=MIXCR_MEM
+    shell:
+        """
+        mixcr-4.7.0 -Xmx{params.mem} \
+            refineTagsAndSort \
+            --report {output.report} \
+          {input.vdjca} {output.refined}
+        """
+
+rule assemble:
+    input:
+        refined=os.path.join(RES_DIR, "{sample}.refined.vdjca")
+    output:
+        clns=os.path.join(RES_DIR, "{sample}.{read_threshold}.clones.clns"),
+        report=os.path.join(RES_DIR, "{sample}.{read_threshold}.assemble.report.txt")
+    params:
+        mem=MIXCR_MEM,
+        read_threshold="{read_threshold}"
+    shell:
+        """
+        mixcr-4.7.0 -Xmx{params.mem} assemble \
+          --assemble-clonotypes-by CDR3 \
+          -Passembler.minRecordsPerConsensus={wildcards.read_threshold} \
+          -r {output.report} \
+          {input.refined} {output.clns}
+        """
+
+rule export_clones:
+    input:
+        clns=os.path.join(RES_DIR, "{sample}.{read_threshold}.clones.clns")
+    output:
+        clones_txt=os.path.join(RES_DIR, "{sample}.{read_threshold}.clones.txt")
+    params:
+        mem=MIXCR_MEM,
+        read_threshold="{read_threshold}"
+    shell:
+        """
+        mixcr-4.7.0 -Xmx{params.mem} exportClones {input.clns} > {output.clones_txt}
+        """
+
+rule export_qc_tags:
+    input:
+        clns=os.path.join(RES_DIR, "{sample}.{read_threshold}.clones.clns")
+    output:
+        coverage_img=os.path.join(RES_DIR, "{sample}.{read_threshold}.coverage.png")  # Change extension as needed (pdf, eps, svg, jpeg)
+    params:
+        mem=MIXCR_MEM,
+        read_threshold="{read_threshold}"
+    shell:
+        """
+        mixcr-4.7.0 -Xmx{params.mem} exportQc tags {input.clns} {wildcards.sample}.{wildcards.read_threshold}.coverage.png
+        mv {wildcards.sample}.{wildcards.read_threshold}.coverage.0.png {output.coverage_img}
+        """

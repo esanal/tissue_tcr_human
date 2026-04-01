@@ -1,0 +1,697 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+align                   75
+all                      1
+assemble                75
+export_clones           75
+export_qc_tags          75
+refineTagsAndSort       75
+total                  376
+
+Select jobs to execute...
+
+[Sun Mar 29 03:01:00 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN014_BM_CD8_CD69+_R1.fastq.gz, ../../data/combined_fastq/DYN014_BM_CD8_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/DYN014_BM_CD8_CD69+.vdjca, ../../results_combineSamples/DYN014_BM_CD8_CD69+.align.report.txt
+    jobid: 31
+    reason: Missing output files: ../../results_combineSamples/DYN014_BM_CD8_CD69+.vdjca, ../../results_combineSamples/DYN014_BM_CD8_CD69+.align.report.txt
+    wildcards: sample=DYN014_BM_CD8_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 03:08:37 2026]
+Finished job 31.
+1 of 376 steps (0.3%) done
+Select jobs to execute...
+
+[Sun Mar 29 03:08:37 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN014_BM_CD4_TregMemory_R1.fastq.gz, ../../data/combined_fastq/DYN014_BM_CD4_TregMemory_R2.fastq.gz
+    output: ../../results_combineSamples/DYN014_BM_CD4_TregMemory.vdjca, ../../results_combineSamples/DYN014_BM_CD4_TregMemory.align.report.txt
+    jobid: 71
+    reason: Missing output files: ../../results_combineSamples/DYN014_BM_CD4_TregMemory.align.report.txt, ../../results_combineSamples/DYN014_BM_CD4_TregMemory.vdjca
+    wildcards: sample=DYN014_BM_CD4_TregMemory
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 03:09:29 2026]
+Finished job 71.
+2 of 376 steps (1%) done
+Select jobs to execute...
+
+[Sun Mar 29 03:09:29 2026]
+rule align:
+    input: ../../data/combined_fastq/A25_Blood_CD8_EM+CM_R1.fastq.gz, ../../data/combined_fastq/A25_Blood_CD8_EM+CM_R2.fastq.gz
+    output: ../../results_combineSamples/A25_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/A25_Blood_CD8_EM+CM.align.report.txt
+    jobid: 11
+    reason: Missing output files: ../../results_combineSamples/A25_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/A25_Blood_CD8_EM+CM.align.report.txt
+    wildcards: sample=A25_Blood_CD8_EM+CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 03:26:39 2026]
+Finished job 11.
+3 of 376 steps (1%) done
+Select jobs to execute...
+
+[Sun Mar 29 03:26:39 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN014_Blood_CD8_EMRA_R1.fastq.gz, ../../data/combined_fastq/DYN014_Blood_CD8_EMRA_R2.fastq.gz
+    output: ../../results_combineSamples/DYN014_Blood_CD8_EMRA.vdjca, ../../results_combineSamples/DYN014_Blood_CD8_EMRA.align.report.txt
+    jobid: 75
+    reason: Missing output files: ../../results_combineSamples/DYN014_Blood_CD8_EMRA.vdjca, ../../results_combineSamples/DYN014_Blood_CD8_EMRA.align.report.txt
+    wildcards: sample=DYN014_Blood_CD8_EMRA
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 03:29:28 2026]
+Finished job 75.
+4 of 376 steps (1%) done
+Select jobs to execute...
+
+[Sun Mar 29 03:29:29 2026]
+rule align:
+    input: ../../data/combined_fastq/A20_Blood_CD4_CM_R1.fastq.gz, ../../data/combined_fastq/A20_Blood_CD4_CM_R2.fastq.gz
+    output: ../../results_combineSamples/A20_Blood_CD4_CM.vdjca, ../../results_combineSamples/A20_Blood_CD4_CM.align.report.txt
+    jobid: 1
+    reason: Missing output files: ../../results_combineSamples/A20_Blood_CD4_CM.align.report.txt, ../../results_combineSamples/A20_Blood_CD4_CM.vdjca
+    wildcards: sample=A20_Blood_CD4_CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 03:44:53 2026]
+Finished job 1.
+5 of 376 steps (1%) done
+Select jobs to execute...
+
+[Sun Mar 29 03:44:53 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN014_Blood_CD8_EM+CM_R1.fastq.gz, ../../data/combined_fastq/DYN014_Blood_CD8_EM+CM_R2.fastq.gz
+    output: ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.align.report.txt
+    jobid: 35
+    reason: Missing output files: ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.align.report.txt
+    wildcards: sample=DYN014_Blood_CD8_EM+CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 03:46:17 2026]
+Finished job 35.
+6 of 376 steps (2%) done
+Select jobs to execute...
+
+[Sun Mar 29 03:46:17 2026]
+rule align:
+    input: ../../data/combined_fastq/A21_Blood_CD4_N_R1.fastq.gz, ../../data/combined_fastq/A21_Blood_CD4_N_R2.fastq.gz
+    output: ../../results_combineSamples/A21_Blood_CD4_N.vdjca, ../../results_combineSamples/A21_Blood_CD4_N.align.report.txt
+    jobid: 55
+    reason: Missing output files: ../../results_combineSamples/A21_Blood_CD4_N.vdjca, ../../results_combineSamples/A21_Blood_CD4_N.align.report.txt
+    wildcards: sample=A21_Blood_CD4_N
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 03:54:06 2026]
+Finished job 55.
+7 of 376 steps (2%) done
+Select jobs to execute...
+
+[Sun Mar 29 03:54:06 2026]
+rule align:
+    input: ../../data/combined_fastq/A25_Fat_CD4_CD69+_R1.fastq.gz, ../../data/combined_fastq/A25_Fat_CD4_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/A25_Fat_CD4_CD69+.vdjca, ../../results_combineSamples/A25_Fat_CD4_CD69+.align.report.txt
+    jobid: 12
+    reason: Missing output files: ../../results_combineSamples/A25_Fat_CD4_CD69+.vdjca, ../../results_combineSamples/A25_Fat_CD4_CD69+.align.report.txt
+    wildcards: sample=A25_Fat_CD4_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 03:59:51 2026]
+Finished job 12.
+8 of 376 steps (2%) done
+Select jobs to execute...
+
+[Sun Mar 29 03:59:51 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/A25_Fat_CD4_CD69+.vdjca
+    output: ../../results_combineSamples/A25_Fat_CD4_CD69+.refined.vdjca, ../../results_combineSamples/A25_Fat_CD4_CD69+.refine.report.txt
+    jobid: 87
+    reason: Missing output files: ../../results_combineSamples/A25_Fat_CD4_CD69+.refined.vdjca, ../../results_combineSamples/A25_Fat_CD4_CD69+.refine.report.txt; Input files updated by another job: ../../results_combineSamples/A25_Fat_CD4_CD69+.vdjca
+    wildcards: sample=A25_Fat_CD4_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 04:42:25 2026]
+Finished job 87.
+9 of 376 steps (2%) done
+Select jobs to execute...
+
+[Sun Mar 29 04:42:25 2026]
+rule assemble:
+    input: ../../results_combineSamples/A25_Fat_CD4_CD69+.refined.vdjca
+    output: ../../results_combineSamples/A25_Fat_CD4_CD69+.1.clones.clns, ../../results_combineSamples/A25_Fat_CD4_CD69+.1.assemble.report.txt
+    jobid: 174
+    reason: Missing output files: ../../results_combineSamples/A25_Fat_CD4_CD69+.1.clones.clns, ../../results_combineSamples/A25_Fat_CD4_CD69+.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/A25_Fat_CD4_CD69+.refined.vdjca
+    wildcards: sample=A25_Fat_CD4_CD69+, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 06:23:21 2026]
+Finished job 174.
+10 of 376 steps (3%) done
+Select jobs to execute...
+
+[Sun Mar 29 06:23:21 2026]
+rule align:
+    input: ../../data/combined_fastq/A20_Blood_CD4_N_R1.fastq.gz, ../../data/combined_fastq/A20_Blood_CD4_N_R2.fastq.gz
+    output: ../../results_combineSamples/A20_Blood_CD4_N.vdjca, ../../results_combineSamples/A20_Blood_CD4_N.align.report.txt
+    jobid: 2
+    reason: Missing output files: ../../results_combineSamples/A20_Blood_CD4_N.vdjca, ../../results_combineSamples/A20_Blood_CD4_N.align.report.txt
+    wildcards: sample=A20_Blood_CD4_N
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 06:30:21 2026]
+Finished job 2.
+11 of 376 steps (3%) done
+Select jobs to execute...
+
+[Sun Mar 29 06:30:21 2026]
+rule align:
+    input: ../../data/combined_fastq/A26_Fat_CD8_CD69+_R1.fastq.gz, ../../data/combined_fastq/A26_Fat_CD8_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/A26_Fat_CD8_CD69+.vdjca, ../../results_combineSamples/A26_Fat_CD8_CD69+.align.report.txt
+    jobid: 42
+    reason: Missing output files: ../../results_combineSamples/A26_Fat_CD8_CD69+.align.report.txt, ../../results_combineSamples/A26_Fat_CD8_CD69+.vdjca
+    wildcards: sample=A26_Fat_CD8_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 06:32:51 2026]
+Finished job 42.
+12 of 376 steps (3%) done
+Select jobs to execute...
+
+[Sun Mar 29 06:32:51 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/A26_Fat_CD8_CD69+.vdjca
+    output: ../../results_combineSamples/A26_Fat_CD8_CD69+.refined.vdjca, ../../results_combineSamples/A26_Fat_CD8_CD69+.refine.report.txt
+    jobid: 117
+    reason: Missing output files: ../../results_combineSamples/A26_Fat_CD8_CD69+.refined.vdjca, ../../results_combineSamples/A26_Fat_CD8_CD69+.refine.report.txt; Input files updated by another job: ../../results_combineSamples/A26_Fat_CD8_CD69+.vdjca
+    wildcards: sample=A26_Fat_CD8_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 06:45:22 2026]
+Finished job 117.
+13 of 376 steps (3%) done
+Select jobs to execute...
+
+[Sun Mar 29 06:45:22 2026]
+rule assemble:
+    input: ../../results_combineSamples/A26_Fat_CD8_CD69+.refined.vdjca
+    output: ../../results_combineSamples/A26_Fat_CD8_CD69+.1.clones.clns, ../../results_combineSamples/A26_Fat_CD8_CD69+.1.assemble.report.txt
+    jobid: 234
+    reason: Missing output files: ../../results_combineSamples/A26_Fat_CD8_CD69+.1.assemble.report.txt, ../../results_combineSamples/A26_Fat_CD8_CD69+.1.clones.clns; Input files updated by another job: ../../results_combineSamples/A26_Fat_CD8_CD69+.refined.vdjca
+    wildcards: sample=A26_Fat_CD8_CD69+, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:19:17 2026]
+Finished job 234.
+14 of 376 steps (4%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:19:17 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN014_BM_CD4_CD69-_R1.fastq.gz, ../../data/combined_fastq/DYN014_BM_CD4_CD69-_R2.fastq.gz
+    output: ../../results_combineSamples/DYN014_BM_CD4_CD69-.vdjca, ../../results_combineSamples/DYN014_BM_CD4_CD69-.align.report.txt
+    jobid: 70
+    reason: Missing output files: ../../results_combineSamples/DYN014_BM_CD4_CD69-.align.report.txt, ../../results_combineSamples/DYN014_BM_CD4_CD69-.vdjca
+    wildcards: sample=DYN014_BM_CD4_CD69-
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:22:52 2026]
+Finished job 70.
+15 of 376 steps (4%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:22:52 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN014_BM_CD4_CD69+_R1.fastq.gz, ../../data/combined_fastq/DYN014_BM_CD4_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/DYN014_BM_CD4_CD69+.vdjca, ../../results_combineSamples/DYN014_BM_CD4_CD69+.align.report.txt
+    jobid: 30
+    reason: Missing output files: ../../results_combineSamples/DYN014_BM_CD4_CD69+.vdjca, ../../results_combineSamples/DYN014_BM_CD4_CD69+.align.report.txt
+    wildcards: sample=DYN014_BM_CD4_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:26:20 2026]
+Finished job 30.
+16 of 376 steps (4%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:26:20 2026]
+rule align:
+    input: ../../data/combined_fastq/A21_Skin_CD4_CD69+_R1.fastq.gz, ../../data/combined_fastq/A21_Skin_CD4_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/A21_Skin_CD4_CD69+.vdjca, ../../results_combineSamples/A21_Skin_CD4_CD69+.align.report.txt
+    jobid: 10
+    reason: Missing output files: ../../results_combineSamples/A21_Skin_CD4_CD69+.vdjca, ../../results_combineSamples/A21_Skin_CD4_CD69+.align.report.txt
+    wildcards: sample=A21_Skin_CD4_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:28:35 2026]
+Finished job 10.
+17 of 376 steps (5%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:28:35 2026]
+rule align:
+    input: ../../data/combined_fastq/A25_Fat_CD8_CD69-_R1.fastq.gz, ../../data/combined_fastq/A25_Fat_CD8_CD69-_R2.fastq.gz
+    output: ../../results_combineSamples/A25_Fat_CD8_CD69-.vdjca, ../../results_combineSamples/A25_Fat_CD8_CD69-.align.report.txt
+    jobid: 13
+    reason: Missing output files: ../../results_combineSamples/A25_Fat_CD8_CD69-.vdjca, ../../results_combineSamples/A25_Fat_CD8_CD69-.align.report.txt
+    wildcards: sample=A25_Fat_CD8_CD69-
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:32:13 2026]
+Finished job 13.
+18 of 376 steps (5%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:32:13 2026]
+rule align:
+    input: ../../data/combined_fastq/A20_Fat_CD8_CD69+_R1.fastq.gz, ../../data/combined_fastq/A20_Fat_CD8_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/A20_Fat_CD8_CD69+.vdjca, ../../results_combineSamples/A20_Fat_CD8_CD69+.align.report.txt
+    jobid: 50
+    reason: Missing output files: ../../results_combineSamples/A20_Fat_CD8_CD69+.align.report.txt, ../../results_combineSamples/A20_Fat_CD8_CD69+.vdjca
+    wildcards: sample=A20_Fat_CD8_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:34:51 2026]
+Finished job 50.
+19 of 376 steps (5%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:34:51 2026]
+rule align:
+    input: ../../data/combined_fastq/A25_Fat_CD4_CD69-_R1.fastq.gz, ../../data/combined_fastq/A25_Fat_CD4_CD69-_R2.fastq.gz
+    output: ../../results_combineSamples/A25_Fat_CD4_CD69-.vdjca, ../../results_combineSamples/A25_Fat_CD4_CD69-.align.report.txt
+    jobid: 60
+    reason: Missing output files: ../../results_combineSamples/A25_Fat_CD4_CD69-.align.report.txt, ../../results_combineSamples/A25_Fat_CD4_CD69-.vdjca
+    wildcards: sample=A25_Fat_CD4_CD69-
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:36:41 2026]
+Finished job 60.
+20 of 376 steps (5%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:36:41 2026]
+rule align:
+    input: ../../data/combined_fastq/A26_Skin_CD8_CD69+_R1.fastq.gz, ../../data/combined_fastq/A26_Skin_CD8_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/A26_Skin_CD8_CD69+.vdjca, ../../results_combineSamples/A26_Skin_CD8_CD69+.align.report.txt
+    jobid: 20
+    reason: Missing output files: ../../results_combineSamples/A26_Skin_CD8_CD69+.align.report.txt, ../../results_combineSamples/A26_Skin_CD8_CD69+.vdjca
+    wildcards: sample=A26_Skin_CD8_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:38:52 2026]
+Finished job 20.
+21 of 376 steps (6%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:38:52 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN011_Blood_CD4_CM_R1.fastq.gz, ../../data/combined_fastq/DYN011_Blood_CD4_CM_R2.fastq.gz
+    output: ../../results_combineSamples/DYN011_Blood_CD4_CM.vdjca, ../../results_combineSamples/DYN011_Blood_CD4_CM.align.report.txt
+    jobid: 40
+    reason: Missing output files: ../../results_combineSamples/DYN011_Blood_CD4_CM.vdjca, ../../results_combineSamples/DYN011_Blood_CD4_CM.align.report.txt
+    wildcards: sample=DYN011_Blood_CD4_CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:40:20 2026]
+Finished job 40.
+22 of 376 steps (6%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:40:20 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN014_Blood_CD4_CM_R1.fastq.gz, ../../data/combined_fastq/DYN014_Blood_CD4_CM_R2.fastq.gz
+    output: ../../results_combineSamples/DYN014_Blood_CD4_CM.vdjca, ../../results_combineSamples/DYN014_Blood_CD4_CM.align.report.txt
+    jobid: 73
+    reason: Missing output files: ../../results_combineSamples/DYN014_Blood_CD4_CM.vdjca, ../../results_combineSamples/DYN014_Blood_CD4_CM.align.report.txt
+    wildcards: sample=DYN014_Blood_CD4_CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 07:48:40 2026]
+Finished job 73.
+23 of 376 steps (6%) done
+Select jobs to execute...
+
+[Sun Mar 29 07:48:40 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.vdjca
+    output: ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.refined.vdjca, ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.refine.report.txt
+    jobid: 110
+    reason: Missing output files: ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.refined.vdjca, ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.refine.report.txt; Input files updated by another job: ../../results_combineSamples/DYN014_Blood_CD8_EM+CM.vdjca
+    wildcards: sample=DYN014_Blood_CD8_EM+CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:02:00 2026]
+Finished job 110.
+24 of 376 steps (6%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:02:01 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN011_BM_CD8_CD69+_R1.fastq.gz, ../../data/combined_fastq/DYN011_BM_CD8_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/DYN011_BM_CD8_CD69+.vdjca, ../../results_combineSamples/DYN011_BM_CD8_CD69+.align.report.txt
+    jobid: 57
+    reason: Missing output files: ../../results_combineSamples/DYN011_BM_CD8_CD69+.align.report.txt, ../../results_combineSamples/DYN011_BM_CD8_CD69+.vdjca
+    wildcards: sample=DYN011_BM_CD8_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:11:30 2026]
+Finished job 57.
+25 of 376 steps (7%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:11:30 2026]
+rule align:
+    input: ../../data/combined_fastq/A26_Fat_CD4_CD69-_R1.fastq.gz, ../../data/combined_fastq/A26_Fat_CD4_CD69-_R2.fastq.gz
+    output: ../../results_combineSamples/A26_Fat_CD4_CD69-.vdjca, ../../results_combineSamples/A26_Fat_CD4_CD69-.align.report.txt
+    jobid: 17
+    reason: Missing output files: ../../results_combineSamples/A26_Fat_CD4_CD69-.vdjca, ../../results_combineSamples/A26_Fat_CD4_CD69-.align.report.txt
+    wildcards: sample=A26_Fat_CD4_CD69-
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:13:08 2026]
+Finished job 17.
+26 of 376 steps (7%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:13:08 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN011_Blood_CD8_EM+CM_R1.fastq.gz, ../../data/combined_fastq/DYN011_Blood_CD8_EM+CM_R2.fastq.gz
+    output: ../../results_combineSamples/DYN011_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/DYN011_Blood_CD8_EM+CM.align.report.txt
+    jobid: 53
+    reason: Missing output files: ../../results_combineSamples/DYN011_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/DYN011_Blood_CD8_EM+CM.align.report.txt
+    wildcards: sample=DYN011_Blood_CD8_EM+CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:36:57 2026]
+Finished job 53.
+27 of 376 steps (7%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:36:57 2026]
+rule align:
+    input: ../../data/combined_fastq/A21_Fat_CD8_CD69-_R1.fastq.gz, ../../data/combined_fastq/A21_Fat_CD8_CD69-_R2.fastq.gz
+    output: ../../results_combineSamples/A21_Fat_CD8_CD69-.vdjca, ../../results_combineSamples/A21_Fat_CD8_CD69-.align.report.txt
+    jobid: 37
+    reason: Missing output files: ../../results_combineSamples/A21_Fat_CD8_CD69-.vdjca, ../../results_combineSamples/A21_Fat_CD8_CD69-.align.report.txt
+    wildcards: sample=A21_Fat_CD8_CD69-
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:38:31 2026]
+Finished job 37.
+28 of 376 steps (7%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:38:31 2026]
+rule align:
+    input: ../../data/combined_fastq/A20_Skin_CD8_CD69+_R1.fastq.gz, ../../data/combined_fastq/A20_Skin_CD8_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/A20_Skin_CD8_CD69+.vdjca, ../../results_combineSamples/A20_Skin_CD8_CD69+.align.report.txt
+    jobid: 7
+    reason: Missing output files: ../../results_combineSamples/A20_Skin_CD8_CD69+.vdjca, ../../results_combineSamples/A20_Skin_CD8_CD69+.align.report.txt
+    wildcards: sample=A20_Skin_CD8_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:40:19 2026]
+Finished job 7.
+29 of 376 steps (8%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:40:19 2026]
+rule align:
+    input: ../../data/combined_fastq/A21_Fat_CD4_CD69-_R1.fastq.gz, ../../data/combined_fastq/A21_Fat_CD4_CD69-_R2.fastq.gz
+    output: ../../results_combineSamples/A21_Fat_CD4_CD69-.vdjca, ../../results_combineSamples/A21_Fat_CD4_CD69-.align.report.txt
+    jobid: 47
+    reason: Missing output files: ../../results_combineSamples/A21_Fat_CD4_CD69-.align.report.txt, ../../results_combineSamples/A21_Fat_CD4_CD69-.vdjca
+    wildcards: sample=A21_Fat_CD4_CD69-
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:41:42 2026]
+Finished job 47.
+30 of 376 steps (8%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:41:42 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN014_Blood_CD4_EM+EMRA_R1.fastq.gz, ../../data/combined_fastq/DYN014_Blood_CD4_EM+EMRA_R2.fastq.gz
+    output: ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.vdjca, ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.align.report.txt
+    jobid: 33
+    reason: Missing output files: ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.align.report.txt, ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.vdjca
+    wildcards: sample=DYN014_Blood_CD4_EM+EMRA
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:43:14 2026]
+Finished job 33.
+31 of 376 steps (8%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:43:14 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.vdjca
+    output: ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.refined.vdjca, ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.refine.report.txt
+    jobid: 108
+    reason: Missing output files: ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.refined.vdjca, ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.refine.report.txt; Input files updated by another job: ../../results_combineSamples/DYN014_Blood_CD4_EM+EMRA.vdjca
+    wildcards: sample=DYN014_Blood_CD4_EM+EMRA
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 08:58:01 2026]
+Finished job 108.
+32 of 376 steps (9%) done
+Select jobs to execute...
+
+[Sun Mar 29 08:58:01 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN013_Blood_CD4_EM+EMRA_R1.fastq.gz, ../../data/combined_fastq/DYN013_Blood_CD4_EM+EMRA_R2.fastq.gz
+    output: ../../results_combineSamples/DYN013_Blood_CD4_EM+EMRA.vdjca, ../../results_combineSamples/DYN013_Blood_CD4_EM+EMRA.align.report.txt
+    jobid: 67
+    reason: Missing output files: ../../results_combineSamples/DYN013_Blood_CD4_EM+EMRA.vdjca, ../../results_combineSamples/DYN013_Blood_CD4_EM+EMRA.align.report.txt
+    wildcards: sample=DYN013_Blood_CD4_EM+EMRA
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 09:08:11 2026]
+Finished job 67.
+33 of 376 steps (9%) done
+Select jobs to execute...
+
+[Sun Mar 29 09:08:11 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN013_Blood_CD4_CM_R1.fastq.gz, ../../data/combined_fastq/DYN013_Blood_CD4_CM_R2.fastq.gz
+    output: ../../results_combineSamples/DYN013_Blood_CD4_CM.vdjca, ../../results_combineSamples/DYN013_Blood_CD4_CM.align.report.txt
+    jobid: 27
+    reason: Missing output files: ../../results_combineSamples/DYN013_Blood_CD4_CM.vdjca, ../../results_combineSamples/DYN013_Blood_CD4_CM.align.report.txt
+    wildcards: sample=DYN013_Blood_CD4_CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 09:17:57 2026]
+Finished job 27.
+34 of 376 steps (9%) done
+Select jobs to execute...
+
+[Sun Mar 29 09:17:57 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN011_Blood_CD8_EMRA_R1.fastq.gz, ../../data/combined_fastq/DYN011_Blood_CD8_EMRA_R2.fastq.gz
+    output: ../../results_combineSamples/DYN011_Blood_CD8_EMRA.vdjca, ../../results_combineSamples/DYN011_Blood_CD8_EMRA.align.report.txt
+    jobid: 64
+    reason: Missing output files: ../../results_combineSamples/DYN011_Blood_CD8_EMRA.vdjca, ../../results_combineSamples/DYN011_Blood_CD8_EMRA.align.report.txt
+    wildcards: sample=DYN011_Blood_CD8_EMRA
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 09:25:04 2026]
+Finished job 64.
+35 of 376 steps (9%) done
+Select jobs to execute...
+
+[Sun Mar 29 09:25:04 2026]
+rule align:
+    input: ../../data/combined_fastq/A20_Blood_CD8_EMRA_R1.fastq.gz, ../../data/combined_fastq/A20_Blood_CD8_EMRA_R2.fastq.gz
+    output: ../../results_combineSamples/A20_Blood_CD8_EMRA.vdjca, ../../results_combineSamples/A20_Blood_CD8_EMRA.align.report.txt
+    jobid: 4
+    reason: Missing output files: ../../results_combineSamples/A20_Blood_CD8_EMRA.vdjca, ../../results_combineSamples/A20_Blood_CD8_EMRA.align.report.txt
+    wildcards: sample=A20_Blood_CD8_EMRA
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 09:30:03 2026]
+Finished job 4.
+36 of 376 steps (10%) done
+Select jobs to execute...
+
+[Sun Mar 29 09:30:03 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN013_BM_CD4_CD69-_R1.fastq.gz, ../../data/combined_fastq/DYN013_BM_CD4_CD69-_R2.fastq.gz
+    output: ../../results_combineSamples/DYN013_BM_CD4_CD69-.vdjca, ../../results_combineSamples/DYN013_BM_CD4_CD69-.align.report.txt
+    jobid: 24
+    reason: Missing output files: ../../results_combineSamples/DYN013_BM_CD4_CD69-.vdjca, ../../results_combineSamples/DYN013_BM_CD4_CD69-.align.report.txt
+    wildcards: sample=DYN013_BM_CD4_CD69-
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 09:33:38 2026]
+Finished job 24.
+37 of 376 steps (10%) done
+Select jobs to execute...
+
+[Sun Mar 29 09:33:38 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/DYN014_BM_CD4_CD69-.vdjca
+    output: ../../results_combineSamples/DYN014_BM_CD4_CD69-.refined.vdjca, ../../results_combineSamples/DYN014_BM_CD4_CD69-.refine.report.txt
+    jobid: 145
+    reason: Missing output files: ../../results_combineSamples/DYN014_BM_CD4_CD69-.refine.report.txt, ../../results_combineSamples/DYN014_BM_CD4_CD69-.refined.vdjca; Input files updated by another job: ../../results_combineSamples/DYN014_BM_CD4_CD69-.vdjca
+    wildcards: sample=DYN014_BM_CD4_CD69-
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 10:21:02 2026]
+Finished job 145.
+38 of 376 steps (10%) done
+Select jobs to execute...
+
+[Sun Mar 29 10:21:02 2026]
+rule assemble:
+    input: ../../results_combineSamples/DYN014_BM_CD4_CD69-.refined.vdjca
+    output: ../../results_combineSamples/DYN014_BM_CD4_CD69-.1.clones.clns, ../../results_combineSamples/DYN014_BM_CD4_CD69-.1.assemble.report.txt
+    jobid: 290
+    reason: Missing output files: ../../results_combineSamples/DYN014_BM_CD4_CD69-.1.clones.clns, ../../results_combineSamples/DYN014_BM_CD4_CD69-.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/DYN014_BM_CD4_CD69-.refined.vdjca
+    wildcards: sample=DYN014_BM_CD4_CD69-, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 11:30:07 2026]
+Finished job 290.
+39 of 376 steps (10%) done
+Select jobs to execute...
+
+[Sun Mar 29 11:30:07 2026]
+rule align:
+    input: ../../data/combined_fastq/A20_Blood_CD8_EM+CM_R1.fastq.gz, ../../data/combined_fastq/A20_Blood_CD8_EM+CM_R2.fastq.gz
+    output: ../../results_combineSamples/A20_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/A20_Blood_CD8_EM+CM.align.report.txt
+    jobid: 3
+    reason: Missing output files: ../../results_combineSamples/A20_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/A20_Blood_CD8_EM+CM.align.report.txt
+    wildcards: sample=A20_Blood_CD8_EM+CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 11:38:45 2026]
+Finished job 3.
+40 of 376 steps (11%) done
+Select jobs to execute...
+
+[Sun Mar 29 11:38:45 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/A21_Skin_CD4_CD69+.vdjca
+    output: ../../results_combineSamples/A21_Skin_CD4_CD69+.refined.vdjca, ../../results_combineSamples/A21_Skin_CD4_CD69+.refine.report.txt
+    jobid: 85
+    reason: Missing output files: ../../results_combineSamples/A21_Skin_CD4_CD69+.refine.report.txt, ../../results_combineSamples/A21_Skin_CD4_CD69+.refined.vdjca; Input files updated by another job: ../../results_combineSamples/A21_Skin_CD4_CD69+.vdjca
+    wildcards: sample=A21_Skin_CD4_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 11:47:32 2026]
+Finished job 85.
+41 of 376 steps (11%) done
+Select jobs to execute...
+
+[Sun Mar 29 11:47:32 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/A20_Blood_CD8_EM+CM.vdjca
+    output: ../../results_combineSamples/A20_Blood_CD8_EM+CM.refined.vdjca, ../../results_combineSamples/A20_Blood_CD8_EM+CM.refine.report.txt
+    jobid: 78
+    reason: Missing output files: ../../results_combineSamples/A20_Blood_CD8_EM+CM.refined.vdjca, ../../results_combineSamples/A20_Blood_CD8_EM+CM.refine.report.txt; Input files updated by another job: ../../results_combineSamples/A20_Blood_CD8_EM+CM.vdjca
+    wildcards: sample=A20_Blood_CD8_EM+CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 13:11:58 2026]
+Finished job 78.
+42 of 376 steps (11%) done
+Select jobs to execute...
+
+[Sun Mar 29 13:11:58 2026]
+rule assemble:
+    input: ../../results_combineSamples/A21_Skin_CD4_CD69+.refined.vdjca
+    output: ../../results_combineSamples/A21_Skin_CD4_CD69+.1.clones.clns, ../../results_combineSamples/A21_Skin_CD4_CD69+.1.assemble.report.txt
+    jobid: 170
+    reason: Missing output files: ../../results_combineSamples/A21_Skin_CD4_CD69+.1.clones.clns, ../../results_combineSamples/A21_Skin_CD4_CD69+.1.assemble.report.txt; Input files updated by another job: ../../results_combineSamples/A21_Skin_CD4_CD69+.refined.vdjca
+    wildcards: sample=A21_Skin_CD4_CD69+, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 13:51:03 2026]
+Finished job 170.
+43 of 376 steps (11%) done
+Select jobs to execute...
+
+[Sun Mar 29 13:51:03 2026]
+rule export_qc_tags:
+    input: ../../results_combineSamples/A21_Skin_CD4_CD69+.1.clones.clns
+    output: ../../results_combineSamples/A21_Skin_CD4_CD69+.1.coverage.png
+    jobid: 310
+    reason: Missing output files: ../../results_combineSamples/A21_Skin_CD4_CD69+.1.coverage.png; Input files updated by another job: ../../results_combineSamples/A21_Skin_CD4_CD69+.1.clones.clns
+    wildcards: sample=A21_Skin_CD4_CD69+, read_threshold=1
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 13:51:23 2026]
+Finished job 310.
+44 of 376 steps (12%) done
+Select jobs to execute...
+
+[Sun Mar 29 13:51:23 2026]
+rule align:
+    input: ../../data/combined_fastq/DYN013_BM_CD4_CD69+_R1.fastq.gz, ../../data/combined_fastq/DYN013_BM_CD4_CD69+_R2.fastq.gz
+    output: ../../results_combineSamples/DYN013_BM_CD4_CD69+.vdjca, ../../results_combineSamples/DYN013_BM_CD4_CD69+.align.report.txt
+    jobid: 23
+    reason: Missing output files: ../../results_combineSamples/DYN013_BM_CD4_CD69+.align.report.txt, ../../results_combineSamples/DYN013_BM_CD4_CD69+.vdjca
+    wildcards: sample=DYN013_BM_CD4_CD69+
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 14:02:22 2026]
+Finished job 23.
+45 of 376 steps (12%) done
+Select jobs to execute...
+
+[Sun Mar 29 14:02:22 2026]
+rule align:
+    input: ../../data/combined_fastq/A26_Blood_CD8_EM+CM_R1.fastq.gz, ../../data/combined_fastq/A26_Blood_CD8_EM+CM_R2.fastq.gz
+    output: ../../results_combineSamples/A26_Blood_CD8_EM+CM.vdjca, ../../results_combineSamples/A26_Blood_CD8_EM+CM.align.report.txt
+    jobid: 44
+    reason: Missing output files: ../../results_combineSamples/A26_Blood_CD8_EM+CM.align.report.txt, ../../results_combineSamples/A26_Blood_CD8_EM+CM.vdjca
+    wildcards: sample=A26_Blood_CD8_EM+CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 14:07:01 2026]
+Finished job 44.
+46 of 376 steps (12%) done
+Select jobs to execute...
+
+[Sun Mar 29 14:07:01 2026]
+rule refineTagsAndSort:
+    input: ../../results_combineSamples/A26_Blood_CD8_EM+CM.vdjca
+    output: ../../results_combineSamples/A26_Blood_CD8_EM+CM.refined.vdjca, ../../results_combineSamples/A26_Blood_CD8_EM+CM.refine.report.txt
+    jobid: 119
+    reason: Missing output files: ../../results_combineSamples/A26_Blood_CD8_EM+CM.refine.report.txt, ../../results_combineSamples/A26_Blood_CD8_EM+CM.refined.vdjca; Input files updated by another job: ../../results_combineSamples/A26_Blood_CD8_EM+CM.vdjca
+    wildcards: sample=A26_Blood_CD8_EM+CM
+    resources: tmpdir=/tmp
+
+[Sun Mar 29 15:08:06 2026]
+Finished job 119.
+47 of 376 steps (12%) done
+Select jobs to execute...
+
+[Sun Mar 29 15:08:06 2026]
+rule assemble:
+    input: ../../results_combineSamples/A26_Blood_CD8_EM+CM.refined.vdjca
+    output: ../../results_combineSamples/A26_Blood_CD8_EM+CM.1.clones.clns, ../../results_combineSamples/A26_Blood_CD8_EM+CM.1.assemble.report.txt
+    jobid: 238
+    reason: Missing output files: ../../results_combineSamples/A26_Blood_CD8_EM+CM.1.assemble.report.txt, ../../results_combineSamples/A26_Blood_CD8_EM+CM.1.clones.clns; Input files updated by another job: ../../results_combineSamples/A26_Blood_CD8_EM+CM.refined.vdjca
+    wildcards: sample=A26_Blood_CD8_EM+CM, read_threshold=1
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Sun Mar 29 15:49:53 2026]
+Error in rule assemble:
+    jobid: 238
+    input: ../../results_combineSamples/A26_Blood_CD8_EM+CM.refined.vdjca
+    output: ../../results_combineSamples/A26_Blood_CD8_EM+CM.1.clones.clns, ../../results_combineSamples/A26_Blood_CD8_EM+CM.1.assemble.report.txt
+    shell:
+        
+        mixcr-4.7.0 -Xmx400g assemble           --assemble-clonotypes-by CDR3           -Passembler.minRecordsPerConsensus=1           -r ../../results_combineSamples/A26_Blood_CD8_EM+CM.1.assemble.report.txt           ../../results_combineSamples/A26_Blood_CD8_EM+CM.refined.vdjca ../../results_combineSamples/A26_Blood_CD8_EM+CM.1.clones.clns
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2026-03-29T030058.849973.snakemake.log

@@ -1,0 +1,8 @@
+Building DAG of jobs...
+MissingInputException in rule align in file /net/vacuole1/linuxhome/rdb-group/erdem/former-NOBINFBACKUP/human_tissue_tcr/src/combineSamples/Snakefile, line 29:
+Missing input files for rule align:
+    output: ../../results_combineSamples/107420-001-001.vdjca, ../../results_combineSamples/107420-001-001.align.report.txt
+    wildcards: sample=107420-001-001
+    affected files:
+        ../data/107420-001-001_R1.fastq.gz
+        ../data/107420-001-001_R2.fastq.gz
