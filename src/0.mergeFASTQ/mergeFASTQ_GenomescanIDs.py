@@ -6,7 +6,7 @@ import subprocess
 data_main_dir = "/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data"
 output_dir = "/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs"
 
-# Generates metadata from the excel with sample names
+# Get metadata
 metadata = pd.read_csv("../../metadata/metadata_merged.tsv", sep="\t")
 
 metadata["gs.id"] = metadata["gs.id"].apply(ast.literal_eval)
