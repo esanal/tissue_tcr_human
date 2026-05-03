@@ -1,4 +1,4 @@
-# tissue_tcr_human
+# Tissue TCR Human Samples
 
 Analysis pipeline for human tissue TCR sequencing data.
 
