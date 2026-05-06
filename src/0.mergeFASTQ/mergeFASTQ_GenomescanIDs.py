@@ -1,13 +1,27 @@
+"""Combine FASTQ of the technical replicates
+
+This script finds FASTQ files of samples' several sequencing runs
+(teechnical replicates) based on the metadata provided.
+
+Metadata is used to identify GSIDs and the files containing the GSID are
+found within data_main_dir.
+
+Forward and reverse reads (R1 and R2) of the samples are concatanated in
+the same order to preserve R1 and R2 matching.
+
+"""
+
+
 import pandas as pd
 import os
 import ast
 import subprocess
 
 data_main_dir = "/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data"
-output_dir = "/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/combined_fastq_GSIDs"
+output_dir = "/home/erdem/Hosts/vacuole1/former-NOBINFBACKUP/human_tissue_tcr/data/fastq_combined_GSIDs"
 
 # Get metadata
-metadata = pd.read_csv("../../metadata/metadata_merged.tsv", sep="\t")
+metadata = pd.read_csv("../../data/metadata/metadata_merged.tsv", sep="\t")
 
 metadata["gs.id"] = metadata["gs.id"].apply(ast.literal_eval)
 
@@ -37,7 +51,7 @@ for index, row in metadata.iterrows():
             matching_files = matches
         
             # Deduplicate matches
-            matching_files = list(set(matching_files))
+            matching_files = sorted(list(set(matching_files)))
         
             if not matching_files:
                 print(f"  [!] No {direction} files found for IDs: {ids}")
